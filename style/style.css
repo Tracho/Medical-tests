@@ -1,0 +1,92 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap'); */
+* {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Здесь должно быть ОДНО конкретное число, например 400 (обычный) или 700 (жирный) */
+  font-style: normal;
+ 
+}
+ /* Общие стили карточки-чекбокса */
+.option-label .border-success {
+  background-color: #fff !important;
+}
+.option-label {
+  transition: all 0.15s ease-in-out;
+  color: #fff;
+  border-width: 1.5px;
+  background-color: #575757;
+}
+
+.option-label:hover {
+  background-color: #414141 !important;
+  color: #fff !important;
+  border-color: var(--bs-secondary-color) !important;
+}
+
+/* Квадрат чекбокса (пустой) */
+.custom-checkbox-box {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  position: relative;
+  transition: all 0.15s ease-in-out;
+}
+
+/* Изменения при выборе (checked) */
+.btn-check:checked + .bgprim {
+  background-color: rgba(var(--bs-primary-rgb), 0.06);
+  border-color: var(--bs-primary) !important;
+  color: var(--bs-primary) !important;
+}
+
+.btn-check:checked + .option-label .custom-checkbox-box {
+  border-color: var(--bs-primary);
+  background-color: var(--bs-primary);
+}
+
+/* Белая галочка внутри квадрата при выборе */
+.btn-check:checked + .option-label .custom-checkbox-box::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+
+
+/* Контейнер сетки пагинации */
+.pagination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  gap: 8px;
+}
+
+/* Базовый стиль кнопки пагинации */
+.pagination-item {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pagination-item:hover {
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Активный вопрос (где сейчас находится пользователь) */
+.pagination-item.active {
+  border: 2px solid var(--bs-primary) !important;
+  box-shadow: 0 0 8px rgba(var(--bs-primary-rgb), 0.5);
+}
