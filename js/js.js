@@ -40,7 +40,7 @@ function performSearch() {
 
   filteredQuestions.forEach(item => {
     // Находим реальный номер вопроса в исходном массиве (индекс + 1)
-    const realQuestionNumber = questions.indexOf(item) + 1;
+    const realQuestionNumber = questions.indexOf(item);
 
     const questionElement = document.createElement('div');
     questionElement.className = 'question-item mb-4';
