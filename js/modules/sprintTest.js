@@ -21,7 +21,7 @@ function sprintTest(originalQuestions) {
   let startGame = false;
 
   // 2. НАСТРОЙКА ТАЙМЕРА (Время в секундах: 2 минуты = 120 секунд)
-  let totalTime = 120;
+  let totalTime = 1200;
   const memoryTotalTime = totalTime;
   let timerInterval = null;
 
