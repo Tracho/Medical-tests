@@ -8,7 +8,7 @@
 
 }
 
-body {
+body, .body {
   background: #232526; 
   background: -webkit-linear-gradient(to top, #2f2f2f, #232526); 
   background: linear-gradient(to top, #2f2f2f, #232526); 
