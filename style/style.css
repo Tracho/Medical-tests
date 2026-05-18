@@ -19,7 +19,10 @@ body, .body {
 h4, h5, h6{
   line-height: 1.6;
 }
-
+.text-success {
+    --bs-text-opacity: 1;
+    color: #30e390 !important;
+}
 
 /* Общие стили карточки-чекбокса */
 .option-label .border-success {
