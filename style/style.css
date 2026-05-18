@@ -8,6 +8,19 @@
 
 }
 
+body {
+  background: #232526; 
+  background: -webkit-linear-gradient(to top, #2f2f2f, #232526); 
+  background: linear-gradient(to top, #2f2f2f, #232526); 
+  background: linear-gradient(to top, #2f2f2f, #232526);
+  color:white;
+      min-height: 100vh;
+}
+h4, h5, h6{
+  line-height: 1.6;
+}
+
+
 /* Общие стили карточки-чекбокса */
 .option-label .border-success {
   background-color: #fff !important;
@@ -40,11 +53,13 @@
 .btn-check:checked+.bgprim {
   background-color: rgba(var(--bs-primary-rgb), 0.06);
   border-color: var(--bs-primary) !important;
-  color: var(--bs-primary)  ;
+  color: var(--bs-primary);
 }
+
 .bgprim:hover {
   color: #fff !important;
 }
+
 .btn-check:checked+.option-label .custom-checkbox-box {
   border-color: var(--bs-primary);
   background-color: var(--bs-primary);
@@ -118,13 +133,13 @@
   filter: blur(21px);
 }
 
-.Wadaptive { 
+.Wadaptive {
   width: 100%;
 }
 
 /* На экранах шириной 576px и больше (планшеты, ноутбуки, ПК) */
 @media (min-width: 576px) {
   .Wadaptive {
-    width: auto; 
+    width: auto;
   }
 }
