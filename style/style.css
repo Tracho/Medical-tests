@@ -2,14 +2,17 @@
 * {
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* Здесь должно быть ОДНО конкретное число, например 400 (обычный) или 700 (жирный) */
+  font-weight: 400;
+  /* Здесь должно быть ОДНО конкретное число, например 400 (обычный) или 700 (жирный) */
   font-style: normal;
- 
+
 }
- /* Общие стили карточки-чекбокса */
+
+/* Общие стили карточки-чекбокса */
 .option-label .border-success {
   background-color: #fff !important;
 }
+
 .option-label {
   transition: all 0.15s ease-in-out;
   color: #fff;
@@ -34,19 +37,19 @@
 }
 
 /* Изменения при выборе (checked) */
-.btn-check:checked + .bgprim {
+.btn-check:checked+.bgprim {
   background-color: rgba(var(--bs-primary-rgb), 0.06);
   border-color: var(--bs-primary) !important;
   color: var(--bs-primary) !important;
 }
 
-.btn-check:checked + .option-label .custom-checkbox-box {
+.btn-check:checked+.option-label .custom-checkbox-box {
   border-color: var(--bs-primary);
   background-color: var(--bs-primary);
 }
 
 /* Белая галочка внутри квадрата при выборе */
-.btn-check:checked + .option-label .custom-checkbox-box::after {
+.btn-check:checked+.option-label .custom-checkbox-box::after {
   content: "";
   position: absolute;
   left: 5px;
@@ -89,4 +92,37 @@
 .pagination-item.active {
   border: 2px solid var(--bs-primary) !important;
   box-shadow: 0 0 8px rgba(var(--bs-primary-rgb), 0.5);
+}
+
+
+.abcenter {
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.blur {
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.blur>div:first-child {
+  filter: blur(21px);
+}
+
+.Wadaptive { 
+  width: 100%;
+}
+
+/* На экранах шириной 576px и больше (планшеты, ноутбуки, ПК) */
+@media (min-width: 576px) {
+  .Wadaptive {
+    width: auto; 
+  }
 }

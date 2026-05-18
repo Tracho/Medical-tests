@@ -2,10 +2,12 @@
 // Предположим, это ваш массив с вопросами, импортированный из JSON
 import questions from "./json.json" with { type: "json" };
 import PlayTest from "./modules/PlayTest.js";
+import sprintTest from "./modules/sprintTest.js";
 import useBtn from "./modules/useBtn.js";
 
 useBtn();
 PlayTest(questions);
+sprintTest(questions);
 // Находим элементы на странице
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');

@@ -1,10 +1,10 @@
 import UInumberInputQuestions from "./UI/UInumberInputQuestions.js";
 import UIresultСounter from "./UI/UIresultСounter.js";
 import UITestQuestion from "./UI/UITestQuestion.js";
-import UIPagination from "./UI/UIPagination.js"; // 👈 Импорт UI пагинации
+import UIPagination from "./UI/UIPagination.js";  
 import UXnumberInputQuestions from "./UX/UXnumberInputQuestions.js";
 import UXTestQuestion from "./UX/UXTestQuestion.js";
-import UXPagination from "./UX/UXPagination.js"; // 👈 Импорт UX пагинации
+import UXPagination from "./UX/UXPagination.js";  
 
 function PlayTest(questions) {
   let divResults = document.querySelector("#results");
@@ -41,7 +41,7 @@ function PlayTest(questions) {
  
         ${UIresultСounter(correctCount, wrongCount)}  
         ${UITestQuestion(currentQuestion)}
-        <div class="w-100">${UInumberInputQuestions(currentIndex, questions.length)}</div>
+        <div class="w-100 d-flex justify-content-center align-items-center">${UInumberInputQuestions(currentIndex, questions.length)}</div>
         ${UIPagination(questions.length, currentIndex, answersHistory)} <!-- 👈 Вставили пагинацию -->
       </div>
     `);
