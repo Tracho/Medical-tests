@@ -10,48 +10,30 @@ function UXTestQuestion(containerElement, currentQuestion, onNextQuestion) {
   let isCurrentQuestionCorrect = true;
 
   btnConfirm.addEventListener("click", () => {
-    const userAnswers = [];
-    checkboxes.forEach(checkbox => {
-      if (checkbox.checked) {
-        userAnswers.push(checkbox.value.trim());
-      }
-    });
+    // 1. Проверяем, выбрал ли пользователь хоть что-то
+    const hasAnySelection = Array.from(checkboxes).some(cb => cb.checked);
 
-    if (userAnswers.length === 0) {
+    if (!hasAnySelection) {
       alert("Пожалуйста, выберите хотя бы один вариант ответа.");
       return;
     }
 
-    // Чистая эталонная строка из JSON (убираем пробелы по краям)
-    const cleanCorrectString = currentQuestion.correctAnswer.trim();
-    
-    // Массив ответов, если в вопросе всё же заложено несколько вариантов через запятую
-    const correctAnswersArray = currentQuestion.correctAnswer
-      .split(",")
-      .map(item => item.trim());
+    // 2. Проверяем, совершил ли пользователь ошибки
+    // Вопрос отвечен верно, ТОЛЬКО если ВСЕ нажатые чекбоксы были правильными,
+    // и ВСЕ ненажатые чекбоксы были ложными.
+    const isUserWrong = Array.from(checkboxes).some((checkbox, index) => {
+      const isCorrectOption = currentQuestion.options[index].isCorrect;
+      return checkbox.checked !== isCorrectOption; 
+    });
 
-    let hasAllCorrect = false;
-
-    // СНАЧАЛА ПРОВЕРЯЕМ СТРОКУ: Если выбран ровно 1 ответ и он строго равен correctAnswer
-    if (userAnswers.length === 1 && userAnswers[0] === cleanCorrectString) {
-      hasAllCorrect = true;
-    } else {
-      // ЕСЛИ НЕ СОВПАЛО ИЛИ ВЫБРАНО НЕСКОЛЬКО: Включаем логику проверки массива, как было раньше
-      hasAllCorrect = userAnswers.length === correctAnswersArray.length &&
-                     userAnswers.every(ans => correctAnswersArray.includes(ans));
-    }
-
-    if (!hasAllCorrect) {
+    if (isUserWrong) {
       isCurrentQuestionCorrect = false;
     }
 
-    // Подсветка карточек
-    checkboxes.forEach(checkbox => {
+    // 3. Раскрашиваем карточки на основе реальных флагов isCorrect
+    checkboxes.forEach((checkbox, index) => {
       const label = containerElement.querySelector(`label[for="${checkbox.id}"]`);
-      const optionValue = checkbox.value.trim();
-
-      // Определяем, является ли данный конкретный вариант правильным (по строке или в массиве)
-      const isThisOptionCorrect = optionValue === cleanCorrectString || correctAnswersArray.includes(optionValue);
+      const isThisOptionCorrect = currentQuestion.options[index].isCorrect;
 
       if (checkbox.checked) {
         if (isThisOptionCorrect) {
@@ -72,6 +54,7 @@ function UXTestQuestion(containerElement, currentQuestion, onNextQuestion) {
       }
     });
 
+    // 4. Переключаем видимость блоков управления
     confirmBlock.classList.add("d-none");
     answerBlock.classList.remove("d-none");
     nextBlock.classList.remove("d-none");
