@@ -15,7 +15,6 @@ const resultsContainer = document.getElementById('results');
 
 // Функция для выполнения поиска
 function performSearch() {
-  // 1. Считываем текст из инпута, убираем лишние пробелы и переводим в нижний регистр
   const query = searchInput.value.trim().toLowerCase();
 
   // Очищаем контейнер с прошлыми результатами
@@ -28,27 +27,45 @@ function performSearch() {
     return;
   }
 
-  // 2. Фильтруем массив вопросов по неточному совпадению с title
+  // 1. Фильтруем массив вопросов по неточному совпадению с title
   const filteredQuestions = questions.filter(item => {
     return item.title.toLowerCase().includes(query);
   });
 
-  // 3. Выводим результаты на экран
+  // 2. Выводим результаты на экран
   if (filteredQuestions.length === 0) {
-    resultsContainer.innerHTML = '<p>Ничего не найдено</p>';
+    resultsContainer.innerHTML = '<p class="text-muted">Ничего не найдено</p>';
     return;
   }
 
   filteredQuestions.forEach(item => {
+    // Находим реальный номер вопроса в исходном массиве (индекс + 1)
+    const realQuestionNumber = questions.indexOf(item) + 1;
+
     const questionElement = document.createElement('div');
-    questionElement.className = 'question-item';
-    const optionsHtml = item.options.map((option, index) => `<p class="mb-1"><b class="me-2">${index}:</b>${option}</p>`).join('');
+    questionElement.className = 'question-item mb-4';
+
+    // ИЗМЕНЕНО: теперь считываем option.text, так как каждый вариант — это объект
+    const optionsHtml = item.options.map((option, index) => {
+      // Опционально: можно подсветить правильные варианты в поиске с помощью option.isCorrect
+      const isCorrectStyle = option.isCorrect ? 'text-success fw-bold' : '';
+      return `<p class="mb-1 ${isCorrectStyle}"><b class="me-2">${index + 1}:</b>${option.text}</p>`;
+    }).join('');
+
+    // ИЗМЕНЕНО: Добавили номер вопроса в заголовок <h4>
     questionElement.innerHTML = `
-            <h4>${item.title}</h4>
-            ${optionsHtml}
-            <p class="fs-4"><strong>Правильный ответ:</strong> ${item.correctAnswer}</p>
-            <hr>
-        `;
+      <h4 class="text-light">
+        <span class="badge bg-primary me-2">Вопрос №${realQuestionNumber}</span> 
+        ${item.title}
+      </h4>
+      <div class="options-list my-3 ps-2 border-start border-secondary">
+        ${optionsHtml}
+      </div>
+      <p class="fs-5 text-info">
+        <strong>Правильный ответ:</strong> ${item.correctAnswer}
+      </p>
+      <hr class="border-secondary">
+    `;
     resultsContainer.appendChild(questionElement);
   });
 }
@@ -56,12 +73,13 @@ function performSearch() {
 // Слушаем клик по кнопке
 searchButton.addEventListener('click', performSearch);
 
-// Дополнительно: поиск по нажатию клавиши Enter в инпуте
+// Поиск по нажатию клавиши Enter в инпуте
 searchInput.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {
     performSearch();
   }
 });
+
 
 
 //-------------------------------
