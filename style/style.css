@@ -40,9 +40,11 @@
 .btn-check:checked+.bgprim {
   background-color: rgba(var(--bs-primary-rgb), 0.06);
   border-color: var(--bs-primary) !important;
-  color: var(--bs-primary) !important;
+  color: var(--bs-primary)  ;
 }
-
+.bgprim:hover {
+  color: #fff !important;
+}
 .btn-check:checked+.option-label .custom-checkbox-box {
   border-color: var(--bs-primary);
   background-color: var(--bs-primary);
