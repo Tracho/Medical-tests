@@ -1,4 +1,6 @@
-function performSearch(questions) {
+import renderStats from "./renderStats.js";
+
+function performSearch(questions,nameTest) {
   // Находим элементы на странице
   const searchInput = document.getElementById('searchInput');
   const searchButton = document.getElementById('searchButton');
@@ -15,6 +17,7 @@ function performSearch(questions) {
     if (!query) {
       searchInput.placeholder = 'Введите текст для поиска';
       setTimeout(() => { searchInput.placeholder = "Введите текст..." }, 3000);
+      renderStats(questions,nameTest);
       return;
     }
 
@@ -39,7 +42,7 @@ function performSearch(questions) {
       // ИЗМЕНЕНО: теперь считываем option.text, так как каждый вариант — это объект
       const optionsHtml = item.options.map((option, index) => {
         // Опционально: можно подсветить правильные варианты в поиске с помощью option.isCorrect
-        const isCorrectStyle = option.isCorrect ? 'text-success fw-bold' : 'fw-lighter';
+        const isCorrectStyle = option.isCorrect ? 'text-success fw-bold' : 'fw-lighter opacity-75';
         return `<p class="mb-0 ${isCorrectStyle}"><b class="me-2">${index + 1}:</b>${option.text}</p>`;
       }).join('');
 

@@ -1,4 +1,6 @@
-function UXTestQuestion(containerElement, currentQuestion, onNextQuestion) {
+import saveStorage from "../components/saveStorage.js";
+
+function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTest, onNextQuestion) {
   const btnConfirm = containerElement.querySelector("#btnConfirmAnswer");
   const btnNext = containerElement.querySelector("#btnNextQuestion");
   const confirmBlock = containerElement.querySelector("#confirmBlock");
@@ -23,9 +25,9 @@ function UXTestQuestion(containerElement, currentQuestion, onNextQuestion) {
     // и ВСЕ ненажатые чекбоксы были ложными.
     const isUserWrong = Array.from(checkboxes).some((checkbox, index) => {
       const isCorrectOption = currentQuestion.options[index].isCorrect;
-      return checkbox.checked !== isCorrectOption; 
+      return checkbox.checked !== isCorrectOption;
     });
-
+    console.log(currentQuestion)
     if (isUserWrong) {
       isCurrentQuestionCorrect = false;
     }
@@ -58,6 +60,7 @@ function UXTestQuestion(containerElement, currentQuestion, onNextQuestion) {
     confirmBlock.classList.add("d-none");
     answerBlock.classList.remove("d-none");
     nextBlock.classList.remove("d-none");
+    saveStorage(isCurrentQuestionCorrect, mainquestions, currentQuestion, nameTest);
   });
 
   btnNext.addEventListener("click", () => {

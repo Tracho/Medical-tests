@@ -5,11 +5,25 @@ import PlayTest from "./modules/PlayTest.js";
 import sprintTest from "./modules/sprintTest.js";
 import useBtn from "./modules/useBtn.js";
 import performSearch from "./modules/performSearch.js";
-performSearch(questions);
+import renderStats from "./modules/renderStats.js";
+let nameTest = "Test #1"
+performSearch(questions,nameTest);
 useBtn();
-PlayTest(questions);
-sprintTest(questions);
+PlayTest(questions, nameTest);
+sprintTest(questions, nameTest);
  
+
+
+// ... код вашего теста ...
+  document.querySelector("#btnOpenStats").addEventListener("click",()=>{
+    renderStats(questions, nameTest);
+  });
+  renderStats(questions, nameTest);
+ 
+
+
+
+
 
 //-------------------------------
 // validateQuestions(questions)

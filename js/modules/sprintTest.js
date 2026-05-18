@@ -8,11 +8,12 @@ import UXTestQuestion from "./UX/UXTestQuestion.js";
 import UXPagination from "./UX/UXPagination.js";
 import UXstartSprintTest from "./UX/UXstartSprintTest.js"; // Используем импортированный UX
 
-function sprintTest(originalQuestions) {
+function sprintTest(originalQuestions, nameTest) {
   let divResults = document.querySelector("#results");
   const btnSprintTest = document.querySelector("#btnSprintTest");
 
   // 1. РАНДОМИЗАЦИЯ ВОПРОСОВ (Алгоритм Фишера-Йетса)
+  const mainquestions = originalQuestions; 
   let questions = [...originalQuestions].sort(() => Math.random() - 0.5);
 
   let currentIndex = 0;
@@ -146,7 +147,7 @@ function sprintTest(originalQuestions) {
     // });
 
     // Оживляем логику проверки самого теста
-    UXTestQuestion(divResults, currentQuestion, (isCorrect) => {
+    UXTestQuestion(divResults, currentQuestion,mainquestions,nameTest, (isCorrect) => {
       answersHistory[currentIndex] = isCorrect;
 
       if (isCorrect) {

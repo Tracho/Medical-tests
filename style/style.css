@@ -140,6 +140,27 @@ h4, h5, h6{
   width: 100%;
 }
 
+/* Перекрашиваем стрелочку аккордеона Bootstrap в белый цвет */
+.accordion-button::after {
+  filter: invert(1) grayscale(1) brightness(2);
+}
+
+/* Стили для кликабельных номеров вопросов */
+.stats-question-badge {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+  padding: 4px 8px;
+  user-select: none;
+}
+
+.stats-question-badge:hover {
+  background-color: var(--bs-primary) !important;
+  color: #fff !important;
+  transform: scale(1.1);
+}
+
+
 /* На экранах шириной 576px и больше (планшеты, ноутбуки, ПК) */
 @media (min-width: 576px) {
   .Wadaptive {

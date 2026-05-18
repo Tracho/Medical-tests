@@ -6,7 +6,7 @@ import UXnumberInputQuestions from "./UX/UXnumberInputQuestions.js";
 import UXTestQuestion from "./UX/UXTestQuestion.js";
 import UXPagination from "./UX/UXPagination.js";  
 
-function PlayTest(questions) {
+function PlayTest(questions, nameTest) {
   let divResults = document.querySelector("#results");
   const btnPlayTest = document.querySelector("#btnPlayTest");
 
@@ -14,6 +14,7 @@ function PlayTest(questions) {
   let correctCount = 0;
   let wrongCount = 0;
 
+  const mainquestions = questions; 
   // Массив истории ответов: [null, null, null...] по длине JSON
   let answersHistory = new Array(questions.length).fill(null);
 
@@ -60,7 +61,7 @@ function PlayTest(questions) {
     });
 
     // 4. Оживляем логику проверки самого теста
-    UXTestQuestion(divResults, currentQuestion, (isCorrect) => {
+    UXTestQuestion(divResults, currentQuestion,mainquestions,nameTest, (isCorrect) => {
       // Сохраняем результат в историю ответов перед переходом
       answersHistory[currentIndex] = isCorrect;
 
