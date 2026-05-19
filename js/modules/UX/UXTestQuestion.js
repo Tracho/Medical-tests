@@ -1,3 +1,4 @@
+import saveStorage from "../components/saveStorage.js"; 
 function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTest, onNextQuestion) {
   const btnConfirm = containerElement.querySelector("#btnConfirmAnswer");
   const btnNext = containerElement.querySelector("#btnNextQuestion");
