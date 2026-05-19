@@ -3,7 +3,8 @@ function UITestQuestion(currentQuestion) {
   const questionIdPrefix = `q_${Date.now()}`;
 
   // Перебираем варианты ответов текущего вопроса (каждый элемент теперь объект { text, isCorrect })
-  const optionsHTML = currentQuestion.options.map((option, index) => {
+  let randomOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5); 
+  const optionsHTML = randomOptions.map((option, index) => {
     const optionId = `${questionIdPrefix}_option_${index}`;
     
     return `

@@ -1,5 +1,3 @@
-import saveStorage from "../components/saveStorage.js";
-
 function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTest, onNextQuestion) {
   const btnConfirm = containerElement.querySelector("#btnConfirmAnswer");
   const btnNext = containerElement.querySelector("#btnNextQuestion");
@@ -20,22 +18,37 @@ function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTe
       return;
     }
 
-    // 2. Проверяем, совершил ли пользователь ошибки
-    // Вопрос отвечен верно, ТОЛЬКО если ВСЕ нажатые чекбоксы были правильными,
-    // и ВСЕ ненажатые чекбоксы были ложными.
-    const isUserWrong = Array.from(checkboxes).some((checkbox, index) => {
-      const isCorrectOption = currentQuestion.options[index].isCorrect;
+    // 2. ИЗМЕНЕННАЯ МАТЕМАТИЧЕСКАЯ ПРОВЕРКА (По тексту ответов)
+    // Ищем хотя бы одну ошибку, сравнивая состояние чекбокса с его реальным флагом в JSON
+    const isUserWrong = Array.from(checkboxes).some((checkbox) => {
+      // Ищем в исходном JSON объект ответа, у которого текст совпадает с value чекбокса
+      const originalOption = currentQuestion.options.find(
+        opt => opt.text.trim() === checkbox.value.trim()
+      );
+
+      // Если вдруг объект не найден (защита от сбоев), пропускаем
+      if (!originalOption) return false;
+
+      const isCorrectOption = originalOption.isCorrect;
+      
+      // Строгое сравнение: выбран ли чекбокс там, где должен, и наоборот
       return checkbox.checked !== isCorrectOption;
     });
-    console.log(currentQuestion)
+
     if (isUserWrong) {
       isCurrentQuestionCorrect = false;
     }
 
     // 3. Раскрашиваем карточки на основе реальных флагов isCorrect
-    checkboxes.forEach((checkbox, index) => {
+    checkboxes.forEach((checkbox) => {
       const label = containerElement.querySelector(`label[for="${checkbox.id}"]`);
-      const isThisOptionCorrect = currentQuestion.options[index].isCorrect;
+      
+      // Снова находим эталонный объект ответа в JSON по тексту
+      const originalOption = currentQuestion.options.find(
+        opt => opt.text.trim() === checkbox.value.trim()
+      );
+      
+      const isThisOptionCorrect = originalOption ? originalOption.isCorrect : false;
 
       if (checkbox.checked) {
         if (isThisOptionCorrect) {
@@ -56,10 +69,11 @@ function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTe
       }
     });
 
-    // 4. Переключаем видимость блоков управления
+    // 4. Переключаем видимость блоков управления и сохраняем статистику
     confirmBlock.classList.add("d-none");
     answerBlock.classList.remove("d-none");
     nextBlock.classList.remove("d-none");
+    
     saveStorage(isCurrentQuestionCorrect, mainquestions, currentQuestion, nameTest);
   });
 
