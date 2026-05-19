@@ -27,12 +27,21 @@
       </div>
       <div class="d-flex justify-content-between mb-3 gap-3">
         <div class="d-flex gap-2 flex-wrap">
-        <button id="btnPlayTest" class="btn btn-outline-light useBtn">Пройти тест</button>
-        <button id="btnSprintTest" class="btn btn-outline-light useBtn">Спринт тест</button>
+          <button id="btnPlayTest" class="btn btn-outline-light useBtn">Пройти тест</button>
+          <button id="btnSprintTest" class="btn btn-outline-light useBtn">Спринт тест</button>
         </div>
-        <div class="d-flex">
-          <button id="btnOpenStats" class="btn btn-outline-light useBtn">Статистика</button>
+        <div class="d-flex dropdown">
+           <!-- <button id="btnOpenStats" class="btn btn-outline-light useBtn">Статистика</button> -->
+          <button class="btn btn-outline-light dropdown-toggle useBtn" type="button" id="dropdownMenuButton"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Статистика тестов
+          </button>
+          <!-- Сюда JavaScript динамически вставит список тестов -->
+          <ul class="dropdown-menu dropdown-menu-dark border-secondary shadow" aria-labelledby="dropdownMenuButton"
+            id="statsTestsList">
+          </ul>
         </div>
+
       </div>
     </div>
   </section>
@@ -40,7 +49,7 @@
   <section id="section_search">
     <div class="container">
       <div class="row">
-        <label  class="form-label">Поиск по заголовку теста.</label>
+        <label class="form-label">Поиск по заголовку теста.</label>
         <div class="input-group mb-3">
           <input type="text" class="form-control" id="searchInput" placeholder="Введите текст..."
             aria-label="Recipient's username" aria-describedby="searchButton">
@@ -62,7 +71,7 @@
   <section>
     <div class="container ">
       <div class="row">
-        <div id="results"> 
+        <div id="results">
         </div>
       </div>
     </div>

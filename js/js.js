@@ -1,33 +1,98 @@
-
 // Предположим, это ваш массив с вопросами, импортированный из JSON
-import questions from "./newJson.json" with { type: "json" };
+import JSONTEST1 from "./Test1.json" with { type: "json" };
+import JSONTEST2 from "./Test2.json" with { type: "json" };
 import PlayTest from "./modules/PlayTest.js";
 import sprintTest from "./modules/sprintTest.js";
 import useBtn from "./modules/useBtn.js";
 import performSearch from "./modules/performSearch.js";
 import renderStats from "./modules/renderStats.js";
-let nameTest = "Test #1"
-performSearch(questions,nameTest);
-useBtn();
-PlayTest(questions, nameTest);
-sprintTest(questions, nameTest);
- 
+
+// 1. Массив ваших тестов: связываем человеческое название и импортированный JSON-объект напрямую
+const myTests = [
+  { storage: "Test #1", name: "Вопросы по общепрофессиональным дисциплинам (дополнительные): медико-диагностический профиль", data: JSONTEST1 },
+  { storage: "Test #2", name: "Врач клинической лабораторной диагностики, иные работники клинических лабораторий (цитологическое, генетическое, химико-токсикологическое и прочие направления)", data: JSONTEST2 }
+];
+
+// Переменные для хранения текущего состояния (изначально первый тест)
+let nameTest = myTests[0].name; 
+let nameStorage = myTests[0].storage; 
+
+// Функция для инициализации/перезапуска всех модулей приложения
+function updateAppModules(testData, testName, currentStorage) {
+  // ИСПРАВЛЕНО: Обновляем глобальные переменные (переименовали аргумент в currentStorage, чтобы избежать конфликта имен)
+  nameTest = testName;
+  nameStorage = currentStorage;
+
+  // Очищаем прошлые результаты в DOM (чтобы старый тест исчез с экрана)
+  const divResults = document.querySelector("#results");
+  if (divResults) divResults.innerHTML = '';
+
+  // Перезапускаем все функции с новыми данными
+  performSearch(testData, nameStorage);
+  PlayTest(testData, nameStorage);
+  sprintTest(testData, nameStorage);
+  renderStats(testData,nameStorage, testName);
+}
+
+function initStatsDropdown() {
+  const listContainer = document.querySelector("#statsTestsList");
+  if (!listContainer) return;
+
+  // Генерируем элементы списка динамически
+listContainer.innerHTML = myTests.map((test, index) => `
+    <li class="longTest">
+      <!-- Добавлен атрибут title="${test.name}" для всплывающей подсказки браузера -->
+      <a class="dropdown-item stats-dropdown-item" href="#" data-index="${index}" title="${test.name}">
+        ${test.name}
+      </a>
+    </li>
+  `).join('');
 
 
-// ... код вашего теста ...
-  document.querySelector("#btnOpenStats").addEventListener("click",()=>{
-    renderStats(questions, nameTest);
+  // Вешаем обработчик события клика на каждый пункт списка
+  const dropdownItems = listContainer.querySelectorAll(".stats-dropdown-item");
+  dropdownItems.forEach(item => {
+    item.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      const testIndex = parseInt(item.dataset.index, 10);
+      const selectedTest = myTests[testIndex];
+
+      // Меняем текст на самой кнопке выпадающего списка
+      const dropdownBtn = document.querySelector("#dropdownMenuButton");
+      // if (dropdownBtn) dropdownBtn.textContent = selectedTest.storage;
+
+      // 🔥 Передаем выбранный вариант во все функции приложения (включая storage ключ)
+      updateAppModules(selectedTest.data, selectedTest.name, selectedTest.storage);
+    });
   });
-  renderStats(questions, nameTest);
- 
+}
+
+// 1. Инициализируем выпадающий список тестов
+initStatsDropdown();
+
+// 2. Инициализируем общую логику кнопок переключения вкладок/экранов (вызывается один раз)
+useBtn();
+
+// 3. Запускаем приложение в первый раз с Тестом №1 по умолчанию
+updateAppModules(myTests[0].data, myTests[0].name, myTests[0].storage);
+
+// ИСПРАВЛЕНО: Добавлена проверка на существование кнопки перед тем, как вешать обработчик событий
+const btnOpenStats = document.querySelector("#btnOpenStats");
+if (btnOpenStats) {
+  btnOpenStats.addEventListener("click", () => {
+    const currentTestData = myTests.find(t => t.storage === nameStorage)?.data || JSONTEST1; 
+    renderStats(currentTestData, nameStorage);
+  });
+}
 
 
 
 
 
 //-------------------------------
-// validateQuestions(questions)
-// function validateQuestions(questions) {
+// validateJSONTEST1(JSONTEST1)
+// function validateJSONTEST1(JSONTEST1) {
 //   const result = {
 //     valid: [],
 //     invalid: []
@@ -35,7 +100,7 @@ sprintTest(questions, nameTest);
 
 //   const transformedJsonOutput = [];
 
-//   questions.forEach((question, index) => {
+//   JSONTEST1.forEach((question, index) => {
 //     const cleanCorrectString = question.correctAnswer.trim();
 
 //     // 1. Формируем новую структуру ответов
@@ -79,16 +144,16 @@ sprintTest(questions, nameTest);
 //   });
 
 //   // Вывод в консоль разработчика
-//   console.group("📊 Automated Questions JSON Validation (Smart Matching)");
+//   console.group("📊 Automated JSONTEST1 JSON Validation (Smart Matching)");
   
 //   if (result.invalid.length > 0) {
 //     console.error(`❌ Validation failed. Errors found: ${result.invalid.length}`);
 //     console.table(result.invalid);
 //   } else {
-//     console.log("✅ All questions successfully passed validation!");
+//     console.log("✅ All JSONTEST1 successfully passed validation!");
 //   }
   
-//   console.groupCollapsed("ℹ️ View valid questions object tree");
+//   console.groupCollapsed("ℹ️ View valid JSONTEST1 object tree");
 //   console.log(result.valid); 
 //   console.groupEnd();
 

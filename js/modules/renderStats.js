@@ -1,8 +1,8 @@
-function renderStats(mainquestions, nameTest) {
+function renderStats(mainquestions, nameStorage,testName) {
   const resultsContainer = document.getElementById('results');
   
   // 1. Загружаем данные из localStorage
-  const stats = JSON.parse(localStorage.getItem(nameTest)) || {
+  const stats = JSON.parse(localStorage.getItem(nameStorage)) || {
     correct: [],
     incorrect: [],
     neverSeen: Array.from({ length: mainquestions.length }, (_, i) => i)
@@ -35,7 +35,7 @@ function renderStats(mainquestions, nameTest) {
         
         <!-- Заголовок статистики с кнопкой очистки -->
         <h4 class="fw-bold mb-4 d-flex justify-content-between align-items-center flex-wrap gap-2">
-          <span>📊 Статистика: ${nameTest}</span>
+          <span>📊 Статистика: ${testName}</span>
           <div class="d-flex flex-wrap align-items-center gap-2">
             <button class="btn btn-outline-danger btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnClearStats" title="Сбросить всю статистику">
               <svg xmlns="http://w3.org" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="me-1">
@@ -127,11 +127,11 @@ function renderStats(mainquestions, nameTest) {
   // 3. Обработчик клика по кнопке "Сбросить"
   const btnClearStats = resultsContainer.querySelector('#btnClearStats');
   btnClearStats.addEventListener('click', () => {
-    const isConfirmed = confirm(`Вы уверены, что хотите полностью сбросить статистику для теста "${nameTest}"? Изменения нельзя будет отменить.`);
+    const isConfirmed = confirm(`Вы уверены, что хотите полностью сбросить статистику для теста "${nameStorage}"? Изменения нельзя будет отменить.`);
     
     if (isConfirmed) {
-      localStorage.removeItem(nameTest); // Удаляем ключ из памяти браузера
-      renderStats(mainquestions, nameTest); // Перерисовываем интерфейс с чистыми значениями
+      localStorage.removeItem(nameStorage); // Удаляем ключ из памяти браузера
+      renderStats(mainquestions, nameStorage); // Перерисовываем интерфейс с чистыми значениями
     }
   });
 
