@@ -8,20 +8,27 @@
 
 }
 
-body, .body {
-  background: #232526; 
-  background: -webkit-linear-gradient(to top, #2f2f2f, #232526); 
-  background: linear-gradient(to top, #2f2f2f, #232526); 
+body,
+.body {
+  background: #232526;
+  background: -webkit-linear-gradient(to top, #2f2f2f, #232526);
   background: linear-gradient(to top, #2f2f2f, #232526);
-  color:white;
-      min-height: 100vh;
+  background: linear-gradient(to top, #2f2f2f, #232526);
+  color: white;
+  min-height: 100vh;
+  /* background-image: url("../images/SL-040820-29750-27.jpg"); */
+  background-size: cover;
 }
-h4, h5, h6{
+
+h4,
+h5,
+h6 {
   line-height: 1.6;
 }
+
 .text-success {
-    --bs-text-opacity: 1;
-    color: #30e390 !important;
+  --bs-text-opacity: 1;
+  color: #30e390 !important;
 }
 
 /* Общие стили карточки-чекбокса */

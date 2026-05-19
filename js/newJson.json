@@ -2790,7 +2790,7 @@
       },
       {
         "text": "с учетом групповой принадлежности и без учета резус-совместимости",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "с учетом групповой и резус-принадлежности",
@@ -2948,7 +2948,7 @@
       },
       {
         "text": "1:1",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "1:20",
@@ -5645,7 +5645,7 @@
     "options": [
       {
         "text": "Законом",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "Конституцией и Законом",
@@ -5657,7 +5657,7 @@
       },
       {
         "text": "Конституцией",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -9016,7 +9016,7 @@
       },
       {
         "text": "Допускается",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
@@ -9542,7 +9542,7 @@
       },
       {
         "text": "да",
-        "isCorrect": true
+        "isCorrect": false
       }
     ]
   },
