@@ -108,7 +108,7 @@ function sprintTest(originalQuestions, nameTest) {
     divResults.insertAdjacentHTML("beforeend", `
       <div class="d-flex flex-wrap align-items-start gap-3 w-100 bg-dark p-3 text-light">
 
-        <div class="w-100 d-flex justify-content-between align-items-center">
+        <div class="w-100 d-flex justify-content-between align-items-center flex-wrap gap-3">
           ${UIresultСounter(correctCount, wrongCount)}
 
           <div class="d-flex dropdown gap-3"> 
