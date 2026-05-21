@@ -58,9 +58,11 @@ h6 {
   position: relative;
   transition: all 0.15s ease-in-out;
 }
-
+.btn-check-style{
+  display: none;
+}
 /* Изменения при выборе (checked) */
-.btn-check:checked+.bgprim {
+.btn-check:checked+.bgprim, .btn-check-style:checked+.bgprim {
   background-color: rgba(var(--bs-primary-rgb), 0.06);
   border-color: var(--bs-primary) !important;
   color: var(--bs-primary);
@@ -70,13 +72,15 @@ h6 {
   color: #fff !important;
 }
 
-.btn-check:checked+.option-label .custom-checkbox-box {
+.btn-check:checked+.option-label .custom-checkbox-box,
+.btn-check-style:checked+.option-label .custom-checkbox-box {
   border-color: var(--bs-primary);
   background-color: var(--bs-primary);
 }
 
 /* Белая галочка внутри квадрата при выборе */
-.btn-check:checked+.option-label .custom-checkbox-box::after {
+.btn-check:checked+.option-label .custom-checkbox-box::after ,
+.btn-check-style:checked+.option-label .custom-checkbox-box::after {
   content: "";
   position: absolute;
   left: 5px;

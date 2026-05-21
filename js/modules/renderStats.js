@@ -22,7 +22,7 @@ function renderStats(mainquestions, nameStorage,testName) {
 
   // Вспомогательная функция для генерации кликабельных бейджей
   const generateBadgesHTML = (indexesArray, bgClass) => {
-    if (indexesArray.length === 0) return '<p class="text-muted small mb-0 ps-2">Список пуст</p>';
+    if (indexesArray.length === 0) return '<p class="text-width small mb-0 ps-2">Список пуст</p>';
     return indexesArray.map(index => {
       return `<span class="badge ${bgClass} me-2 mb-2 stats-question-badge" data-index="${index}">№${index + 1}</span>`;
     }).join('');
@@ -201,7 +201,7 @@ function renderStats(mainquestions, nameStorage,testName) {
             <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalPrev" ${currentPositionInGroup === 0 ? 'disabled' : ''}>
               ← Назад
             </button>
-            <span class="text-muted small">Вопрос ${currentPositionInGroup + 1} из ${activeGroupIndexes.length}</span>
+            <span class="text-white small">Вопрос ${currentPositionInGroup + 1} из ${activeGroupIndexes.length}</span>
             <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalNext" ${currentPositionInGroup === activeGroupIndexes.length - 1 ? 'disabled' : ''}>
               Вперед →
             </button>
