@@ -136,45 +136,100 @@ function renderStats(mainquestions, nameStorage,testName) {
   });
 
   // 4. Логика открытия модального окна при клике на номер вопроса
-  const badges = resultsContainer.querySelectorAll('.stats-question-badge');
-  badges.forEach(badge => {
-    badge.addEventListener('click', () => {
-      const itemIndex = parseInt(badge.dataset.index, 10);
-      const item = mainquestions[itemIndex];
+  const accordionBody = resultsContainer.querySelector('#statsAccordion');
+  
+  if (accordionBody) {
+    accordionBody.addEventListener('click', (event) => {
+      // Ищем клик именно по бейджу вопроса
+      const badge = event.target.closest('.stats-question-badge');
+      if (!badge) return;
 
-      if (!item) return;
+      const currentTargetIndex = parseInt(badge.dataset.index, 10);
+      
+      // Находим родительский контейнер аккордеона, чтобы понять, в каком мы списке (ошибки, правильные или новые)
+      const parentCollapse = badge.closest('.accordion-collapse');
+      if (!parentCollapse) return;
 
-      const optionsHtml = item.options.map((option, index) => {
-        const isCorrectStyle = option.isCorrect ? 'text-success fw-bold' : 'text-white opacity-75';
-        return `<p class="mb-1 ${isCorrectStyle}"><b class="me-2">${index + 1}:</b>${option.text}</p>`;
-      }).join('');
+      // Собираем все индексы вопросов из ТЕКУЩЕЙ открытой группы аккордеона в массив
+      const groupBadges = Array.from(parentCollapse.querySelectorAll('.stats-question-badge'));
+      const activeGroupIndexes = groupBadges.map(b => parseInt(b.dataset.index, 10));
 
+      // Находим текущую позицию нашего вопроса внутри этой группы
+      let currentPositionInGroup = activeGroupIndexes.indexOf(currentTargetIndex);
+
+      // Инициализируем модальное окно один раз
+      const modalElement = document.getElementById('statsQuestionModal');
+      const myModal = new bootstrap.Modal(modalElement);
       const modalBody = document.getElementById('modalQuestionBody');
-      modalBody.innerHTML = `
-        <h5 class="text-light mb-3 lh-base">
-          <span class="badge bg-primary me-2">Вопрос №${itemIndex + 1}</span> 
-          ${item.title}
-        </h5>
-        <div class="options-list my-3 ps-2 border-start border-secondary d-flex flex-column gap-2">
-          ${optionsHtml}
-        </div> 
-        <div class="alert alert-info border-0 bg-info bg-opacity-10 mt-3 mb-0">
-          <div class="d-flex align-items-start">
-            <svg xmlns="http://w3.org" class="text-info me-2 flex-shrink-0" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            <div>
-              <strong class="text-info d-block mb-1">Правильный ответ:</strong>
-              <span class="text-white small fs-6">${item.correctAnswer}</span>
+
+      // Внутренняя функция для обновления контента внутри модалки
+      function updateModalContent() {
+        // Получаем реальный индекс вопроса в основном JSON
+        const itemIndex = activeGroupIndexes[currentPositionInGroup];
+        const item = mainquestions[itemIndex];
+
+        if (!item) return;
+
+        const optionsHtml = item.options.map((option, index) => {
+          const isCorrectStyle = option.isCorrect ? 'text-success fw-bold' : 'text-white opacity-75';
+          return `<p class="mb-1 ${isCorrectStyle}"><b class="me-2">${index + 1}:</b>${option.text}</p>`;
+        }).join('');
+
+        // Наполняем модальное окно контентом и добавляем кнопки навигации
+        modalBody.innerHTML = `
+          <h5 class="text-light mb-3 lh-base">
+            <span class="badge bg-primary me-2">Вопрос №${itemIndex + 1}</span> 
+            ${item.title}
+          </h5>
+          <div class="options-list my-3 ps-2 border-start border-secondary d-flex flex-column gap-2">
+            ${optionsHtml}
+          </div> 
+          <div class="alert alert-info border-0 bg-info bg-opacity-10 mt-3 mb-4">
+            <div class="d-flex align-items-start">
+              <svg xmlns="http://w3.org" class="text-info me-2 flex-shrink-0" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div>
+                <strong class="text-info d-block mb-1">Правильный ответ:</strong>
+                <span class="text-white small fs-6">${item.correctAnswer}</span>
+              </div>
             </div>
           </div>
-        </div>
-      `;
 
-      const myModal = new bootstrap.Modal(document.getElementById('statsQuestionModal'));
+          <!-- БЛОК КНОПОК НАВИГАЦИИ -->
+          <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-3">
+            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalPrev" ${currentPositionInGroup === 0 ? 'disabled' : ''}>
+              ← Назад
+            </button>
+            <span class="text-muted small">Вопрос ${currentPositionInGroup + 1} из ${activeGroupIndexes.length}</span>
+            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalNext" ${currentPositionInGroup === activeGroupIndexes.length - 1 ? 'disabled' : ''}>
+              Вперед →
+            </button>
+          </div>
+        `;
+
+        // Вешаем обработчики на новые созданные кнопки навигации
+        document.getElementById('btnModalPrev').addEventListener('click', () => {
+          if (currentPositionInGroup > 0) {
+            currentPositionInGroup--;
+            updateModalContent();
+          }
+        });
+
+        document.getElementById('btnModalNext').addEventListener('click', () => {
+          if (currentPositionInGroup < activeGroupIndexes.length - 1) {
+            currentPositionInGroup++;
+            updateModalContent();
+          }
+        });
+      }
+
+      // Запускаем первичное наполнение и открываем окно
+      updateModalContent();
       myModal.show();
     });
-  });
+  }
 }
+
 
 export default renderStats;

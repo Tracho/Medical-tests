@@ -13,7 +13,7 @@ function sprintTest(originalQuestions, nameTest) {
   const btnSprintTest = document.querySelector("#btnSprintTest");
 
   // 1. РАНДОМИЗАЦИЯ ВОПРОСОВ (Алгоритм Фишера-Йетса)
-  const mainquestions = originalQuestions; 
+  const mainquestions = originalQuestions;
   let questions = [...originalQuestions].sort(() => Math.random() - 0.5);
 
   let currentIndex = 0;
@@ -23,7 +23,7 @@ function sprintTest(originalQuestions, nameTest) {
 
   // 2. НАСТРОЙКА ТАЙМЕРА (Время в секундах: 2 минуты = 120 секунд)
   let totalTime = 1200;
-  const memoryTotalTime = totalTime;
+  let memoryTotalTime = totalTime;
   let timerInterval = null;
 
   let answersHistory = new Array(questions.length).fill(null);
@@ -107,9 +107,36 @@ function sprintTest(originalQuestions, nameTest) {
     // Выводим HTML. Добавлен блок для таймера с id="timerDisplay"
     divResults.insertAdjacentHTML("beforeend", `
       <div class="d-flex flex-wrap align-items-start gap-3 w-100 bg-dark p-3 text-light">
+
         <div class="w-100 d-flex justify-content-between align-items-center">
-          ${UIresultСounter(correctCount, wrongCount)}  
-          <div id="timerDisplay" class="badge bg-secondary fs-5 p-2">${formatTime(totalTime)}</div>
+          ${UIresultСounter(correctCount, wrongCount)}
+
+          <div class="d-flex dropdown gap-3"> 
+          <button class="btn dropdown-toggle useBtn btn-outline-light" type="button" id="DropdownMenuButtonTime" data-bs-toggle="dropdown" aria-expanded="false">
+            Изменить время
+          </button> 
+          <ul class="dropdown-menu dropdown-menu-dark border-secondary shadow" aria-labelledby="DropdownMenuButtonTime" id="timeList">
+              <li class="longTest"> 
+                <a class="dropdown-item stats-dropdown-item" href="#" data-index="1200" title="20 минут.">
+                  20 минут.
+                </a>
+              </li>
+            
+              <li class="longTest"> 
+                <a class="dropdown-item stats-dropdown-item" href="#" data-index="600" title="10 минут.">
+                  10 минут.
+                </a>
+              </li>
+              <li class="longTest"> 
+                <a class="dropdown-item stats-dropdown-item" href="#" data-index="300" title="5 минут.">
+                  5 минут.
+                </a>
+              </li>
+            </ul>  
+            <div id="timerDisplay" class="badge bg-secondary fs-5 p-2">${formatTime(totalTime)}</div>
+          </div>
+
+        
         </div>
         
         <!-- Блюр уберется навсегда, так как переменная startGame станет true -->
@@ -120,6 +147,15 @@ function sprintTest(originalQuestions, nameTest) {
       </div>
     `);
 
+    let timeList = document.querySelectorAll("#timeList a");
+    timeList.forEach((e) => {
+      e.addEventListener("click", () => {
+        totalTime = e.dataset.index;
+        memoryTotalTime = e.dataset.index;
+        resetSettings();
+        createHUD();
+      });
+    })
     // divResults.insertAdjacentHTML("beforeend", `
     //   <div class="d-flex flex-wrap align-items-start gap-3 w-100 bg-dark p-3 text-light">
 
@@ -147,7 +183,7 @@ function sprintTest(originalQuestions, nameTest) {
     // });
 
     // Оживляем логику проверки самого теста
-    UXTestQuestion(divResults, currentQuestion,mainquestions,nameTest, (isCorrect) => {
+    UXTestQuestion(divResults, currentQuestion, mainquestions, nameTest, (isCorrect) => {
       answersHistory[currentIndex] = isCorrect;
 
       if (isCorrect) {
@@ -170,7 +206,7 @@ function sprintTest(originalQuestions, nameTest) {
 
 
   }
- 
+
 }
 
 export default sprintTest;
