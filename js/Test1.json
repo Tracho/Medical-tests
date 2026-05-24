@@ -9592,7 +9592,7 @@
       },
       {
         "text": "детях",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "осужденных и лицах, содержащихся под стражей",
@@ -9874,7 +9874,7 @@
     "options": [
       {
         "text": "3 месяца",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "1 месяц",
