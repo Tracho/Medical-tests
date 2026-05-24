@@ -193,3 +193,12 @@ h6 {
   overflow: hidden;     /* Прячем то, что выходит за рамки */
   text-overflow: ellipsis; /* Добавляем троеточие в конце */
 }
+.show{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.longTest{
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}

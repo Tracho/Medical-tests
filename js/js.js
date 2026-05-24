@@ -1,7 +1,8 @@
 // Предположим, это ваш массив с вопросами, импортированный из JSON
 import JSONTEST1 from "./Test1.json" with { type: "json" };
 import JSONTEST2 from "./Test2.json" with { type: "json" };
-import JSONENGTEST1 from "./EngTest1.json" with { type: "json" };
+import JSONENGTORUTEST1 from "./EngToRuTest1.json" with { type: "json" };
+import JSONRUTOENGTEST1 from "./RuToEngTest1.json" with { type: "json" };
 import PlayTest from "./modules/PlayTest.js";
 import sprintTest from "./modules/sprintTest.js";
 import useBtn from "./modules/useBtn.js";
@@ -12,7 +13,8 @@ import renderStats from "./modules/renderStats.js";
 const myTests = [
   { storage: "Test #1", name: "Вопросы по общепрофессиональным дисциплинам (дополнительные): медико-диагностический профиль", data: JSONTEST1 },
   { storage: "Test #2", name: "Врач клинической лабораторной диагностики, иные работники клинических лабораторий (цитологическое, генетическое, химико-токсикологическое и прочие направления)", data: JSONTEST2 },
-  { storage: "EngTest1", name: "Тексты Английских слов. Уровень №1", data: JSONENGTEST1 }
+  { storage: "EngTest1", name: "Eng.Уровень №1. С Английского", data: JSONENGTORUTEST1 },
+  { storage: "RuToEngTest1", name: "Eng.Уровень №1. На Английский", data: JSONRUTOENGTEST1 }
 ];
 
 // Переменные для хранения текущего состояния (изначально первый тест)
