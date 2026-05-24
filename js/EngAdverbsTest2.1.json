@@ -1,0 +1,2762 @@
+[
+  {
+    "title": "Переведите наречие (как?): быстро",
+    "correctAnswer": "quickly — быстро — [куикли]",
+    "options": [
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He runs very ______ (быстро).",
+    "correctAnswer": "quickly — быстро (наречие образа действия) — [куикли]",
+    "options": [
+      {
+        "text": "quick",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": true
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): медленно",
+    "correctAnswer": "slowly — медленно — [слоули]",
+    "options": [
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She walks ______ (медленно) in the park.",
+    "correctAnswer": "slowly — медленно — [слоули]",
+    "options": [
+      {
+        "text": "slow",
+        "isCorrect": false
+      },
+      {
+        "text": "fast",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): хорошо (Исключение!)",
+    "correctAnswer": "well — хорошо (образуется от прилагательного good) — [уэл]",
+    "options": [
+      {
+        "text": "good",
+        "isCorrect": false
+      },
+      {
+        "text": "well",
+        "isCorrect": true
+      },
+      {
+        "text": "goodly",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: My friend speaks English very ______ (хорошо).",
+    "correctAnswer": "well — хорошо (исключение из правил) — [уэл]",
+    "options": [
+      {
+        "text": "good",
+        "isCorrect": false
+      },
+      {
+        "text": "well",
+        "isCorrect": true
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): плохо",
+    "correctAnswer": "badly — плохо (от прилагательного bad) — [бэдли]",
+    "options": [
+      {
+        "text": "bad",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "sadly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I sleep ______ (плохо) when it is hot.",
+    "correctAnswer": "badly — плохо — [бэдли]",
+    "options": [
+      {
+        "text": "bad",
+        "isCorrect": false
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Правило суффикса -ly: Какое наречие образуется от прилагательного sad (грустный)?",
+    "correctAnswer": "sadly — грустно — [сэдли]",
+    "options": [
+      {
+        "text": "sad",
+        "isCorrect": false
+      },
+      {
+        "text": "sadly",
+        "isCorrect": true
+      },
+      {
+        "text": "sadely",
+        "isCorrect": false
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He looked at the broken car ______ (грустно).",
+    "correctAnswer": "sadly — грустно, печально — [сэдли]",
+    "options": [
+      {
+        "text": "sad",
+        "isCorrect": false
+      },
+      {
+        "text": "sadly",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Правило суффикса -ly: Какое наречие образуется от прилагательного strange (странный)?",
+    "correctAnswer": "strangely — странно — [стрэйнджли]",
+    "options": [
+      {
+        "text": "strange",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": true
+      },
+      {
+        "text": "strangli",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: It looks ______ (странно) and new.",
+    "correctAnswer": "strangely — странно — [стрэйнджли]",
+    "options": [
+      {
+        "text": "strange",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Правило суффикса -ly: Если слово кончается на -y (happy), она меняется на -i. Как пишется 'счастливо'?",
+    "correctAnswer": "happily — счастливо, радостно — [хэпили]",
+    "options": [
+      {
+        "text": "happyly",
+        "isCorrect": false
+      },
+      {
+        "text": "happily",
+        "isCorrect": true
+      },
+      {
+        "text": "happilye",
+        "isCorrect": false
+      },
+      {
+        "text": "sadly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The children played ______ (радостно, счастливо) in the house.",
+    "correctAnswer": "happily — радостно, счастливо — [хэпили]",
+    "options": [
+      {
+        "text": "happy",
+        "isCorrect": false
+      },
+      {
+        "text": "happily",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): громко",
+    "correctAnswer": "loudly — громко — [лаудли]",
+    "options": [
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": true
+      },
+      {
+        "text": "softly",
+        "isCorrect": false
+      },
+      {
+        "text": "clearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Do not speak so ______ (громко), the baby is sleeping.",
+    "correctAnswer": "loudly — громко — [лаудли]",
+    "options": [
+      {
+        "text": "loud",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): тихо",
+    "correctAnswer": "quietly — тихо — [куайэтли]",
+    "options": [
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She closed the door ______ (тихо).",
+    "correctAnswer": "quietly — тихо — [куайэтли]",
+    "options": [
+      {
+        "text": "quiet",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): легко",
+    "correctAnswer": "easily — легко (от прилагательного easy) — [изили]",
+    "options": [
+      {
+        "text": "easy",
+        "isCorrect": false
+      },
+      {
+        "text": "easyly",
+        "isCorrect": false
+      },
+      {
+        "text": "easily",
+        "isCorrect": true
+      },
+      {
+        "text": "clearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: You can do this test ______ (легко).",
+    "correctAnswer": "easily — легко — [изили]",
+    "options": [
+      {
+        "text": "easy",
+        "isCorrect": false
+      },
+      {
+        "text": "easily",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): тяжело, сильно",
+    "correctAnswer": "heavily — тяжело, сильно (от heavy) — [хэвили]",
+    "options": [
+      {
+        "text": "heavy",
+        "isCorrect": false
+      },
+      {
+        "text": "heavily",
+        "isCorrect": true
+      },
+      {
+        "text": "hardly",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: It is raining ______ (сильно, тяжело) outside.",
+    "correctAnswer": "heavily — сильно, тяжело (о дожде/снеге) — [хэвили]",
+    "options": [
+      {
+        "text": "heavy",
+        "isCorrect": false
+      },
+      {
+        "text": "strongly",
+        "isCorrect": false
+      },
+      {
+        "text": "heavily",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): красиво",
+    "correctAnswer": "beautifully — красиво — [бьютифли]",
+    "options": [
+      {
+        "text": "beautiful",
+        "isCorrect": false
+      },
+      {
+        "text": "beautifuly",
+        "isCorrect": false
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": true
+      },
+      {
+        "text": "nicely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She sings very ______ (красиво).",
+    "correctAnswer": "beautifully — красиво — [бьютифли]",
+    "options": [
+      {
+        "text": "beautiful",
+        "isCorrect": false
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): ясно, четко",
+    "correctAnswer": "clearly — ясно, четко — [клиэрли]",
+    "options": [
+      {
+        "text": "clear",
+        "isCorrect": false
+      },
+      {
+        "text": "clearly",
+        "isCorrect": true
+      },
+      {
+        "text": "cleanly",
+        "isCorrect": false
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I can see the road ______ (ясно, четко) now.",
+    "correctAnswer": "clearly — ясно, четко — [клиэрли]",
+    "options": [
+      {
+        "text": "clear",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "clearly",
+        "isCorrect": true
+      },
+      {
+        "text": "really",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): мягко, нежно",
+    "correctAnswer": "softly — мягко, нежно — [софтли]",
+    "options": [
+      {
+        "text": "soft",
+        "isCorrect": false
+      },
+      {
+        "text": "softly",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "weakly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The mother spoke ______ (мягко, нежно) to her baby.",
+    "correctAnswer": "softly — мягко, нежно — [софтли]",
+    "options": [
+      {
+        "text": "soft",
+        "isCorrect": false
+      },
+      {
+        "text": "softly",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): правильно",
+    "correctAnswer": "correctly — правильно — [кэрэктли]",
+    "options": [
+      {
+        "text": "correct",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": true
+      },
+      {
+        "text": "true",
+        "isCorrect": false
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Please answer the question ______ (правильно).",
+    "correctAnswer": "correctly — правильно — [кэрэктли]",
+    "options": [
+      {
+        "text": "correct",
+        "isCorrect": false
+      },
+      {
+        "text": "true",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): неправильно",
+    "correctAnswer": "wrongly — неправильно — [ронгли]",
+    "options": [
+      {
+        "text": "wrong",
+        "isCorrect": false
+      },
+      {
+        "text": "wrongly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "falsely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: You spelled my name ______ (неправильно).",
+    "correctAnswer": "wrongly — неправильно — [ронгли]",
+    "options": [
+      {
+        "text": "wrong",
+        "isCorrect": false
+      },
+      {
+        "text": "wrongly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): идеально",
+    "correctAnswer": "perfectly — идеально — [пэрфиктли]",
+    "options": [
+      {
+        "text": "perfect",
+        "isCorrect": false
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This dress fits you ______ (идельно).",
+    "correctAnswer": "perfectly — идеально — [пэрфиктли]",
+    "options": [
+      {
+        "text": "perfect",
+        "isCorrect": false
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": true
+      },
+      {
+        "text": "good",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): вежливо",
+    "correctAnswer": "politely — вежливо — [пэлайтли]",
+    "options": [
+      {
+        "text": "polite",
+        "isCorrect": false
+      },
+      {
+        "text": "politely",
+        "isCorrect": true
+      },
+      {
+        "text": "kindly",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He asked for help very ______ (вежливо).",
+    "correctAnswer": "politely — вежливо — [пэлайтли]",
+    "options": [
+      {
+        "text": "polite",
+        "isCorrect": false
+      },
+      {
+        "text": "politely",
+        "isCorrect": true
+      },
+      {
+        "text": "softly",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): грубо",
+    "correctAnswer": "rudely — грубо — [рудли]",
+    "options": [
+      {
+        "text": "rude",
+        "isCorrect": false
+      },
+      {
+        "text": "rudely",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The man answered me ______ (грубо).",
+    "correctAnswer": "rudely — грубо — [рудли]",
+    "options": [
+      {
+        "text": "rude",
+        "isCorrect": false
+      },
+      {
+        "text": "rudely",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "politely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): смело",
+    "correctAnswer": "bravely — смело — [брэйвли]",
+    "options": [
+      {
+        "text": "brave",
+        "isCorrect": false
+      },
+      {
+        "text": "bravely",
+        "isCorrect": true
+      },
+      {
+        "text": "strongly",
+        "isCorrect": false
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The soldier fought ______ (смело).",
+    "correctAnswer": "bravely — смело — [брэйвли]",
+    "options": [
+      {
+        "text": "brave",
+        "isCorrect": false
+      },
+      {
+        "text": "bravely",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "strongly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): аккуратно, осторожно",
+    "correctAnswer": "carefully — аккуратно, осторожно — [кэафли]",
+    "options": [
+      {
+        "text": "careful",
+        "isCorrect": false
+      },
+      {
+        "text": "carefully",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Drive ______ (осторожно), the road is wet.",
+    "correctAnswer": "carefully — осторожно, аккуратно — [кэафли]",
+    "options": [
+      {
+        "text": "careful",
+        "isCorrect": false
+      },
+      {
+        "text": "carefully",
+        "isCorrect": true
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "fast",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): небрежно, неосторожно",
+    "correctAnswer": "carelessly — небрежно, неосторожно — [кэалисли]",
+    "options": [
+      {
+        "text": "careless",
+        "isCorrect": false
+      },
+      {
+        "text": "carelessly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He threw the papers ______ (небрежно) on the table.",
+    "correctAnswer": "carelessly — небрежно, неосторожно — [кэалисли]",
+    "options": [
+      {
+        "text": "careless",
+        "isCorrect": false
+      },
+      {
+        "text": "carelessly",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Исключение из правил: Какое наречие образуется от прилагательного fast (быстрый)? Суффикс -ly НЕ нужен!",
+    "correctAnswer": "fast — быстро (форма не меняется) — [фаст]",
+    "options": [
+      {
+        "text": "fastly",
+        "isCorrect": false
+      },
+      {
+        "text": "fast",
+        "isCorrect": true
+      },
+      {
+        "text": "fastely",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T20:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: My watch runs ______ (быстро, спешит) — это исключение!",
+    "correctAnswer": "fast — быстро (слово fast не меняет форму) — [фаст]",
+    "options": [
+      {
+        "text": "fastly",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "fast",
+        "isCorrect": true
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Исключение из правил: Какое наречие образуется от hard (усердный, тяжелый)? Суффикс -ly меняет смысл слова!",
+    "correctAnswer": "hard — усердно, тяжело (форма не меняется) — [хард]",
+    "options": [
+      {
+        "text": "hardly",
+        "isCorrect": false
+      },
+      {
+        "text": "hard",
+        "isCorrect": true
+      },
+      {
+        "text": "hardely",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: You must study ______ (усердно, тяжело) to pass the test.",
+    "correctAnswer": "hard — усердно, тяжело — [хард]",
+    "options": [
+      {
+        "text": "hardly",
+        "isCorrect": false
+      },
+      {
+        "text": "hard",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "strongly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): спокойно",
+    "correctAnswer": "calmly — спокойно — [камли]",
+    "options": [
+      {
+        "text": "calm",
+        "isCorrect": false
+      },
+      {
+        "text": "calmly",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "softly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He answered all the questions ______ (спокойно).",
+    "correctAnswer": "calmly — спокойно — [камли]",
+    "options": [
+      {
+        "text": "calm",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "calmly",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): безопасно",
+    "correctAnswer": "safely — безопасно — [сэйфли]",
+    "options": [
+      {
+        "text": "safe",
+        "isCorrect": false
+      },
+      {
+        "text": "safely",
+        "isCorrect": true
+      },
+      {
+        "text": "carefully",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We arrived home ______ (безопасно, благополучно).",
+    "correctAnswer": "safely — безопасно, благополучно — [сэйфли]",
+    "options": [
+      {
+        "text": "safe",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "safely",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): опасно",
+    "correctAnswer": "dangerously — опасно — [дэйнджэрэсли]",
+    "options": [
+      {
+        "text": "dangerous",
+        "isCorrect": false
+      },
+      {
+        "text": "dangerously",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "carelessly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He drives the car ______ (опасно).",
+    "correctAnswer": "dangerously — опасно — [дэйнджэрэсли]",
+    "options": [
+      {
+        "text": "dangerous",
+        "isCorrect": false
+      },
+      {
+        "text": "fast",
+        "isCorrect": false
+      },
+      {
+        "text": "dangerously",
+        "isCorrect": true
+      },
+      {
+        "text": "carelessly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): честно",
+    "correctAnswer": "honestly — честно — [онистли]",
+    "options": [
+      {
+        "text": "honest",
+        "isCorrect": false
+      },
+      {
+        "text": "honestly",
+        "isCorrect": true
+      },
+      {
+        "text": "truly",
+        "isCorrect": false
+      },
+      {
+        "text": "politely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Tell me ______ (честно), what do you think?",
+    "correctAnswer": "honestly — честно — [онистли]",
+    "options": [
+      {
+        "text": "honest",
+        "isCorrect": false
+      },
+      {
+        "text": "clearly",
+        "isCorrect": false
+      },
+      {
+        "text": "honestly",
+        "isCorrect": true
+      },
+      {
+        "text": "truly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): шумно",
+    "correctAnswer": "noisily — шумно (от noisy, -y меняется на -i) — [нойзили]",
+    "options": [
+      {
+        "text": "noisy",
+        "isCorrect": false
+      },
+      {
+        "text": "noisily",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The students talked ______ (шумно) in the room.",
+    "correctAnswer": "noisily — шумно — [нойзили]",
+    "options": [
+      {
+        "text": "noisy",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "noisily",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): серьезно",
+    "correctAnswer": "seriously — серьезно — [сириэсли]",
+    "options": [
+      {
+        "text": "serious",
+        "isCorrect": false
+      },
+      {
+        "text": "seriously",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "clearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She is ______ (серьезно) sick today.",
+    "correctAnswer": "seriously — серьезно — [сириэсли]",
+    "options": [
+      {
+        "text": "serious",
+        "isCorrect": false
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "seriously",
+        "isCorrect": true
+      },
+      {
+        "text": "really",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): щедро",
+    "correctAnswer": "generously — щедро — [джэнэрэсли]",
+    "options": [
+      {
+        "text": "generous",
+        "isCorrect": false
+      },
+      {
+        "text": "generously",
+        "isCorrect": true
+      },
+      {
+        "text": "kindly",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He paid for our dinner very ______ (щедро).",
+    "correctAnswer": "generously — щедро — [джэнэрэсли]",
+    "options": [
+      {
+        "text": "generous",
+        "isCorrect": false
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      },
+      {
+        "text": "generously",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): гордо",
+    "correctAnswer": "proudly — гордо — [праудли]",
+    "options": [
+      {
+        "text": "proud",
+        "isCorrect": false
+      },
+      {
+        "text": "proudly",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She ______ (гордо) showed her new application.",
+    "correctAnswer": "proudly — гордо — [праудли]",
+    "options": [
+      {
+        "text": "proud",
+        "isCorrect": false
+      },
+      {
+        "text": "proudly",
+        "isCorrect": true
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": false
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): глупо",
+    "correctAnswer": "foolishly — глупо — [фулишли]",
+    "options": [
+      {
+        "text": "foolish",
+        "isCorrect": false
+      },
+      {
+        "text": "foolishly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He spent his money ______ (глупо) on candy.",
+    "correctAnswer": "foolishly — глупо — [фулишли]",
+    "options": [
+      {
+        "text": "foolish",
+        "isCorrect": false
+      },
+      {
+        "text": "carelessly",
+        "isCorrect": false
+      },
+      {
+        "text": "foolishly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): таинственно, загадочно",
+    "correctAnswer": "mysteriously — таинственно, загадочно — [мистиэриэсли]",
+    "options": [
+      {
+        "text": "mysterious",
+        "isCorrect": false
+      },
+      {
+        "text": "mysteriously",
+        "isCorrect": true
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The box disappeared ______ (таинственно).",
+    "correctAnswer": "mysteriously — таинственно, загадочно — [мистиэриэсли]",
+    "options": [
+      {
+        "text": "mysterious",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      },
+      {
+        "text": "mysteriously",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): нежно, ласково",
+    "correctAnswer": "gently — нежно, ласково (от gentle, убираем -e) — [джентли]",
+    "options": [
+      {
+        "text": "gentle",
+        "isCorrect": false
+      },
+      {
+        "text": "gently",
+        "isCorrect": true
+      },
+      {
+        "text": "softly",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Hold the child's hand ______ (нежно, ласково).",
+    "correctAnswer": "gently — нежно, ласково — [джентли]",
+    "options": [
+      {
+        "text": "gentle",
+        "isCorrect": false
+      },
+      {
+        "text": "carefully",
+        "isCorrect": false
+      },
+      {
+        "text": "gently",
+        "isCorrect": true
+      },
+      {
+        "text": "softly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:40:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ правильные наречия исключения (у которых НЕТ суффикса -ly):",
+    "correctAnswer": "well, fast, hard — это наречия-исключения, они не используют суффикс -ly",
+    "options": [
+      {
+        "text": "well",
+        "isCorrect": true
+      },
+      {
+        "text": "fast",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "hard",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий (как?): грустно И радостно",
+    "correctAnswer": "sadly (грустно), happily (радостно) — [сэдли, хэпили]",
+    "options": [
+      {
+        "text": "badly / well",
+        "isCorrect": false
+      },
+      {
+        "text": "sadly / happily",
+        "isCorrect": true
+      },
+      {
+        "text": "slowly / quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly / loudly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ варианты, которые переводятся как 'осторожно, аккуратно':",
+    "correctAnswer": "carefully, safely — оба слова могут означать аккуратное и безопасное действие",
+    "options": [
+      {
+        "text": "carefully",
+        "isCorrect": true
+      },
+      {
+        "text": "carelessly",
+        "isCorrect": false
+      },
+      {
+        "text": "safely",
+        "isCorrect": true
+      },
+      {
+        "text": "rudely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей (как?): тихо И громко",
+    "correctAnswer": "quietly (тихо), loudly (громко) — [куайэтли, лаудли]",
+    "options": [
+      {
+        "text": "softly / gently",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly / fast",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly / loudly",
+        "isCorrect": true
+      },
+      {
+        "text": "correctly / wrongly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): яростно, злобно",
+    "correctAnswer": "angrily — яростно, злобно (от angry, -y меняется на -i) — [энгрили]",
+    "options": [
+      {
+        "text": "angry",
+        "isCorrect": false
+      },
+      {
+        "text": "angrily",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "rudely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: 'Leave me alone!' he shouted ______ (злобно, яростно).",
+    "correctAnswer": "angrily — злобно, сердито — [энгрили]",
+    "options": [
+      {
+        "text": "angry",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "angrily",
+        "isCorrect": true
+      },
+      {
+        "text": "politely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): автоматически",
+    "correctAnswer": "automatically — автоматически — [отомэтикли]",
+    "options": [
+      {
+        "text": "automatic",
+        "isCorrect": false
+      },
+      {
+        "text": "automatically",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The door closes ______ (автоматически) after five seconds.",
+    "correctAnswer": "automatically — автоматически — [отомэтикли]",
+    "options": [
+      {
+        "text": "automatic",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "automatically",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): внезапно, вдруг",
+    "correctAnswer": "suddenly — внезапно, вдруг — [саднли]",
+    "options": [
+      {
+        "text": "sudden",
+        "isCorrect": false
+      },
+      {
+        "text": "suddenly",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: ______ (внезапно), the light went out.",
+    "correctAnswer": "suddenly — внезапно, вдруг — [саднли]",
+    "options": [
+      {
+        "text": "sudden",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "suddenly",
+        "isCorrect": true
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): немедленно, сразу же",
+    "correctAnswer": "immediately — немедленно, сразу же — [имидиэтли]",
+    "options": [
+      {
+        "text": "immediate",
+        "isCorrect": false
+      },
+      {
+        "text": "immediately",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "fast",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Please answer my message ______ (немедленно).",
+    "correctAnswer": "immediately — немедленно, сразу же — [имидиэтли]",
+    "options": [
+      {
+        "text": "immediate",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "immediately",
+        "isCorrect": true
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): терпеливо",
+    "correctAnswer": "patiently — терпеливо — [пэйшэнтли]",
+    "options": [
+      {
+        "text": "patient",
+        "isCorrect": false
+      },
+      {
+        "text": "patiently",
+        "isCorrect": true
+      },
+      {
+        "text": "calmly",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We waited ______ (терпеливо) at the station for the train.",
+    "correctAnswer": "patiently — терпеливо — [пэйшэнтли]",
+    "options": [
+      {
+        "text": "patient",
+        "isCorrect": false
+      },
+      {
+        "text": "calmly",
+        "isCorrect": false
+      },
+      {
+        "text": "patiently",
+        "isCorrect": true
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): нетерпеливо",
+    "correctAnswer": "impatiently — нетерпеливо — [импэйшэнтли]",
+    "options": [
+      {
+        "text": "impatient",
+        "isCorrect": false
+      },
+      {
+        "text": "impatiently",
+        "isCorrect": true
+      },
+      {
+        "text": "angrily",
+        "isCorrect": false
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He looked at his watch ______ (нетерпеливо).",
+    "correctAnswer": "impatiently — нетерпеливо — [импэйшэнтли]",
+    "options": [
+      {
+        "text": "impatient",
+        "isCorrect": false
+      },
+      {
+        "text": "angrily",
+        "isCorrect": false
+      },
+      {
+        "text": "impatiently",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): свободно (о языках)",
+    "correctAnswer": "fluently — свободно, бегло — [флуэнтли]",
+    "options": [
+      {
+        "text": "fluent",
+        "isCorrect": false
+      },
+      {
+        "text": "fluently",
+        "isCorrect": true
+      },
+      {
+        "text": "freely",
+        "isCorrect": false
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She can read and speak English ______ (свободно, бегло).",
+    "correctAnswer": "fluently — свободно, бегло (о владении языком) — [флуэнтли]",
+    "options": [
+      {
+        "text": "fluent",
+        "isCorrect": false
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      },
+      {
+        "text": "fluently",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): приятно, мило",
+    "correctAnswer": "nicely — приятно, мило — [найсли]",
+    "options": [
+      {
+        "text": "nice",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely",
+        "isCorrect": true
+      },
+      {
+        "text": "beautifully",
+        "isCorrect": false
+      },
+      {
+        "text": "kindly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The room was ______ (приятно, мило) decorated.",
+    "correctAnswer": "nicely — приятно, мило, хорошо — [найсли]",
+    "options": [
+      {
+        "text": "nice",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely",
+        "isCorrect": true
+      },
+      {
+        "text": "cleanly",
+        "isCorrect": false
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, которые переводятся со значением 'тихо / нежно':",
+    "correctAnswer": "quietly, softly, gently — все три слова описывают негромкие и мягкие действия",
+    "options": [
+      {
+        "text": "quietly",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      },
+      {
+        "text": "softly",
+        "isCorrect": true
+      },
+      {
+        "text": "gently",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару (как?): вежливо И грубо",
+    "correctAnswer": "politely (вежливо), rudely (грубо) — [пэлайтли, рудли]",
+    "options": [
+      {
+        "text": "kindly / badly",
+        "isCorrect": false
+      },
+      {
+        "text": "politely / rudely",
+        "isCorrect": true
+      },
+      {
+        "text": "honestly / foolishly",
+        "isCorrect": false
+      },
+      {
+        "text": "safely / dangerously",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): естественно, конечно",
+    "correctAnswer": "naturally — естественно, конечно — [нэчрэли]",
+    "options": [
+      {
+        "text": "natural",
+        "isCorrect": false
+      },
+      {
+        "text": "naturally",
+        "isCorrect": true
+      },
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "really",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Act ______ (естественно) and stay calm.",
+    "correctAnswer": "naturally — естественно — [нэчрэли]",
+    "options": [
+      {
+        "text": "natural",
+        "isCorrect": false
+      },
+      {
+        "text": "naturally",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "calmly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): нормально, обычно",
+    "correctAnswer": "normally — нормально, обычно — [нормэли]",
+    "options": [
+      {
+        "text": "normal",
+        "isCorrect": false
+      },
+      {
+        "text": "normally",
+        "isCorrect": true
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The system is working ______ (нормально) now.",
+    "correctAnswer": "normally — нормально, в штатном режиме — [нормэли]",
+    "options": [
+      {
+        "text": "normal",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly",
+        "isCorrect": false
+      },
+      {
+        "text": "normally",
+        "isCorrect": true
+      },
+      {
+        "text": "well",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): странно, причудливо",
+    "correctAnswer": "oddly — странно, причудливо — [одли]",
+    "options": [
+      {
+        "text": "odd",
+        "isCorrect": false
+      },
+      {
+        "text": "oddly",
+        "isCorrect": true
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      },
+      {
+        "text": "foolishly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He behaved very ______ (странно) at the party.",
+    "correctAnswer": "oddly — странно, эксцентрично — [одли]",
+    "options": [
+      {
+        "text": "odd",
+        "isCorrect": false
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      },
+      {
+        "text": "oddly",
+        "isCorrect": true
+      },
+      {
+        "text": "rudely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): глубоко",
+    "correctAnswer": "deeply — глубоко — [дипли]",
+    "options": [
+      {
+        "text": "deep",
+        "isCorrect": false
+      },
+      {
+        "text": "deeply",
+        "isCorrect": true
+      },
+      {
+        "text": "heavily",
+        "isCorrect": false
+      },
+      {
+        "text": "seriously",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Breathe ______ (глубоко) and open your eyes.",
+    "correctAnswer": "deeply — глубоко — [дипли]",
+    "options": [
+      {
+        "text": "deep",
+        "isCorrect": false
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "deeply",
+        "isCorrect": true
+      },
+      {
+        "text": "calmly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): полностью, совершенно",
+    "correctAnswer": "completely — полностью, совершенно — [кэмплитли]",
+    "options": [
+      {
+        "text": "complete",
+        "isCorrect": false
+      },
+      {
+        "text": "completely",
+        "isCorrect": true
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": false
+      },
+      {
+        "text": "totally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I ______ (полностью) forgot about our test.",
+    "correctAnswer": "completely — полностью, целиком — [кэмплитли]",
+    "options": [
+      {
+        "text": "complete",
+        "isCorrect": false
+      },
+      {
+        "text": "really",
+        "isCorrect": false
+      },
+      {
+        "text": "completely",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия со значением 'странно':",
+    "correctAnswer": "strangely, oddly — оба слова являются синонимами и переводятся как 'странно'",
+    "options": [
+      {
+        "text": "strangely",
+        "isCorrect": true
+      },
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "oddly",
+        "isCorrect": true
+      },
+      {
+        "text": "foolishly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий: аккуратно И небрежно",
+    "correctAnswer": "carefully (аккуратно), carelessly (небрежно) — [кэафли, кэалисли]",
+    "options": [
+      {
+        "text": "politely / rudely",
+        "isCorrect": false
+      },
+      {
+        "text": "carefully / carelessly",
+        "isCorrect": true
+      },
+      {
+        "text": "patiently / impatiently",
+        "isCorrect": false
+      },
+      {
+        "text": "normally / oddly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "СЛОВО ОБРАЗОВАНИЕ: Какое наречие образуется от прилагательного automatic?",
+    "correctAnswer": "automatically — автоматически (к прилагательным на -ic добавляется суффикс -ally) — [отомэтикли]",
+    "options": [
+      {
+        "text": "automaticly",
+        "isCorrect": false
+      },
+      {
+        "text": "automatically",
+        "isCorrect": true
+      },
+      {
+        "text": "automatic",
+        "isCorrect": false
+      },
+      {
+        "text": "automatical",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:45:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей (как?): правильно И неправильно",
+    "correctAnswer": "correctly (правильно), wrongly (неправильно) — [кэрэктли, ронгли]",
+    "options": [
+      {
+        "text": "true / false",
+        "isCorrect": false
+      },
+      {
+        "text": "correctly / wrongly",
+        "isCorrect": true
+      },
+      {
+        "text": "well / badly",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely / oddly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, которые переводятся со значением 'полностью, идеально':",
+    "correctAnswer": "completely, perfectly — оба слова описывают завершенность или идеальное выполнение действия",
+    "options": [
+      {
+        "text": "completely",
+        "isCorrect": true
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": true
+      },
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "deeply",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): тайно, секретно",
+    "correctAnswer": "secretly — тайно, секретно — [сикрэтли]",
+    "options": [
+      {
+        "text": "secret",
+        "isCorrect": false
+      },
+      {
+        "text": "secretly",
+        "isCorrect": true
+      },
+      {
+        "text": "mysteriously",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: They met ______ (тайно) in the park at night.",
+    "correctAnswer": "secretly — тайно, секретно — [сикрэтли]",
+    "options": [
+      {
+        "text": "secret",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "secretly",
+        "isCorrect": true
+      },
+      {
+        "text": "strangely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): невинно, простодушно",
+    "correctAnswer": "innocently — невинно, простодушно — [инэсэнтли]",
+    "options": [
+      {
+        "text": "innocent",
+        "isCorrect": false
+      },
+      {
+        "text": "innocently",
+        "isCorrect": true
+      },
+      {
+        "text": "foolishly",
+        "isCorrect": false
+      },
+      {
+        "text": "gently",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The cat looked at me ______ (невинно) after eating the candy.",
+    "correctAnswer": "innocently — невинно — [инэсэнтли]",
+    "options": [
+      {
+        "text": "innocent",
+        "isCorrect": false
+      },
+      {
+        "text": "nicely",
+        "isCorrect": false
+      },
+      {
+        "text": "innocently",
+        "isCorrect": true
+      },
+      {
+        "text": "funny",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): шутливо, весело",
+    "correctAnswer": "playfully — шутливо, весело — [плэйфли]",
+    "options": [
+      {
+        "text": "playful",
+        "isCorrect": false
+      },
+      {
+        "text": "playfully",
+        "isCorrect": true
+      },
+      {
+        "text": "happily",
+        "isCorrect": false
+      },
+      {
+        "text": "funny",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The puppy jumped ______ (шутливо, весело) around the room.",
+    "correctAnswer": "playfully — шутливо, игриво — [плэйфли]",
+    "options": [
+      {
+        "text": "playful",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "playfully",
+        "isCorrect": true
+      },
+      {
+        "text": "loudly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): резко, остро",
+    "correctAnswer": "sharply — резко, остро — [шарпли]",
+    "options": [
+      {
+        "text": "sharp",
+        "isCorrect": false
+      },
+      {
+        "text": "sharply",
+        "isCorrect": true
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "rudely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Prices for cars went up ______ (резко) this month.",
+    "correctAnswer": "sharply — резко, круто — [шарпли]",
+    "options": [
+      {
+        "text": "sharp",
+        "isCorrect": false
+      },
+      {
+        "text": "quickly",
+        "isCorrect": false
+      },
+      {
+        "text": "sharply",
+        "isCorrect": true
+      },
+      {
+        "text": "heavily",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Переведите наречие (как?): мягко, гладко",
+    "correctAnswer": "smoothly — мягко, гладко, без проблем — [смузли]",
+    "options": [
+      {
+        "text": "smooth",
+        "isCorrect": false
+      },
+      {
+        "text": "smoothly",
+        "isCorrect": true
+      },
+      {
+        "text": "easily",
+        "isCorrect": false
+      },
+      {
+        "text": "softly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The application is running ______ (гладко, без проблем).",
+    "correctAnswer": "smoothly — гладко, ровно, без сбоев — [смузли]",
+    "options": [
+      {
+        "text": "smooth",
+        "isCorrect": false
+      },
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "smoothly",
+        "isCorrect": true
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия со значением 'резко' или 'внезапно':",
+    "correctAnswer": "suddenly, sharply — оба слова описывают неожиданное или резкое изменение ситуации",
+    "options": [
+      {
+        "text": "suddenly",
+        "isCorrect": true
+      },
+      {
+        "text": "smoothly",
+        "isCorrect": false
+      },
+      {
+        "text": "sharply",
+        "isCorrect": true
+      },
+      {
+        "text": "secretly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий: терпеливо И нетерпеливо",
+    "correctAnswer": "patiently (терпеливо), impatiently (нетерпеливо) — [пэйшэнтли, импэйшэнтли]",
+    "options": [
+      {
+        "text": "calmly / angrily",
+        "isCorrect": false
+      },
+      {
+        "text": "patiently / impatiently",
+        "isCorrect": true
+      },
+      {
+        "text": "quietly / noisily",
+        "isCorrect": false
+      },
+      {
+        "text": "politely / rudely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  },
+  {
+    "title": "КОНЕЦ БЛОКА: Переведите финальное наречие: успешно",
+    "correctAnswer": "successfully — успешно — [сэксэсфли]",
+    "options": [
+      {
+        "text": "successful",
+        "isCorrect": false
+      },
+      {
+        "text": "successfully",
+        "isCorrect": true
+      },
+      {
+        "text": "perfectly",
+        "isCorrect": false
+      },
+      {
+        "text": "done",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:50:00.000Z"
+  }
+]

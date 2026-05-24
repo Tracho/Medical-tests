@@ -1,0 +1,2762 @@
+[
+  {
+    "title": "Переведите наречие времени (когда?): сегодня",
+    "correctAnswer": "today — сегодня — [тэдэй]",
+    "options": [
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "today",
+        "isCorrect": true
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I am very busy ______ (сегодня), let's meet tomorrow.",
+    "correctAnswer": "today — сегодня — [тэдэй]",
+    "options": [
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "today",
+        "isCorrect": true
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      },
+      {
+        "text": "then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): вчера",
+    "correctAnswer": "yesterday — вчера — [йэстэрдэй]",
+    "options": [
+      {
+        "text": "today",
+        "isCorrect": false
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": true
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We saw an interesting movie ______ (вчера).",
+    "correctAnswer": "yesterday — вчера (маркер прошедшего времени) — [йэстэрдэй]",
+    "options": [
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): завтра",
+    "correctAnswer": "tomorrow — завтра — [тумороу]",
+    "options": [
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "today",
+        "isCorrect": false
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I will call you ______ (завтра) morning.",
+    "correctAnswer": "tomorrow — завтра (маркер будущего времени) — [тумороу]",
+    "options": [
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "today",
+        "isCorrect": false
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": true
+      },
+      {
+        "text": "late",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей: вчера И завтра",
+    "correctAnswer": "yesterday (вчера), tomorrow (завтра) — [йэстэрдэй, тумороу]",
+    "options": [
+      {
+        "text": "today / tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "yesterday / tomorrow",
+        "isCorrect": true
+      },
+      {
+        "text": "before / after",
+        "isCorrect": false
+      },
+      {
+        "text": "now / then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): всегда",
+    "correctAnswer": "always — всегда — [олвэйз]",
+    "options": [
+      {
+        "text": "never",
+        "isCorrect": false
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "always",
+        "isCorrect": true
+      },
+      {
+        "text": "often",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She ______ (всегда) reads books before bed.",
+    "correctAnswer": "always — всегда (ставится перед смысловым глаголом) — [олвэйз]",
+    "options": [
+      {
+        "text": "never",
+        "isCorrect": false
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "always",
+        "isCorrect": true
+      },
+      {
+        "text": "rarely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): никогда",
+    "correctAnswer": "never — никогда — [нэвэр]",
+    "options": [
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "never",
+        "isCorrect": true
+      },
+      {
+        "text": "often",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ГРАММАТИКА: В английском предложении может быть только ОДНО отрицание. Как правильно перевести: 'Я никогда не курю'?",
+    "correctAnswer": "I never smoke — Я никогда не курю (дополнительное 'not' не нужно, так как 'never' уже отрицательное) — [ай нэвэр смоук]",
+    "options": [
+      {
+        "text": "I don't never smoke",
+        "isCorrect": false
+      },
+      {
+        "text": "I never smoke",
+        "isCorrect": true
+      },
+      {
+        "text": "I never don't smoke",
+        "isCorrect": false
+      },
+      {
+        "text": "I am never smoke",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей: всегда И никогда",
+    "correctAnswer": "always (всегда), never (никогда) — [олвэйз, нэвэр]",
+    "options": [
+      {
+        "text": "often / rarely",
+        "isCorrect": false
+      },
+      {
+        "text": "usually / sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "always / never",
+        "isCorrect": true
+      },
+      {
+        "text": "today / yesterday",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): часто",
+    "correctAnswer": "often — часто — [офэн]",
+    "options": [
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "often",
+        "isCorrect": true
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "rarely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We ______ (часто) go to that city center.",
+    "correctAnswer": "often — часто — [офэн]",
+    "options": [
+      {
+        "text": "never",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "often",
+        "isCorrect": true
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): иногда",
+    "correctAnswer": "sometimes — иногда — [самтаймз]",
+    "options": [
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": true
+      },
+      {
+        "text": "never",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: ______ (иногда) I practice English rules online.",
+    "correctAnswer": "sometimes — иногда (единственное наречие частоты, которое может стоять в самом начале предложения) — [самтаймз]",
+    "options": [
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": true
+      },
+      {
+        "text": "never",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): обычно",
+    "correctAnswer": "usually — обычно — [южуали]",
+    "options": [
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "usually",
+        "isCorrect": true
+      },
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He ______ (обычно) comes home late.",
+    "correctAnswer": "usually — обычно — [южуали]",
+    "options": [
+      {
+        "text": "usually",
+        "isCorrect": true
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): сейчас, теперь",
+    "correctAnswer": "now — сейчас, теперь — [нау]",
+    "options": [
+      {
+        "text": "then",
+        "isCorrect": false
+      },
+      {
+        "text": "now",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "today",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Where are you living ______ (сейчас)?",
+    "correctAnswer": "now — сейчас, теперь (характерно для времени Present Continuous) — [нау]",
+    "options": [
+      {
+        "text": "then",
+        "isCorrect": false
+      },
+      {
+        "text": "now",
+        "isCorrect": true
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "always",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): тогда, затем",
+    "correctAnswer": "then — тогда, затем — [зэн]",
+    "options": [
+      {
+        "text": "now",
+        "isCorrect": false
+      },
+      {
+        "text": "then",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: First study the words, ______ (затем) do the test.",
+    "correctAnswer": "then — тогда, затем — [зэн]",
+    "options": [
+      {
+        "text": "now",
+        "isCorrect": false
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "then",
+        "isCorrect": true
+      },
+      {
+        "text": "after",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару: сейчас И тогда",
+    "correctAnswer": "now (сейчас), then (тогда) — [нау, зэн]",
+    "options": [
+      {
+        "text": "today / yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "now / then",
+        "isCorrect": true
+      },
+      {
+        "text": "soon / late",
+        "isCorrect": false
+      },
+      {
+        "text": "before / after",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия частоты (отвечающие на вопрос 'как часто?'):",
+    "correctAnswer": "always, usually, often — это маркеры повторяемости действия",
+    "options": [
+      {
+        "text": "always",
+        "isCorrect": true
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "usually",
+        "isCorrect": true
+      },
+      {
+        "text": "often",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, которые подходят для описания планов на БУДУЩЕЕ:",
+    "correctAnswer": "tomorrow, soon — оба слова указывают на грядущие события",
+    "options": [
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": true
+      },
+      {
+        "text": "then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): редко",
+    "correctAnswer": "rarely — редко — [рэрли]",
+    "options": [
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "rarely",
+        "isCorrect": true
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: He ______ (редко) visits his old old friends.",
+    "correctAnswer": "rarely — редко — [рэрли]",
+    "options": [
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "rarely",
+        "isCorrect": true
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (синоним слова rarely): редко, изредка",
+    "correctAnswer": "seldom — редко, изредка — [сэлдэм]",
+    "options": [
+      {
+        "text": "seldom",
+        "isCorrect": true
+      },
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "frequently",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия со значением 'редко':",
+    "correctAnswer": "rarely, seldom — эти слова являются синонимами",
+    "options": [
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "rarely",
+        "isCorrect": true
+      },
+      {
+        "text": "seldom",
+        "isCorrect": true
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей: часто И редко",
+    "correctAnswer": "often (часто), rarely (редко) — [офэн, рэрли]",
+    "options": [
+      {
+        "text": "always / never",
+        "isCorrect": false
+      },
+      {
+        "text": "often / rarely",
+        "isCorrect": true
+      },
+      {
+        "text": "usually / sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "now / then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): скоро",
+    "correctAnswer": "soon — скоро — [сун]",
+    "options": [
+      {
+        "text": "late",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": true
+      },
+      {
+        "text": "early",
+        "isCorrect": false
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I hope to see you ______ (скоро).",
+    "correctAnswer": "soon — скоро — [сун]",
+    "options": [
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": true
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): поздно",
+    "correctAnswer": "late — поздно — [лэйт]",
+    "options": [
+      {
+        "text": "early",
+        "isCorrect": false
+      },
+      {
+        "text": "late",
+        "isCorrect": true
+      },
+      {
+        "text": "fast",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: It is too ______ (поздно) to call him now.",
+    "correctAnswer": "late — поздно — [лэйт]",
+    "options": [
+      {
+        "text": "early",
+        "isCorrect": false
+      },
+      {
+        "text": "late",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "today",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): рано",
+    "correctAnswer": "early — рано — [ёрли]",
+    "options": [
+      {
+        "text": "late",
+        "isCorrect": false
+      },
+      {
+        "text": "early",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: She wakes up ______ (рано) every day.",
+    "correctAnswer": "early — рано — [ёрли]",
+    "options": [
+      {
+        "text": "late",
+        "isCorrect": false
+      },
+      {
+        "text": "early",
+        "isCorrect": true
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей: рано И поздно",
+    "correctAnswer": "early (рано), late (поздно) — [ёрли, лэйт]",
+    "options": [
+      {
+        "text": "soon / late",
+        "isCorrect": false
+      },
+      {
+        "text": "early / late",
+        "isCorrect": true
+      },
+      {
+        "text": "before / after",
+        "isCorrect": false
+      },
+      {
+        "text": "now / then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): уже",
+    "correctAnswer": "already — уже — [олрэди]",
+    "options": [
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": true
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "just",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "ГРАММАТИКА: Наречие already (уже) обычно используется в утверждениях. Вставьте его: I have ______ (уже) done my task.",
+    "correctAnswer": "already — уже (ставится между вспомогательным и основным глаголом) — [олрэди]",
+    "options": [
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": true
+      },
+      {
+        "text": "never",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: еще (в отрицаниях) / уже (в вопросах)",
+    "correctAnswer": "yet — еще, уже — [йэт]",
+    "options": [
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": true
+      },
+      {
+        "text": "just",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "ГРАММАТИКА: Наречие yet ставится в самом КОНЦЕ предложения в отрицаниях и вопросах. Вставьте его: He has not arrived ______ (еще).",
+    "correctAnswer": "yet — еще (в конце отрицательного предложения) — [йэт]",
+    "options": [
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": true
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС НА ПРАВИЛО: Выберите верную пару 'уже' для утверждения И 'еще' для отрицания:",
+    "correctAnswer": "already (уже — в утверждениях), yet (еще — в отрицаниях в конце)",
+    "options": [
+      {
+        "text": "yet / already",
+        "isCorrect": false
+      },
+      {
+        "text": "already / yet",
+        "isCorrect": true
+      },
+      {
+        "text": "still / yet",
+        "isCorrect": false
+      },
+      {
+        "text": "now / then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: всё еще, до сих пор",
+    "correctAnswer": "still — всё еще, до сих пор — [стил]",
+    "options": [
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "still",
+        "isCorrect": true
+      },
+      {
+        "text": "just",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: It is ______ (всё еще) raining outside.",
+    "correctAnswer": "still — всё еще, до сих пор — [стил]",
+    "options": [
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "still",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: только что",
+    "correctAnswer": "just — только что — [джаст]",
+    "options": [
+      {
+        "text": "just",
+        "isCorrect": true
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We have ______ (только что) come home.",
+    "correctAnswer": "just — только что — [джаст]",
+    "options": [
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "just",
+        "isCorrect": true
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): недавно",
+    "correctAnswer": "recently — недавно — [рисэнтли]",
+    "options": [
+      {
+        "text": "recently",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I started learning English ______ (недавно).",
+    "correctAnswer": "recently — недавно — [рисэнтли]",
+    "options": [
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "recently",
+        "isCorrect": true
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "always",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, характерные для связи прошлого времени с настоящим (Perfect):",
+    "correctAnswer": "already, just, recently — эти маркеры часто используются с Perfect временами",
+    "options": [
+      {
+        "text": "already",
+        "isCorrect": true
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "just",
+        "isCorrect": true
+      },
+      {
+        "text": "recently",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, переводящиеся как 'редко' или 'мало по частоте':",
+    "correctAnswer": "rarely, seldom — синонимы со значением редкого действия",
+    "options": [
+      {
+        "text": "rarely",
+        "isCorrect": true
+      },
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "seldom",
+        "isCorrect": true
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:46:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): наконец-то, в конце концов",
+    "correctAnswer": "finally — наконец-то, в конце концов — [файнэли]",
+    "options": [
+      {
+        "text": "firstly",
+        "isCorrect": false
+      },
+      {
+        "text": "finally",
+        "isCorrect": true
+      },
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: My train has ______ (наконец-то) arrived.",
+    "correctAnswer": "finally — наконец-то — [файнэли]",
+    "options": [
+      {
+        "text": "just",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "finally",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (синоним слова recently): в последнее время",
+    "correctAnswer": "lately — в последнее время — [лэйтли]",
+    "options": [
+      {
+        "text": "late",
+        "isCorrect": false
+      },
+      {
+        "text": "lately",
+        "isCorrect": true
+      },
+      {
+        "text": "early",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I haven't seen her ______ (в последнее время).",
+    "correctAnswer": "lately — в последнее время (обычно ставится в конце предложения) — [лэйтли]",
+    "options": [
+      {
+        "text": "late",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "lately",
+        "isCorrect": true
+      },
+      {
+        "text": "now",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, которые переводятся как 'недавно / в последнее время':",
+    "correctAnswer": "recently, lately — эти слова близки по смыслу и часто взаимозаменяемы",
+    "options": [
+      {
+        "text": "recently",
+        "isCorrect": true
+      },
+      {
+        "text": "lately",
+        "isCorrect": true
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "finally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий времени: сначала И наконец-то",
+    "correctAnswer": "firstly (сначала), finally (наконец-то) — [фёрстли, файнэли]",
+    "options": [
+      {
+        "text": "now / then",
+        "isCorrect": false
+      },
+      {
+        "text": "before / after",
+        "isCorrect": false
+      },
+      {
+        "text": "firstly / finally",
+        "isCorrect": true
+      },
+      {
+        "text": "early / late",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): постоянно, непрерывно",
+    "correctAnswer": "constantly — постоянно, непрерывно — [констэнтли]",
+    "options": [
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "rarely",
+        "isCorrect": false
+      },
+      {
+        "text": "constantly",
+        "isCorrect": true
+      },
+      {
+        "text": "never",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The system is ______ (постоянно) checking for errors.",
+    "correctAnswer": "constantly — постоянно, регулярно — [констэнтли]",
+    "options": [
+      {
+        "text": "seldom",
+        "isCorrect": false
+      },
+      {
+        "text": "constantly",
+        "isCorrect": true
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): ежедневно, каждый день",
+    "correctAnswer": "daily — ежедневно, каждый день — [дэйли]",
+    "options": [
+      {
+        "text": "weekly",
+        "isCorrect": false
+      },
+      {
+        "text": "monthly",
+        "isCorrect": false
+      },
+      {
+        "text": "daily",
+        "isCorrect": true
+      },
+      {
+        "text": "yearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We update our database ______ (ежедневно).",
+    "correctAnswer": "daily — ежедневно, каждый день — [дэйли]",
+    "options": [
+      {
+        "text": "yearly",
+        "isCorrect": false
+      },
+      {
+        "text": "daily",
+        "isCorrect": true
+      },
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): еженедельно, каждую неделю",
+    "correctAnswer": "weekly — еженедельно, каждую неделю — [уикли]",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "weekly",
+        "isCorrect": true
+      },
+      {
+        "text": "monthly",
+        "isCorrect": false
+      },
+      {
+        "text": "yearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The team has ______ (еженедельные) meetings on Monday.",
+    "correctAnswer": "weekly — еженедельные, каждую неделю — [уикли]",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "weekly",
+        "isCorrect": true
+      },
+      {
+        "text": "monthly",
+        "isCorrect": false
+      },
+      {
+        "text": "yearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): ежемесячно, каждый месяц",
+    "correctAnswer": "monthly — ежемесячно, каждый месяц — [мансли]",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "weekly",
+        "isCorrect": false
+      },
+      {
+        "text": "monthly",
+        "isCorrect": true
+      },
+      {
+        "text": "yearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Users pay for the app ______ (ежемесячно).",
+    "correctAnswer": "monthly — ежемесячно, каждый месяц — [мансли]",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "weekly",
+        "isCorrect": false
+      },
+      {
+        "text": "monthly",
+        "isCorrect": true
+      },
+      {
+        "text": "yearly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты (как часто?): ежегодно, каждый год",
+    "correctAnswer": "yearly — ежегодно, каждый год — [йиэрли]",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "weekly",
+        "isCorrect": false
+      },
+      {
+        "text": "monthly",
+        "isCorrect": false
+      },
+      {
+        "text": "yearly",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We celebrate this holiday ______ (ежегодно).",
+    "correctAnswer": "yearly — ежегодно, каждый год — [йиэрли]",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "weekly",
+        "isCorrect": false
+      },
+      {
+        "text": "monthly",
+        "isCorrect": false
+      },
+      {
+        "text": "yearly",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия периодичности, образованные от единиц времени:",
+    "correctAnswer": "daily, weekly, monthly, yearly — все эти слова образуются добавлением суффикса -ly к периодам времени",
+    "options": [
+      {
+        "text": "daily",
+        "isCorrect": true
+      },
+      {
+        "text": "weekly",
+        "isCorrect": true
+      },
+      {
+        "text": "monthly",
+        "isCorrect": true
+      },
+      {
+        "text": "yearly",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару периодических понятий: ежедневно И ежемесячно",
+    "correctAnswer": "daily (ежедневно), monthly (ежемесячно) — [дэйли, мансли]",
+    "options": [
+      {
+        "text": "weekly / yearly",
+        "isCorrect": false
+      },
+      {
+        "text": "daily / monthly",
+        "isCorrect": true
+      },
+      {
+        "text": "always / never",
+        "isCorrect": false
+      },
+      {
+        "text": "soon / late",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: одновременно",
+    "correctAnswer": "simultaneously — одновременно — [саймэлтэйниэсли]",
+    "options": [
+      {
+        "text": "simultaneously",
+        "isCorrect": true
+      },
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "finally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Two users clicked the button ______ (одновременно).",
+    "correctAnswer": "simultaneously — одновременно — [саймэлтэйниэсли]",
+    "options": [
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "immediately",
+        "isCorrect": false
+      },
+      {
+        "text": "simultaneously",
+        "isCorrect": true
+      },
+      {
+        "text": "suddenly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: временно",
+    "correctAnswer": "temporarily — временно — [тэмпэрэрэли]",
+    "options": [
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "temporarily",
+        "isCorrect": true
+      },
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "finally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Our office is ______ (временно) closed today.",
+    "correctAnswer": "temporarily — временно — [тэмпэрэрэли]",
+    "options": [
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "temporarily",
+        "isCorrect": true
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: навсегда",
+    "correctAnswer": "forever — навсегда — [форэвэр]",
+    "options": [
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "forever",
+        "isCorrect": true
+      },
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "never",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I want to live here ______ (навсегда).",
+    "correctAnswer": "forever — навсегда — [форэвэр]",
+    "options": [
+      {
+        "text": "today",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "forever",
+        "isCorrect": true
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару временных противоположностей: временно И навсегда",
+    "correctAnswer": "temporarily (временно), forever (навсегда) — [тэмпэрэрэли, форэвэр]",
+    "options": [
+      {
+        "text": "now / then",
+        "isCorrect": false
+      },
+      {
+        "text": "temporarily / forever",
+        "isCorrect": true
+      },
+      {
+        "text": "before / after",
+        "isCorrect": false
+      },
+      {
+        "text": "already / yet",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:47:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: с тех пор, с тех пор как",
+    "correctAnswer": "since — с тех пор, с тех пор как — [синс]",
+    "options": [
+      {
+        "text": "for",
+        "isCorrect": false
+      },
+      {
+        "text": "since",
+        "isCorrect": true
+      },
+      {
+        "text": "then",
+        "isCorrect": false
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I haven't seen him ______ (с тех пор как) Monday.",
+    "correctAnswer": "since — с тех пор как (указывает на начальную точку действия) — [синс]",
+    "options": [
+      {
+        "text": "for",
+        "isCorrect": false
+      },
+      {
+        "text": "ago",
+        "isCorrect": false
+      },
+      {
+        "text": "since",
+        "isCorrect": true
+      },
+      {
+        "text": "until",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: в течение, на протяжении (о периоде времени)",
+    "correctAnswer": "for — в течение, на протяжении — [фор]",
+    "options": [
+      {
+        "text": "since",
+        "isCorrect": false
+      },
+      {
+        "text": "during",
+        "isCorrect": false
+      },
+      {
+        "text": "for",
+        "isCorrect": true
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We lived in that city ______ (в течение) two years.",
+    "correctAnswer": "for — в течение (показывает общую длительность периода времени) — [фор]",
+    "options": [
+      {
+        "text": "since",
+        "isCorrect": false
+      },
+      {
+        "text": "for",
+        "isCorrect": true
+      },
+      {
+        "text": "ago",
+        "isCorrect": false
+      },
+      {
+        "text": "during",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС НА ПРАВИЛО: Выберите верную пару предлогов времени: 'с какого-то момента' И 'в течение периода':",
+    "correctAnswer": "since (с какого-то момента), for (в течение периода) — главные маркеры времени Perfect",
+    "options": [
+      {
+        "text": "for / since",
+        "isCorrect": false
+      },
+      {
+        "text": "since / for",
+        "isCorrect": true
+      },
+      {
+        "text": "ago / before",
+        "isCorrect": false
+      },
+      {
+        "text": "during / while",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: назад (тому назад)",
+    "correctAnswer": "ago — назад — [эгоу]",
+    "options": [
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "ago",
+        "isCorrect": true
+      },
+      {
+        "text": "back",
+        "isCorrect": false
+      },
+      {
+        "text": "last",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "ГРАММАТИКА: Наречие 'ago' всегда ставится строго ПОСЛЕ периода времени. Вставьте его: They opened the company two years ______ (назад).",
+    "correctAnswer": "ago — назад (маркер Past Simple, ставится в конце временной фразы) — [эгоу]",
+    "options": [
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "since",
+        "isCorrect": false
+      },
+      {
+        "text": "ago",
+        "isCorrect": true
+      },
+      {
+        "text": "back",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: в последнее время, отныне, с этих пор",
+    "correctAnswer": "from now on — отныне, с этого момента — [фром нау он]",
+    "options": [
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "from now on",
+        "isCorrect": true
+      },
+      {
+        "text": "lately",
+        "isCorrect": false
+      },
+      {
+        "text": "since then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте фразу в предложение: ______ (отныне, с этого момента) I will practice English daily.",
+    "correctAnswer": "from now on — отныне, с этого момента — [фром нау он]",
+    "options": [
+      {
+        "text": "Yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "Lately",
+        "isCorrect": false
+      },
+      {
+        "text": "From now on",
+        "isCorrect": true
+      },
+      {
+        "text": "Suddenly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: до сих пор, к настоящему моменту",
+    "correctAnswer": "so far — до сих пор, пока что — [соу фар]",
+    "options": [
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "so far",
+        "isCorrect": true
+      },
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Everything is good ______ (до сих пор, на данный момент).",
+    "correctAnswer": "so far — до сих пор, на данный момент — [соу фар]",
+    "options": [
+      {
+        "text": "still",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": false
+      },
+      {
+        "text": "so far",
+        "isCorrect": true
+      },
+      {
+        "text": "forever",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: на днях (о прошедшем) / в ближайшие дни",
+    "correctAnswer": "the other day — на днях — [зэ азэр дэй]",
+    "options": [
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "the other day",
+        "isCorrect": true
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте фразу в предложение: I met your friend in the street ______ (на днях).",
+    "correctAnswer": "the other day — на днях (указывает на недавнее прошлое) — [зэ азэр дэй]",
+    "options": [
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "the other day",
+        "isCorrect": true
+      },
+      {
+        "text": "tomorrow",
+        "isCorrect": false
+      },
+      {
+        "text": "lately",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты: время от времени, изредка",
+    "correctAnswer": "from time to time — время от времени — [фром тайм ту тайм]",
+    "options": [
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "from time to time",
+        "isCorrect": true
+      },
+      {
+        "text": "rarely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте фразу в предложение: We change our application design ______ (время от времени).",
+    "correctAnswer": "from time to time — время от времени — [фром тайм ту тайм]",
+    "options": [
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "from time to time",
+        "isCorrect": true
+      },
+      {
+        "text": "forever",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ фразовые наречия, переводящиеся как 'до сих пор / на данный момент / пока что':",
+    "correctAnswer": "so far, up to now — синонимичные устойчивые выражения времени",
+    "options": [
+      {
+        "text": "so far",
+        "isCorrect": true
+      },
+      {
+        "text": "from now on",
+        "isCorrect": false
+      },
+      {
+        "text": "up to now",
+        "isCorrect": true
+      },
+      {
+        "text": "since then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару фразовых маркеров: отныне И время от времени",
+    "correctAnswer": "from now on (отныне), from time to time (время от времени)",
+    "options": [
+      {
+        "text": "so far / up to now",
+        "isCorrect": false
+      },
+      {
+        "text": "from now on / from time to time",
+        "isCorrect": true
+      },
+      {
+        "text": "the other day / lately",
+        "isCorrect": false
+      },
+      {
+        "text": "since / for",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: до тех пор, пока (в утверждениях)",
+    "correctAnswer": "until — до тех пор, пока — [антил]",
+    "options": [
+      {
+        "text": "since",
+        "isCorrect": false
+      },
+      {
+        "text": "until",
+        "isCorrect": true
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      },
+      {
+        "text": "after",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Please wait ______ (до тех пор пока) I come back.",
+    "correctAnswer": "until — до тех пор пока — [антил]",
+    "options": [
+      {
+        "text": "for",
+        "isCorrect": false
+      },
+      {
+        "text": "since",
+        "isCorrect": false
+      },
+      {
+        "text": "until",
+        "isCorrect": true
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: в то время как, пока (о процессе)",
+    "correctAnswer": "while — в то время как, пока — [уайл]",
+    "options": [
+      {
+        "text": "until",
+        "isCorrect": false
+      },
+      {
+        "text": "during",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": true
+      },
+      {
+        "text": "since",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I listened to music ______ (в то время как) I was working.",
+    "correctAnswer": "while — в то время как, пока (указывает на длительный процесс) — [уайл]",
+    "options": [
+      {
+        "text": "until",
+        "isCorrect": false
+      },
+      {
+        "text": "for",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": true
+      },
+      {
+        "text": "ago",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты: обычно, по большей части",
+    "correctAnswer": "mostly — обычно, по большей части — [моустли]",
+    "options": [
+      {
+        "text": "mostly",
+        "isCorrect": true
+      },
+      {
+        "text": "rarely",
+        "isCorrect": false
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "finally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We ______ (по большей части) study grammar online.",
+    "correctAnswer": "mostly — обычно, главным образом, по большей части — [моустли]",
+    "options": [
+      {
+        "text": "never",
+        "isCorrect": false
+      },
+      {
+        "text": "seldom",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, которые переводятся со значением союза времени 'пока / в то время как':",
+    "correctAnswer": "until, while — оба слова переводятся как 'пока', но 'until' — это предел времени, а 'while' — параллельный процесс",
+    "options": [
+      {
+        "text": "until",
+        "isCorrect": true
+      },
+      {
+        "text": "since",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": true
+      },
+      {
+        "text": "ago",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару маркеров: назад И до тех пор пока",
+    "correctAnswer": "ago (назад), until (до тех пор пока)",
+    "options": [
+      {
+        "text": "before / after",
+        "isCorrect": false
+      },
+      {
+        "text": "since / for",
+        "isCorrect": false
+      },
+      {
+        "text": "ago / until",
+        "isCorrect": true
+      },
+      {
+        "text": "now / then",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:51:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени (когда?): однажды, когда-то",
+    "correctAnswer": "once — однажды, когда-то — [уанс]",
+    "options": [
+      {
+        "text": "never",
+        "isCorrect": false
+      },
+      {
+        "text": "once",
+        "isCorrect": true
+      },
+      {
+        "text": "often",
+        "isCorrect": false
+      },
+      {
+        "text": "always",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I ______ (однажды) met a famous teacher in the city center.",
+    "correctAnswer": "once — однажды, когда-то — [уанс]",
+    "options": [
+      {
+        "text": "already",
+        "isCorrect": false
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "once",
+        "isCorrect": true
+      },
+      {
+        "text": "yet",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты: изредка, время от времени (синоним sometimes)",
+    "correctAnswer": "occasionally — изредка, время от времени — [окэйжнэли]",
+    "options": [
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "occasionally",
+        "isCorrect": true
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      },
+      {
+        "text": "always",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We ______ (изредка, время от времени) eat candy for breakfast.",
+    "correctAnswer": "occasionally — изредка, время от времени — [окэйжнэли]",
+    "options": [
+      {
+        "text": "always",
+        "isCorrect": false
+      },
+      {
+        "text": "daily",
+        "isCorrect": false
+      },
+      {
+        "text": "occasionally",
+        "isCorrect": true
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: немедленно, тотчас же",
+    "correctAnswer": "at once — немедленно, тотчас же — [эт уанс]",
+    "options": [
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "at once",
+        "isCorrect": true
+      },
+      {
+        "text": "late",
+        "isCorrect": false
+      },
+      {
+        "text": "already",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте фразу в предложение: Please send me the database file ______ (немедленно).",
+    "correctAnswer": "at once — немедленно, тотчас же (синоним immediately) — [эт уанс]",
+    "options": [
+      {
+        "text": "slowly",
+        "isCorrect": false
+      },
+      {
+        "text": "at once",
+        "isCorrect": true
+      },
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "lately",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: временно, на короткий срок",
+    "correctAnswer": "briefly — временно, коротко — [брифли]",
+    "options": [
+      {
+        "text": "forever",
+        "isCorrect": false
+      },
+      {
+        "text": "briefly",
+        "isCorrect": true
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "usually",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Let's speak ______ (коротко, вкратце) about our new application plans.",
+    "correctAnswer": "briefly — коротко, вкратце, на короткое время — [брифли]",
+    "options": [
+      {
+        "text": "fluently",
+        "isCorrect": false
+      },
+      {
+        "text": "deeply",
+        "isCorrect": false
+      },
+      {
+        "text": "briefly",
+        "isCorrect": true
+      },
+      {
+        "text": "slowly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты: регулярно",
+    "correctAnswer": "regularly — регулярно — [рэгьюлэрли]",
+    "options": [
+      {
+        "text": "rarely",
+        "isCorrect": false
+      },
+      {
+        "text": "regularly",
+        "isCorrect": true
+      },
+      {
+        "text": "sometimes",
+        "isCorrect": false
+      },
+      {
+        "text": "never",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: You should check for errors ______ (регулярно).",
+    "correctAnswer": "regularly — регулярно — [рэгьюлэрли]",
+    "options": [
+      {
+        "text": "seldom",
+        "isCorrect": false
+      },
+      {
+        "text": "regularly",
+        "isCorrect": true
+      },
+      {
+        "text": "yesterday",
+        "isCorrect": false
+      },
+      {
+        "text": "once",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие частоты: непрерывно, вечно, навсегда",
+    "correctAnswer": "permanently — постоянно, насовсем — [пёрмэнэнтли]",
+    "options": [
+      {
+        "text": "temporarily",
+        "isCorrect": false
+      },
+      {
+        "text": "permanently",
+        "isCorrect": true
+      },
+      {
+        "text": "briefly",
+        "isCorrect": false
+      },
+      {
+        "text": "recently",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The error message was ______ (насовсем, постоянно) removed from the screen.",
+    "correctAnswer": "permanently — насовсем, навсегда, безвозвратно — [пёрмэнэнтли]",
+    "options": [
+      {
+        "text": "temporarily",
+        "isCorrect": false
+      },
+      {
+        "text": "briefly",
+        "isCorrect": false
+      },
+      {
+        "text": "permanently",
+        "isCorrect": true
+      },
+      {
+        "text": "just",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий противоположностей: временно И постоянно (насовсем)",
+    "correctAnswer": "temporarily (временно), permanently (постоянно, насовсем) — [тэмпэрэрэли, пёрмэнэнтли]",
+    "options": [
+      {
+        "text": "now / then",
+        "isCorrect": false
+      },
+      {
+        "text": "early / late",
+        "isCorrect": false
+      },
+      {
+        "text": "temporarily / permanently",
+        "isCorrect": true
+      },
+      {
+        "text": "before / after",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия, которые переводятся со значением 'редко / время от времени':",
+    "correctAnswer": "rarely, seldom, occasionally — все эти слова описывают нечастые события",
+    "options": [
+      {
+        "text": "rarely",
+        "isCorrect": true
+      },
+      {
+        "text": "constantly",
+        "isCorrect": false
+      },
+      {
+        "text": "seldom",
+        "isCorrect": true
+      },
+      {
+        "text": "occasionally",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ варианты перевода слова 'немедленно':",
+    "correctAnswer": "immediately, at once — это абсолютные синонимы",
+    "options": [
+      {
+        "text": "immediately",
+        "isCorrect": true
+      },
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "at once",
+        "isCorrect": true
+      },
+      {
+        "text": "lately",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий времени: однажды И регулярно",
+    "correctAnswer": "once (однажды), regularly (регулярно) — [уанс, рэгьюлэрли]",
+    "options": [
+      {
+        "text": "never / always",
+        "isCorrect": false
+      },
+      {
+        "text": "once / regularly",
+        "isCorrect": true
+      },
+      {
+        "text": "lately / recently",
+        "isCorrect": false
+      },
+      {
+        "text": "today / tomorrow",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие времени: изначально, сначала",
+    "correctAnswer": "initially — изначально, первоначально — [инишэли]",
+    "options": [
+      {
+        "text": "finally",
+        "isCorrect": false
+      },
+      {
+        "text": "initially",
+        "isCorrect": true
+      },
+      {
+        "text": "recently",
+        "isCorrect": false
+      },
+      {
+        "text": "lately",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: ______ (изначально) the database level was low.",
+    "correctAnswer": "initially — изначально, в самом начале — [инишэли]",
+    "options": [
+      {
+        "text": "Finally",
+        "isCorrect": false
+      },
+      {
+        "text": "Initially",
+        "isCorrect": true
+      },
+      {
+        "text": "Suddenly",
+        "isCorrect": false
+      },
+      {
+        "text": "Soon",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий: изначально И наконец-то",
+    "correctAnswer": "initially (изначально), finally (наконец-то) — [инишэли, файнэли]",
+    "options": [
+      {
+        "text": "before / after",
+        "isCorrect": false
+      },
+      {
+        "text": "initially / finally",
+        "isCorrect": true
+      },
+      {
+        "text": "now / then",
+        "isCorrect": false
+      },
+      {
+        "text": "early / late",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "КОНЕЦ БЛОКА: Переведите заключительное наречие времени: вечно, бесконечно",
+    "correctAnswer": "eternally — вечно, бесконечно — [итёрнэли]",
+    "options": [
+      {
+        "text": "temporarily",
+        "isCorrect": false
+      },
+      {
+        "text": "briefly",
+        "isCorrect": false
+      },
+      {
+        "text": "eternally",
+        "isCorrect": true
+      },
+      {
+        "text": "today",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  }
+]

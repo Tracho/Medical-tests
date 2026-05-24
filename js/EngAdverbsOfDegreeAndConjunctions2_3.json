@@ -1,0 +1,2762 @@
+[
+  {
+    "title": "Переведите наречие степени: очень",
+    "correctAnswer": "very — очень — [вэри]",
+    "options": [
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "very",
+        "isCorrect": true
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This computer is ______ (очень) fast and new.",
+    "correctAnswer": "very — очень (усиливает прилагательные) — [вэри]",
+    "options": [
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "very",
+        "isCorrect": true
+      },
+      {
+        "text": "too",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени (избыток чего-то): слишком",
+    "correctAnswer": "too — слишком — [ту]",
+    "options": [
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "too",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The road is ______ (слишком) dangerous at night.",
+    "correctAnswer": "too — слишком (указывает на чрезмерность с негативным оттенком) — [ту]",
+    "options": [
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "too",
+        "isCorrect": true
+      },
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: достаточно",
+    "correctAnswer": "enough — достаточно — [инаф]",
+    "options": [
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ГРАММАТИКА: Наречие enough (достаточно) всегда ставится строго ПОСЛЕ прилагательного. Вставьте его: He is smart ______ (достаточно) to understand this rule.",
+    "correctAnswer": "enough — достаточно (ставится после описываемого слова) — [инаф]",
+    "options": [
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей по смыслу: слишком И достаточно",
+    "correctAnswer": "too (слишком), enough (достаточно) — [ту, инаф]",
+    "options": [
+      {
+        "text": "very / so",
+        "isCorrect": false
+      },
+      {
+        "text": "too / enough",
+        "isCorrect": true
+      },
+      {
+        "text": "but / or",
+        "isCorrect": false
+      },
+      {
+        "text": "because / so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: так, настолько",
+    "correctAnswer": "so — так, настолько — [соу]",
+    "options": [
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": true
+      },
+      {
+        "text": "such",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I am ______ (так) happy to see you today!",
+    "correctAnswer": "so — так, настолько — [соу]",
+    "options": [
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": true
+      },
+      {
+        "text": "too",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите базовый причинный союз: потому что, так как",
+    "correctAnswer": "because — потому что, так как — [бикоз]",
+    "options": [
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "or",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: She stayed home ______ (потому что) she was tired and sick.",
+    "correctAnswer": "because — потому что (объясняет причину действия) — [бикоз]",
+    "options": [
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите союз следствия: поэтому, итак",
+    "correctAnswer": "so — поэтому, итак — [соу]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": true
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: The price was high, ______ (поэтому) we didn't buy the car.",
+    "correctAnswer": "so — поэтому (вводит логическое следствие или результат) — [соу]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": true
+      },
+      {
+        "text": "or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС НА ЛОГИКУ: Выберите пару союзов Причина И Следствие:",
+    "correctAnswer": "because (потому что), so (поэтому) — фундаментальные связки в английском языке",
+    "options": [
+      {
+        "text": "but / or",
+        "isCorrect": false
+      },
+      {
+        "text": "because / so",
+        "isCorrect": true
+      },
+      {
+        "text": "so / because",
+        "isCorrect": false
+      },
+      {
+        "text": "if / that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите союз противопоставления: но, кроме",
+    "correctAnswer": "but — но, кроме — [бат]",
+    "options": [
+      {
+        "text": "and",
+        "isCorrect": false
+      },
+      {
+        "text": "or",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: I know the words, ______ (но) I don't understand the rule.",
+    "correctAnswer": "but — но (связывает противоположные по смыслу факты) — [бат]",
+    "options": [
+      {
+        "text": "and",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": true
+      },
+      {
+        "text": "or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите разделительный союз: или",
+    "correctAnswer": "or — или — [ор]",
+    "options": [
+      {
+        "text": "and",
+        "isCorrect": false
+      },
+      {
+        "text": "or",
+        "isCorrect": true
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: Do you want tea ______ (или) coffee?",
+    "correctAnswer": "or — или (предлагает выбор между альтернативами) — [ор]",
+    "options": [
+      {
+        "text": "and",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "or",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите союзы: но И или",
+    "correctAnswer": "but (но), or (или) — [бат, ор]",
+    "options": [
+      {
+        "text": "and / or",
+        "isCorrect": false
+      },
+      {
+        "text": "but / or",
+        "isCorrect": true
+      },
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "if / that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите союз: если",
+    "correctAnswer": "if — если — [иф]",
+    "options": [
+      {
+        "text": "when",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": true
+      },
+      {
+        "text": "that",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: ______ (если) you practice daily, you will learn quickly.",
+    "correctAnswer": "if — если (вводит условие действия) — [иф]",
+    "options": [
+      {
+        "text": "Because",
+        "isCorrect": false
+      },
+      {
+        "text": "But",
+        "isCorrect": false
+      },
+      {
+        "text": "If",
+        "isCorrect": true
+      },
+      {
+        "text": "Or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ слова, которые в коде могут переводиться как слово 'SO' в зависимости от контекста:",
+    "correctAnswer": "так / настолько, поэтому — слово 'so' совмещает в себе функции наречия степени и союза",
+    "options": [
+      {
+        "text": "так, настолько",
+        "isCorrect": true
+      },
+      {
+        "text": "потому что",
+        "isCorrect": false
+      },
+      {
+        "text": "поэтому",
+        "isCorrect": true
+      },
+      {
+        "text": "очень",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ базовые соединительные союзы (Conjunctions):",
+    "correctAnswer": "because, but, or, if — это союзы, связывающие элементы предложения",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": true
+      },
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": true
+      },
+      {
+        "text": "or",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: совсем, совершенно, довольно-таки",
+    "correctAnswer": "quite — совсем, совершенно, довольно-таки — [куайт]",
+    "options": [
+      {
+        "text": "quiet",
+        "isCorrect": false
+      },
+      {
+        "text": "quite",
+        "isCorrect": true
+      },
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This test is ______ (довольно-таки) easy, I like it.",
+    "correctAnswer": "quite — довольно-таки, вполне — [куайт]",
+    "options": [
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "quite",
+        "isCorrect": true
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:55:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: абсолютно, совершенно",
+    "correctAnswer": "absolutely — абсолютно, совершенно — [эбсэлютли]",
+    "options": [
+      {
+        "text": "quite",
+        "isCorrect": false
+      },
+      {
+        "text": "absolutely",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "almost",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: You are ______ (абсолютно) correct about this rule.",
+    "correctAnswer": "absolutely — абсолютно, совершенно — [эбсэлютли]",
+    "options": [
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "quite",
+        "isCorrect": false
+      },
+      {
+        "text": "absolutely",
+        "isCorrect": true
+      },
+      {
+        "text": "too",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: почти",
+    "correctAnswer": "almost — почти — [олмоуст]",
+    "options": [
+      {
+        "text": "almost",
+        "isCorrect": true
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "hardly",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I am ______ (почти) ready, please wait for me.",
+    "correctAnswer": "almost — почти — [олмоуст]",
+    "options": [
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "almost",
+        "isCorrect": true
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: едва ли, чуть-чуть (Исключение!)",
+    "correctAnswer": "hardly — едва ли, почти не (образуется от hard, но полностью меняет смысл) — [хардли]",
+    "options": [
+      {
+        "text": "hard",
+        "isCorrect": false
+      },
+      {
+        "text": "hardly",
+        "isCorrect": true
+      },
+      {
+        "text": "badly",
+        "isCorrect": false
+      },
+      {
+        "text": "almost",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I can ______ (едва ли, почти не) hear your voice, speak loudly.",
+    "correctAnswer": "hardly — едва ли, почти не — [хардли]",
+    "options": [
+      {
+        "text": "hard",
+        "isCorrect": false
+      },
+      {
+        "text": "quietly",
+        "isCorrect": false
+      },
+      {
+        "text": "hardly",
+        "isCorrect": true
+      },
+      {
+        "text": "almost",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС НА ПРАВИЛО: Выберите пару наречий: почти И едва ли (почти не)",
+    "correctAnswer": "almost (почти), hardly (едва ли, почти не) — [олмоуст, хардли]",
+    "options": [
+      {
+        "text": "very / too",
+        "isCorrect": false
+      },
+      {
+        "text": "almost / hardly",
+        "isCorrect": true
+      },
+      {
+        "text": "quite / absolutely",
+        "isCorrect": false
+      },
+      {
+        "text": "partly / completely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите уступительный союз: хотя, несмотря на то что",
+    "correctAnswer": "although — хотя, несмотря на то что — [олзоу]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "although",
+        "isCorrect": true
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: ______ (хотя) it was cold, we went to the park.",
+    "correctAnswer": "although — хотя, несмотря на то что — [олзоу]",
+    "options": [
+      {
+        "text": "Because",
+        "isCorrect": false
+      },
+      {
+        "text": "But",
+        "isCorrect": false
+      },
+      {
+        "text": "Although",
+        "isCorrect": true
+      },
+      {
+        "text": "Or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите временной союз: как только",
+    "correctAnswer": "as soon as — как только — [эз сун эз]",
+    "options": [
+      {
+        "text": "soon",
+        "isCorrect": false
+      },
+      {
+        "text": "as soon as",
+        "isCorrect": true
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      },
+      {
+        "text": "until",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: I will call you ______ (как только) I receive the ticket.",
+    "correctAnswer": "as soon as — как только — [эз сун эз]",
+    "options": [
+      {
+        "text": "until",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      },
+      {
+        "text": "as soon as",
+        "isCorrect": true
+      },
+      {
+        "text": "before",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: слегка, немного",
+    "correctAnswer": "slightly — слегка, немного — [слайтли]",
+    "options": [
+      {
+        "text": "deeply",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": true
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "very",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The price is ______ (слегка) higher today.",
+    "correctAnswer": "slightly — слегка, немного — [слайтли]",
+    "options": [
+      {
+        "text": "too",
+        "isCorrect": false
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": true
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите союз: кроме того, более того",
+    "correctAnswer": "furthermore — кроме того, более того — [фёрзэмор]",
+    "options": [
+      {
+        "text": "besides",
+        "isCorrect": false
+      },
+      {
+        "text": "furthermore",
+        "isCorrect": true
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "therefore",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: This app is fast. ______ (Кроме того), it is free.",
+    "correctAnswer": "furthermore — кроме того, более того (используется для добавления информации) — [фёрзэмор]",
+    "options": [
+      {
+        "text": "However",
+        "isCorrect": false
+      },
+      {
+        "text": "Furthermore",
+        "isCorrect": true
+      },
+      {
+        "text": "Because",
+        "isCorrect": false
+      },
+      {
+        "text": "But",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите союз: однако, тем не менее",
+    "correctAnswer": "however — однако, тем не менее — [хауэвэр]",
+    "options": [
+      {
+        "text": "besides",
+        "isCorrect": false
+      },
+      {
+        "text": "however",
+        "isCorrect": true
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "therefore",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: I wanted to buy the house. ______ (Однако), it was too expensive.",
+    "correctAnswer": "however — однако (обычно отделяется запятой в начале предложения) — [хауэвэр]",
+    "options": [
+      {
+        "text": "Furthermore",
+        "isCorrect": false
+      },
+      {
+        "text": "Because",
+        "isCorrect": false
+      },
+      {
+        "text": "However",
+        "isCorrect": true
+      },
+      {
+        "text": "So",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов: кроме того И однако",
+    "correctAnswer": "furthermore (кроме того), however (однако) — [фёрзэмор, хауэвэр]",
+    "options": [
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "although / if",
+        "isCorrect": false
+      },
+      {
+        "text": "furthermore / however",
+        "isCorrect": true
+      },
+      {
+        "text": "besides / therefore",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите союз: следовательно, поэтому",
+    "correctAnswer": "therefore — следовательно, поэтому — [зэафор]",
+    "options": [
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "furthermore",
+        "isCorrect": false
+      },
+      {
+        "text": "therefore",
+        "isCorrect": true
+      },
+      {
+        "text": "besides",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: He made a mistake; ______ (следовательно), the test was false.",
+    "correctAnswer": "therefore — следовательно, по этой причине — [зэафор]",
+    "options": [
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "therefore",
+        "isCorrect": true
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите предложный союз: кроме, помимо",
+    "correctAnswer": "besides — кроме, помимо — [бисайдз]",
+    "options": [
+      {
+        "text": "beside",
+        "isCorrect": false
+      },
+      {
+        "text": "besides",
+        "isCorrect": true
+      },
+      {
+        "text": "between",
+        "isCorrect": false
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: ______ (Кроме) English, she studies Polish.",
+    "correctAnswer": "besides — кроме, помимо (не путать с предлогом места beside — рядом) — [бисайдз]",
+    "options": [
+      {
+        "text": "Beside",
+        "isCorrect": false
+      },
+      {
+        "text": "Between",
+        "isCorrect": false
+      },
+      {
+        "text": "Besides",
+        "isCorrect": true
+      },
+      {
+        "text": "However",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия и союзы, которые могут переводить логическое следствие 'поэтому / следовательно':",
+    "correctAnswer": "so, therefore — оба слова связывают причину со следствием",
+    "options": [
+      {
+        "text": "so",
+        "isCorrect": true
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "therefore",
+        "isCorrect": true
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия степени, которые уменьшают или ограничивают качество действия ('слегка / едва ли'):",
+    "correctAnswer": "slightly, hardly — уменьшают интенсивность признака или действия",
+    "options": [
+      {
+        "text": "absolutely",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": true
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "hardly",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов: хотя И как только",
+    "correctAnswer": "although (хотя), as soon as (как только) — [олзоу, эз сун эз]",
+    "options": [
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "although / as soon as",
+        "isCorrect": true
+      },
+      {
+        "text": "however / furthermore",
+        "isCorrect": false
+      },
+      {
+        "text": "besides / therefore",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:56:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: в основном, главным образом",
+    "correctAnswer": "mostly — в основном, главным образом — [моустли]",
+    "options": [
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": true
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "hardly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: My friends are ______ (в основном) students and workers.",
+    "correctAnswer": "mostly — в основном, большей частью — [моустли]",
+    "options": [
+      {
+        "text": "almost",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": true
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: частично, отчасти",
+    "correctAnswer": "partly — частично, отчасти — [партли]",
+    "options": [
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "partly",
+        "isCorrect": true
+      },
+      {
+        "text": "mostly",
+        "isCorrect": false
+      },
+      {
+        "text": "absolutely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This mistake is ______ (частично) my fault.",
+    "correctAnswer": "partly — частично — [партли]",
+    "options": [
+      {
+        "text": "perfectly",
+        "isCorrect": false
+      },
+      {
+        "text": "partly",
+        "isCorrect": true
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару противоположностей: полностью И частично",
+    "correctAnswer": "completely (полностью), partly (частично) — [кэмплитли, партли]",
+    "options": [
+      {
+        "text": "mostly / slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "completely / partly",
+        "isCorrect": true
+      },
+      {
+        "text": "absolutely / quite",
+        "isCorrect": false
+      },
+      {
+        "text": "too / enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: чрезвычайно, крайне",
+    "correctAnswer": "extremely — чрезвычайно, крайне — [икстримли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "extremely",
+        "isCorrect": true
+      },
+      {
+        "text": "fairly",
+        "isCorrect": false
+      },
+      {
+        "text": "quite",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This question is ______ (чрезвычайно) important for our app test.",
+    "correctAnswer": "extremely — чрезвычайно, крайне (сильнее, чем very) — [икстримли]",
+    "options": [
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "extremely",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите союз цели: для того чтобы, чтобы",
+    "correctAnswer": "so that — для того чтобы, чтобы — [соу зэт]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "so that",
+        "isCorrect": true
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: Practice every day ______ (для того чтобы) learn English fast.",
+    "correctAnswer": "so that — для того чтобы — [соу зэт]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "so that",
+        "isCorrect": true
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите союз условия: в случае если, на случай если",
+    "correctAnswer": "in case — в случае если, на случай если — [ин кэйс]",
+    "options": [
+      {
+        "text": "if",
+        "isCorrect": false
+      },
+      {
+        "text": "in case",
+        "isCorrect": true
+      },
+      {
+        "text": "unless",
+        "isCorrect": false
+      },
+      {
+        "text": "until",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: Take the map ______ (на случай если) you lose the road.",
+    "correctAnswer": "in case — в случае если, на случай если — [ин кэйс]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "in case",
+        "isCorrect": true
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС НА ЛОГИКУ: Выберите пару союзов Цель И Условие:",
+    "correctAnswer": "so that (чтобы / для того чтобы), in case (на случай если)",
+    "options": [
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "so that / in case",
+        "isCorrect": true
+      },
+      {
+        "text": "furthermore / however",
+        "isCorrect": false
+      },
+      {
+        "text": "although / as soon as",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: в значительной степени, очень сильно",
+    "correctAnswer": "greatly — в значительной степени, очень сильно — [грэйтли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "greatly",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "rarely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Our database level has ______ (в значительной степени) improved.",
+    "correctAnswer": "greatly — в значительной степени, значительно — [грэйтли]",
+    "options": [
+      {
+        "text": "hardly",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "greatly",
+        "isCorrect": true
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите сравнительный союз: точно так же как, так же как",
+    "correctAnswer": "just as — точно так же как, так же как — [джаст эз]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "just as",
+        "isCorrect": true
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "so that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: She loves books, ______ (точно так же как) her mother did.",
+    "correctAnswer": "just as — точно так же как — [джаст эз]",
+    "options": [
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "just as",
+        "isCorrect": true
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите союз противопоставления (синоним союза but): тем не менее, однако, всё же",
+    "correctAnswer": "yet — тем не менее, однако, всё же (в качестве союза в середине предложения) — [йэт]",
+    "options": [
+      {
+        "text": "so",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": true
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: It is a simple system, ______ (тем не менее, однако) it works perfectly.",
+    "correctAnswer": "yet — тем не менее, однако (союз противопоставления в середине предложения) — [йэт]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      },
+      {
+        "text": "yet",
+        "isCorrect": true
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов противопоставления: но И тем не менее",
+    "correctAnswer": "but (но), yet (тем не менее, однако) — [бат, йэт]",
+    "options": [
+      {
+        "text": "and / or",
+        "isCorrect": false
+      },
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "but / yet",
+        "isCorrect": true
+      },
+      {
+        "text": "if / so that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: едва, только-только",
+    "correctAnswer": "barely — едва, только-только — [бэали]",
+    "options": [
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": true
+      },
+      {
+        "text": "mostly",
+        "isCorrect": false
+      },
+      {
+        "text": "greatly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: We have ______ (едва, только-только) enough time to finish this block.",
+    "correctAnswer": "barely — едва, только-только (указывает на минимально достаточное количество) — [бэали]",
+    "options": [
+      {
+        "text": "very",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": true
+      },
+      {
+        "text": "extremely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия со значением минимальности признака или ограничения действия ('едва ли / почти не / едва'):",
+    "correctAnswer": "hardly, barely — синонимичные наречия степени с ограничительным смыслом",
+    "options": [
+      {
+        "text": "hardly",
+        "isCorrect": true
+      },
+      {
+        "text": "extremely",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": true
+      },
+      {
+        "text": "greatly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия степени, которые служат для максимального усиления прилагательного ('чрезвычайно / абсолютно'):",
+    "correctAnswer": "extremely, absolutely — слова-максимализаторы степени признака",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "extremely",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "absolutely",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов: для того чтобы И в случае если",
+    "correctAnswer": "so that (для того чтобы), in case (в случае если) — [соу зэт, ин кэйс]",
+    "options": [
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "so that / in case",
+        "isCorrect": true
+      },
+      {
+        "text": "although / yet",
+        "isCorrect": false
+      },
+      {
+        "text": "but / or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "СЛОВАРНАЯ ЛОГИКА: Какое наречие степени имеет схожий перевод со словом 'very', но выражает предельную, экстремальную степень?",
+    "correctAnswer": "extremely — чрезвычайно, крайне — [икстримли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": false
+      },
+      {
+        "text": "extremely",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:57:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: практически, фактически",
+    "correctAnswer": "practically — практически, фактически — [прэктикли]",
+    "options": [
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "practically",
+        "isCorrect": true
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "deeply",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The test database is ______ (практически) ready for use.",
+    "correctAnswer": "practically — практически — [прэктикли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "practically",
+        "isCorrect": true
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      },
+      {
+        "text": "hardly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: полностью, целиком",
+    "correctAnswer": "totally — полностью, целиком — [тоутэли]",
+    "options": [
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "totally",
+        "isCorrect": true
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: I ______ (полностью) agree with your application plan.",
+    "correctAnswer": "totally — полностью, целиком — [тоутэли]",
+    "options": [
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "totally",
+        "isCorrect": true
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия со значением абсолютной стопроцентной полноты действия ('полностью / совершенно'):",
+    "correctAnswer": "completely, totally, absolutely — все эти слова выражают предельную полноту",
+    "options": [
+      {
+        "text": "completely",
+        "isCorrect": true
+      },
+      {
+        "text": "totally",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "absolutely",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите причинный союз (синоним союза because): поскольку, так как",
+    "correctAnswer": "as — поскольку, так как — [эз]",
+    "options": [
+      {
+        "text": "but",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      },
+      {
+        "text": "as",
+        "isCorrect": true
+      },
+      {
+        "text": "if",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: ______ (Поскольку) the road was wet, we drove the car carefully.",
+    "correctAnswer": "as — поскольку, так как (вводит причину в начале предложения) — [эз]",
+    "options": [
+      {
+        "text": "But",
+        "isCorrect": false
+      },
+      {
+        "text": "As",
+        "isCorrect": true
+      },
+      {
+        "text": "So",
+        "isCorrect": false
+      },
+      {
+        "text": "Or",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите союз условия: при условии если, только если",
+    "correctAnswer": "provided that — при условии если, только если — [прэвайдид зэт]",
+    "options": [
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "provided that",
+        "isCorrect": true
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "so that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: You will pass the test ______ (при условии если) you study hard.",
+    "correctAnswer": "provided that — при условии если — [прэвайдид зэт]",
+    "options": [
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "provided that",
+        "isCorrect": true
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов: поскольку И при условии если",
+    "correctAnswer": "as (поскольку), provided that (при условии если)",
+    "options": [
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "as / provided that",
+        "isCorrect": true
+      },
+      {
+        "text": "but / yet",
+        "isCorrect": false
+      },
+      {
+        "text": "so that / in case",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: существенно, значительно",
+    "correctAnswer": "substantially — существенно, значительно — [сабстэншэли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "substantially",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The system performance improved ______ (существенно, значительно).",
+    "correctAnswer": "substantially — существенно, значительно — [сабстэншэли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      },
+      {
+        "text": "substantially",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите пояснительный союз: то есть, а именно",
+    "correctAnswer": "that is — то есть, а именно — [зэт из]",
+    "options": [
+      {
+        "text": "therefore",
+        "isCorrect": false
+      },
+      {
+        "text": "that is",
+        "isCorrect": true
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "besides",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: We meet on the weekend, ______ (то есть) on Saturday or Sunday.",
+    "correctAnswer": "that is — то есть — [зэт из]",
+    "options": [
+      {
+        "text": "therefore",
+        "isCorrect": false
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "that is",
+        "isCorrect": true
+      },
+      {
+        "text": "because",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите союз: вдобавок, к тому же",
+    "correctAnswer": "in addition — вдобавок, к тому же — [ин эдишн]",
+    "options": [
+      {
+        "text": "however",
+        "isCorrect": false
+      },
+      {
+        "text": "in addition",
+        "isCorrect": true
+      },
+      {
+        "text": "therefore",
+        "isCorrect": false
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: The apartment is large. ______ (К тому же), the location is perfect.",
+    "correctAnswer": "in addition — вдобавок, к тому же — [ин эдишн]",
+    "options": [
+      {
+        "text": "However",
+        "isCorrect": false
+      },
+      {
+        "text": "Although",
+        "isCorrect": false
+      },
+      {
+        "text": "In addition",
+        "isCorrect": true
+      },
+      {
+        "text": "Therefore",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: умеренно, в меру",
+    "correctAnswer": "moderately — умеренно, в меру — [модэрэтли]",
+    "options": [
+      {
+        "text": "extremely",
+        "isCorrect": false
+      },
+      {
+        "text": "moderately",
+        "isCorrect": true
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This level of difficult is ______ (умеренно) high, it is good for beginners.",
+    "correctAnswer": "moderately — умеренно, средне — [модэрэтли]",
+    "options": [
+      {
+        "text": "extremely",
+        "isCorrect": false
+      },
+      {
+        "text": "moderately",
+        "isCorrect": true
+      },
+      {
+        "text": "totally",
+        "isCorrect": false
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов добавления информации: кроме того И к тому же",
+    "correctAnswer": "furthermore (кроме того), in addition (к тому же)",
+    "options": [
+      {
+        "text": "however / yet",
+        "isCorrect": false
+      },
+      {
+        "text": "furthermore / in addition",
+        "isCorrect": true
+      },
+      {
+        "text": "because / as",
+        "isCorrect": false
+      },
+      {
+        "text": "therefore / that is",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ слова, которые переводятся со значением 'существенно / значительно / очень сильно':",
+    "correctAnswer": "greatly, substantially — выражают высокую степень изменения или признака",
+    "options": [
+      {
+        "text": "greatly",
+        "isCorrect": true
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "substantially",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ союзы, которые вводят причину действия ('потому что / поскольку'):",
+    "correctAnswer": "because, as — оба союза используются для объяснения причины",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": true
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      },
+      {
+        "text": "as",
+        "isCorrect": true
+      },
+      {
+        "text": "therefore",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: в равной степени, одинаково",
+    "correctAnswer": "equally — в равной степени, одинаково — [икуэли]",
+    "options": [
+      {
+        "text": "equally",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": false
+      },
+      {
+        "text": "extremely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: Both rules are ______ (в равной степени) important for the application database.",
+    "correctAnswer": "equally — в равной степени, одинаково — [икуэли]",
+    "options": [
+      {
+        "text": "substantially",
+        "isCorrect": false
+      },
+      {
+        "text": "equally",
+        "isCorrect": true
+      },
+      {
+        "text": "moderately",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару союзов: то есть И следовательно",
+    "correctAnswer": "that is (то есть), therefore (следовательно) — [зэт из, зэафор]",
+    "options": [
+      {
+        "text": "because / so",
+        "isCorrect": false
+      },
+      {
+        "text": "that is / therefore",
+        "isCorrect": true
+      },
+      {
+        "text": "however / furthermore",
+        "isCorrect": false
+      },
+      {
+        "text": "although / provided that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "СЛОВАРНАЯ ЛОГИКА: Какое наречие степени означает 'почти', являясь его близким разговорным синонимом?",
+    "correctAnswer": "practically — практически — [прэктикли]",
+    "options": [
+      {
+        "text": "absolutely",
+        "isCorrect": false
+      },
+      {
+        "text": "practically",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "extremely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:58:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: вполне, довольно-таки, действительно",
+    "correctAnswer": "fairly — вполне, довольно-таки — [фэали]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "fairly",
+        "isCorrect": true
+      },
+      {
+        "text": "hardly",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The application speed is ______ (вполне) good for a start.",
+    "correctAnswer": "fairly — вполне, умеренно, довольно-таки — [фэали]",
+    "options": [
+      {
+        "text": "extremely",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "fairly",
+        "isCorrect": true
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: относительно, сравнительно",
+    "correctAnswer": "relatively — относительно, сравнительно — [рэлэтивли]",
+    "options": [
+      {
+        "text": "relatively",
+        "isCorrect": true
+      },
+      {
+        "text": "absolutely",
+        "isCorrect": false
+      },
+      {
+        "text": "completely",
+        "isCorrect": false
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This rule is ______ (относительно) simple to remember.",
+    "correctAnswer": "relatively — относительно, сравнительно — [рэлэтивли]",
+    "options": [
+      {
+        "text": "extremely",
+        "isCorrect": false
+      },
+      {
+        "text": "relatively",
+        "isCorrect": true
+      },
+      {
+        "text": "barely",
+        "isCorrect": false
+      },
+      {
+        "text": "enough",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Переведите наречие степени: на удивление, удивительно",
+    "correctAnswer": "surprisingly — на удивление, удивительно — [сэрпрайзингли]",
+    "options": [
+      {
+        "text": "normally",
+        "isCorrect": false
+      },
+      {
+        "text": "surprisingly",
+        "isCorrect": true
+      },
+      {
+        "text": "substantially",
+        "isCorrect": false
+      },
+      {
+        "text": "equally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: The database is working ______ (на удивление) fast today.",
+    "correctAnswer": "surprisingly — на удивление, удивительно — [сэрпрайзингли]",
+    "options": [
+      {
+        "text": "moderately",
+        "isCorrect": false
+      },
+      {
+        "text": "surprisingly",
+        "isCorrect": true
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий степени: вполне И относительно",
+    "correctAnswer": "fairly (вполне), relatively (относительно) — [фэали, рэлэтивли]",
+    "options": [
+      {
+        "text": "extremely / slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "fairly / relatively",
+        "isCorrect": true
+      },
+      {
+        "text": "absolutely / partly",
+        "isCorrect": false
+      },
+      {
+        "text": "mostly / totally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Переведите союз следствия: в результате, вследствие этого",
+    "correctAnswer": "as a result — в результате, вследствие этого — [эз э ризалт]",
+    "options": [
+      {
+        "text": "because of",
+        "isCorrect": false
+      },
+      {
+        "text": "as a result",
+        "isCorrect": true
+      },
+      {
+        "text": "besides",
+        "isCorrect": false
+      },
+      {
+        "text": "however",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Вставьте союзную фразу в предложение: He missed the lesson; ______ (в результате), he made a mistake.",
+    "correctAnswer": "as a result — в результате, вследствие этого — [эз э ризалт]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "although",
+        "isCorrect": false
+      },
+      {
+        "text": "as a result",
+        "isCorrect": true
+      },
+      {
+        "text": "but",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Переведите союз: вместо того чтобы, вместо",
+    "correctAnswer": "instead of — вместо того чтобы, вместо — [инстэд оф]",
+    "options": [
+      {
+        "text": "in addition to",
+        "isCorrect": false
+      },
+      {
+        "text": "instead of",
+        "isCorrect": true
+      },
+      {
+        "text": "besides",
+        "isCorrect": false
+      },
+      {
+        "text": "because of",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Вставьте союз в предложение: Choose coffee ______ (вместо) tea for breakfast.",
+    "correctAnswer": "instead of — вместо — [инстэд оф]",
+    "options": [
+      {
+        "text": "besides",
+        "isCorrect": false
+      },
+      {
+        "text": "in addition to",
+        "isCorrect": false
+      },
+      {
+        "text": "instead of",
+        "isCorrect": true
+      },
+      {
+        "text": "because of",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Переведите союз: из-за, по причине (предлог причины)",
+    "correctAnswer": "because of — из-за, по причине — [бикоз оф]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "because of",
+        "isCorrect": true
+      },
+      {
+        "text": "instead of",
+        "isCorrect": false
+      },
+      {
+        "text": "as a result",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "ГРАММАТИКА: После союза 'because' идет целое предложение (с глаголом), а после 'because of' — только существительное или местоимение. Вставьте: We stayed home ______ (из-за) the cold weather.",
+    "correctAnswer": "because of — из-за (требует после себя существительное) — [бикоз оф]",
+    "options": [
+      {
+        "text": "because",
+        "isCorrect": false
+      },
+      {
+        "text": "because of",
+        "isCorrect": true
+      },
+      {
+        "text": "instead of",
+        "isCorrect": false
+      },
+      {
+        "text": "so",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС НА ЛОГИКУ И ГРАММАТИКУ: Выберите верную пару союзов: 'из-за (предлог)' И 'вместо того чтобы':",
+    "correctAnswer": "because of (из-за), instead of (вместо того чтобы) — [бикоз оф, инстэд оф]",
+    "options": [
+      {
+        "text": "because / instead",
+        "isCorrect": false
+      },
+      {
+        "text": "because of / instead of",
+        "isCorrect": true
+      },
+      {
+        "text": "as a result / in addition",
+        "isCorrect": false
+      },
+      {
+        "text": "so / but",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Переведите союз: в основном, главным образом",
+    "correctAnswer": "principally — в основном, главным образом — [принсипэли]",
+    "options": [
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "principally",
+        "isCorrect": true
+      },
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "equally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "Вставьте наречие в предложение: This application is ______ (в основном, главным образом) created for beginners.",
+    "correctAnswer": "principally — в основном, главным образом, преимущественно (синоним mostly) — [принсипэли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "principally",
+        "isCorrect": true
+      },
+      {
+        "text": "moderately",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ наречия степени, означающие умеренную или относительную меру признака ('вполне / относительно / умеренно'):",
+    "correctAnswer": "fairly, relatively, moderately — описывают среднюю, не экстремальную степень",
+    "options": [
+      {
+        "text": "fairly",
+        "isCorrect": true
+      },
+      {
+        "text": "extremely",
+        "isCorrect": false
+      },
+      {
+        "text": "relatively",
+        "isCorrect": true
+      },
+      {
+        "text": "moderately",
+        "isCorrect": true
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "МНОЖЕСТВЕННЫЙ ВЫБОР: Выберите ВСЕ сложные союзные конструкции, которые используются для связывания причинно-следственной логики или альтернатив ('в результате / из-за'):",
+    "correctAnswer": "as a result, because of — фразовые связующие элементы предложения",
+    "options": [
+      {
+        "text": "as a result",
+        "isCorrect": true
+      },
+      {
+        "text": "instead of",
+        "isCorrect": false
+      },
+      {
+        "text": "because of",
+        "isCorrect": true
+      },
+      {
+        "text": "provided that",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "ДВОЙНОЙ ВОПРОС: Переведите пару наречий степени: удивительно И одинаково",
+    "correctAnswer": "surprisingly (удивительно), equally (одинаково) — [сэрпрайзингли, икуэли]",
+    "options": [
+      {
+        "text": "fairly / relatively",
+        "isCorrect": false
+      },
+      {
+        "text": "surprisingly / equally",
+        "isCorrect": true
+      },
+      {
+        "text": "mostly / partly",
+        "isCorrect": false
+      },
+      {
+        "text": "absolutely / totally",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  },
+  {
+    "title": "КОНЕЦ БЛОКА: Переведите финальное наречие степени: чрезвычайно, в высшей степени",
+    "correctAnswer": "supremely — чрезвычайно, в высшей степени — [сьюпримли]",
+    "options": [
+      {
+        "text": "slightly",
+        "isCorrect": false
+      },
+      {
+        "text": "partly",
+        "isCorrect": false
+      },
+      {
+        "text": "supremely",
+        "isCorrect": true
+      },
+      {
+        "text": "moderately",
+        "isCorrect": false
+      }
+    ],
+    "timestamp": "2026-05-24T23:59:00.000Z"
+  }
+]

@@ -3,6 +3,9 @@ import JSONTEST1 from "./Test1.json" with { type: "json" };
 import JSONTEST2 from "./Test2.json" with { type: "json" };
 import JSONENGTORUTEST1 from "./EngToRuTest1.json" with { type: "json" };
 import JSONRUTOENGTEST1 from "./RuToEngTest1.json" with { type: "json" };
+import JSONENGADVERBSTEST2_1 from "./EngAdverbsTest2.1.json" with { type: "json" };
+import JSONENGADVERBSOFTIMEANDFREQUENCYOFACTION2_2 from "./EngAdverbsOfTimeAndFrequencyofAction.json" with { type: "json" };
+import JSONENGADVERBSOFDEGREEANDCONJUNCTIONS2_3 from "./EngAdverbsOfDegreeAndConjunctions2_3.json" with { type: "json" };
 import PlayTest from "./modules/PlayTest.js";
 import sprintTest from "./modules/sprintTest.js";
 import useBtn from "./modules/useBtn.js";
@@ -14,7 +17,10 @@ const myTests = [
   { storage: "Test #1", name: "Вопросы по общепрофессиональным дисциплинам (дополнительные): медико-диагностический профиль", data: JSONTEST1 },
   { storage: "Test #2", name: "Врач клинической лабораторной диагностики, иные работники клинических лабораторий (цитологическое, генетическое, химико-токсикологическое и прочие направления)", data: JSONTEST2 },
   { storage: "EngTest1", name: "Eng.Уровень №1. С Английского", data: JSONENGTORUTEST1 },
-  { storage: "RuToEngTest1", name: "Eng.Уровень №1. На Английский", data: JSONRUTOENGTEST1 }
+  { storage: "RuToEngTest1", name: "Eng.Уровень №1. На Английский", data: JSONRUTOENGTEST1 },
+  { storage: "ENGADVERBSTEST2_1", name: "Eng.Уровень №2.1 Наречия образа действия (как? — быстро, медленно, хорошо, плохо, странно).", data: JSONENGADVERBSTEST2_1 },
+  { storage: "ENGADVERBSOFTIMEANDFREQUENCYOFACTION2_2", name: "Eng.Уровень №2.2 Наречия времени и частоты (когда? как часто? — всегда, часто, редко, вчера, завтра).", data: JSONENGADVERBSOFTIMEANDFREQUENCYOFACTION2_2 },
+  { storage: "ENGADVERBSOFDEGREEANDCONJUNCTIONS2_3", name: "Eng.Уровень №2.3  Наречия степени и союзы (очень, слишком, достаточно, потому что, поэтому, но).", data: JSONENGADVERBSOFDEGREEANDCONJUNCTIONS2_3 }
 ];
 
 // Переменные для хранения текущего состояния (изначально первый тест)
