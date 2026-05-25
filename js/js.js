@@ -1,11 +1,11 @@
 // Предположим, это ваш массив с вопросами, импортированный из JSON
-import JSONTEST1 from "./Test1.json" with { type: "json" };
-import JSONTEST2 from "./Test2.json" with { type: "json" };
-import JSONENGTORUTEST1 from "./EngToRuTest1.json" with { type: "json" };
-import JSONRUTOENGTEST1 from "./RuToEngTest1.json" with { type: "json" };
-import JSONENGADVERBSTEST2_1 from "./EngAdverbsTest2.1.json" with { type: "json" };
-import JSONENGADVERBSOFTIMEANDFREQUENCYOFACTION2_2 from "./EngAdverbsOfTimeAndFrequencyofAction.json" with { type: "json" };
-import JSONENGADVERBSOFDEGREEANDCONJUNCTIONS2_3 from "./EngAdverbsOfDegreeAndConjunctions2_3.json" with { type: "json" };
+import JSONTEST1 from "./db/Test1.json" with { type: "json" };
+import JSONTEST2 from "./db/Test2.json" with { type: "json" };
+import JSONENGTORUTEST1 from "./db/EngToRuTest1.json" with { type: "json" };
+import JSONRUTOENGTEST1 from "./db/RuToEngTest1.json" with { type: "json" };
+import JSONENGADVERBSTEST2_1 from "./db/EngAdverbsTest2.1.json" with { type: "json" };
+import JSONENGADVERBSOFTIMEANDFREQUENCYOFACTION2_2 from "./db/EngAdverbsOfTimeAndFrequencyofAction.json" with { type: "json" };
+import JSONENGADVERBSOFDEGREEANDCONJUNCTIONS2_3 from "./db/EngAdverbsOfDegreeAndConjunctions2_3.json" with { type: "json" };
 import PlayTest from "./modules/PlayTest.js";
 import sprintTest from "./modules/sprintTest.js";
 import useBtn from "./modules/useBtn.js";
@@ -97,83 +97,4 @@ if (btnOpenStats) {
 }
 
 
-
-
-
-//-------------------------------
-// validateJSONTEST1(JSONTEST1)
-// function validateJSONTEST1(JSONTEST1) {
-//   const result = {
-//     valid: [],
-//     invalid: []
-//   };
-
-//   const transformedJsonOutput = [];
-
-//   JSONTEST1.forEach((question, index) => {
-//     const cleanCorrectString = question.correctAnswer.trim();
-
-//     // 1. Формируем новую структуру ответов
-//     const analyzedOptions = question.options.map(option => {
-//       const cleanOption = option.trim();
-      
-//       // Проверяем, есть ли вариант в строке ответов (целиком или как подстрока)
-//       const isCorrect = cleanOption === cleanCorrectString || cleanCorrectString.includes(cleanOption);
-      
-//       return {
-//         text: option,
-//         isCorrect: isCorrect 
-//       };
-//     });
-
-//     // 2. Проверяем валидность: нашли ли мы хотя бы один правильный ответ
-//     const hasCorrect = analyzedOptions.some(opt => opt.isCorrect);
-
-//     if (hasCorrect) {
-//       result.valid.push({
-//         index: index,
-//         title: question.title,
-//         status: "OK",
-//         options: analyzedOptions 
-//       });
-
-//       // 3. Формируем финальный объект (ОБЯЗАТЕЛЬНО сохраняем correctAnswer)
-//       transformedJsonOutput.push({
-//         title: question.title,
-//         timestamp: question.timestamp,
-//         correctAnswer: question.correctAnswer, // 👈 Сохранено в структуре
-//         options: analyzedOptions
-//       });
-//     } else {
-//       result.invalid.push({
-//         index: index,
-//         title: question.title.substring(0, 50) + "...",
-//         reason: "No correct options matched. Please check for typos."
-//       });
-//     }
-//   });
-
-//   // Вывод в консоль разработчика
-//   console.group("📊 Automated JSONTEST1 JSON Validation (Smart Matching)");
-  
-//   if (result.invalid.length > 0) {
-//     console.error(`❌ Validation failed. Errors found: ${result.invalid.length}`);
-//     console.table(result.invalid);
-//   } else {
-//     console.log("✅ All JSONTEST1 successfully passed validation!");
-//   }
-  
-//   console.groupCollapsed("ℹ️ View valid JSONTEST1 object tree");
-//   console.log(result.valid); 
-//   console.groupEnd();
-
-//   // ОТДЕЛЬНЫЙ ВЫВОД В ФОРМАТЕ JSON ДЛЯ КОПИРОВАНИЯ
-//   console.groupCollapsed("📋 COPY NEW TRANSFORMED JSON HERE");
-//   console.log(JSON.stringify(transformedJsonOutput, null, 2));
-//   console.groupEnd();
-  
-//   console.groupEnd();
-
-//   return result;
-// } 
  

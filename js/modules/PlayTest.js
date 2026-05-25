@@ -6,6 +6,9 @@ import UXnumberInputQuestions from "./UX/UXnumberInputQuestions.js";
 import UXTestQuestion from "./UX/UXTestQuestion.js";
 import UXPagination from "./UX/UXPagination.js";
 import UIcheckBox from "./UI/UIcheckBox.js";
+import UIBtnSaveQuestion from "./UI/UIBtnSaveQuestion.js";
+import UXBtnSaveQuestion from "./UX/UXBtnSaveQuestion.js";
+import getStorage from "./components/getSorage.js";
 
 function PlayTest(questions, nameStorage) {
   let divResults = document.querySelector("#results");
@@ -27,23 +30,22 @@ function PlayTest(questions, nameStorage) {
   // Флаги активных режимов фильтрации
   let isMistakesMode = false;
   let isNeverSeenMode = false;
+  let isSavedMode = false;
 
   // Вешаем обработчик на главную кнопку запуска теста один раз
   btnPlayTest.addEventListener("click", () => {
     // При старте теста всегда сбрасываем фильтры в исходное состояние
     isMistakesMode = false;
     isNeverSeenMode = false;
+    isSavedMode = false;
     applyFilters();
   });
 
   // Функция фильтрации вопросов на основе состояния чекбоксов
   function applyFilters() {
     // Каждый раз заново считываем актуальную статистику из localStorage
-    const stats = JSON.parse(localStorage.getItem(nameStorage)) || {
-      correct: [],
-      incorrect: [],
-      neverSeen: Array.from({ length: mainQuestions.length }, (_, i) => i)
-    };
+    const stats = getStorage(mainQuestions.length, nameStorage);
+
     stats_incorrect = stats.incorrect.length > 0 ? true : false;
 
     if (isMistakesMode) {
@@ -54,6 +56,10 @@ function PlayTest(questions, nameStorage) {
       // Оставляем только те вопросы, индексы которых есть в stats.neverSeen
       activeQuestions = mainQuestions.filter((_, idx) => stats.neverSeen.includes(idx));
       currentAnswersHistory = baseAnswersHistory.filter((_, idx) => stats.neverSeen.includes(idx));
+    } else if (isSavedMode) {
+      // Оставляем только те вопросы, индексы которых есть в stats.neverSeen
+      activeQuestions = mainQuestions.filter((_, idx) => stats.saveList.includes(idx));
+      currentAnswersHistory = baseAnswersHistory.filter((_, idx) => stats.saveList.includes(idx));
     } else {
       // Обычный режим — все вопросы
       activeQuestions = [...mainQuestions];
@@ -92,34 +98,56 @@ function PlayTest(questions, nameStorage) {
       <div class="d-flex flex-wrap align-items-start gap-3 w-100 bg-dark p-3 text-light">
         ${UIresultСounter(correctCount, wrongCount)}   
         <div class="d-flex flex-wrap gap-3 w-100 my-2">
+        ${UIBtnSaveQuestion()}
           ${(stats_incorrect === false ? `<div class="d-none">${UIcheckBox('Работа над ошибками', "idWorkOnMistakes")}</div>` : UIcheckBox('Работа над ошибками', "idWorkOnMistakes"))}
           ${UIcheckBox('Непройденные вопросы', "idNeverSeenQuestions")}
+          ${UIcheckBox('Сохраненные вопросы', "idSavedQuestions")}
         </div>
         ${UITestQuestion(currentQuestion)}
+        
         <div class="w-100 d-flex justify-content-center align-items-center">
           ${UInumberInputQuestions(currentIndex, activeQuestions.length)}
         </div>
-        ${UIPagination(activeQuestions.length, currentIndex, currentAnswersHistory)}
+        ${UIPagination(activeQuestions.length, currentIndex, currentAnswersHistory)} 
       </div>
     `);
+
+    UXBtnSaveQuestion(currentQuestion, mainQuestions, nameStorage, getStorage(mainQuestions.length, nameStorage));
 
     // Синхронизируем визуальное состояние чекбоксов (чтобы галочки не слетали при перерисовке)
     const chkMistakes = divResults.querySelector("#idWorkOnMistakes");
     const chkNeverSeen = divResults.querySelector("#idNeverSeenQuestions");
+    const chkSaved = divResults.querySelector("#idSavedQuestions");
 
     chkMistakes.checked = isMistakesMode;
     chkNeverSeen.checked = isNeverSeenMode;
+    chkSaved.checked = isSavedMode;
 
     // Взаимоисключающая логика кликов по чекбоксам (нельзя включить оба одновременно)
     chkMistakes.addEventListener("change", () => {
       isMistakesMode = chkMistakes.checked;
-      if (isMistakesMode) isNeverSeenMode = false; // Отключаем второй
+      if (isMistakesMode) {
+        isNeverSeenMode = false; // Отключаем 2
+        isSavedMode = false; // Отключаем 3
+      }
       applyFilters();
     });
 
     chkNeverSeen.addEventListener("change", () => {
       isNeverSeenMode = chkNeverSeen.checked;
-      if (isNeverSeenMode) isMistakesMode = false; // Отключаем первый
+      if (isNeverSeenMode) {
+        isMistakesMode = false; // Отключаем 1
+        isSavedMode = false; // Отключаем 3
+      }
+      applyFilters();
+    });
+
+    chkSaved.addEventListener("change", () => {
+      isSavedMode = chkSaved.checked;
+      if (isSavedMode) {
+        isMistakesMode = false; // Отключаем 1
+        isNeverSeenMode = false; // Отключаем 2
+      }
       applyFilters();
     });
 

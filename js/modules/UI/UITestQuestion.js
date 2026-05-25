@@ -25,7 +25,7 @@ function UITestQuestion(currentQuestion) {
   }).join('');
 
   return `
-    <div class="bg-dark my-3 test-question-container w-100">
+    <div class="bg-dark test-question-container w-100">
       <div class="card-body p-0">
         
         <!-- Заголовок (Текст текущего вопроса) -->

@@ -1,7 +1,7 @@
 function saveStorage(isCorrect, mainquestions, currentQuestion, nameTest) {
   // 1. Находим точный индекс вопроса (от 0 до mainquestions.length - 1)
   const questionIndex = mainquestions.findIndex(q => q.title === currentQuestion.title);
-  
+ 
   // Если вопрос не найден, метод findIndex вернет -1. Прерываем выполнение.
   if (questionIndex === -1) return;
 
@@ -14,7 +14,8 @@ function saveStorage(isCorrect, mainquestions, currentQuestion, nameTest) {
     stats = {
       correct: [],      // Список правильных индексов
       incorrect: [],    // Список ошибочных индексов
-      neverSeen: allIndexes // Изначально здесь лежат все индексы [0, 1, 2...]
+      neverSeen: allIndexes, // Изначально здесь лежат все индексы [0, 1, 2...]
+      saveList: [],
     };
   }
 
@@ -32,9 +33,16 @@ function saveStorage(isCorrect, mainquestions, currentQuestion, nameTest) {
     if (errorIndex !== -1) {
       // Убираем одну прошлую ошибку
       stats.incorrect.splice(errorIndex, 1);
+      
+      // ИСПРАВЛЕНО: возвращаем вопрос в neverSeen, если его там еще нет
+      if (!stats.neverSeen.includes(questionIndex)) {
+        stats.neverSeen.push(questionIndex);
+      }
     } else {
-      // Добавляем в правильные
-      stats.correct.push(questionIndex);
+      // Если в ошибках не было — просто добавляем в правильные
+      if (!stats.correct.includes(questionIndex)) {
+        stats.correct.push(questionIndex);
+      }
     }
   } else {
     // Ищем, был ли этот индекс в правильных ответах ранее
@@ -43,11 +51,21 @@ function saveStorage(isCorrect, mainquestions, currentQuestion, nameTest) {
     if (successIndex !== -1) {
       // Аннулируем один прошлый успех
       stats.correct.splice(successIndex, 1);
+      
+      // ИСПРАВЛЕНО: возвращаем вопрос в neverSeen, если его там еще нет
+      if (!stats.neverSeen.includes(questionIndex)) {
+        stats.neverSeen.push(questionIndex);
+      }
     } else {
-      // Записываем новую ошибку
-      stats.incorrect.push(questionIndex);
+      // Если в правильных не было — записываем новую ошибку
+      if (!stats.incorrect.includes(questionIndex)) {
+        stats.incorrect.push(questionIndex);
+      }
     }
   }
+
+  // Опционально: сортируем массив neverSeen по возрастанию, чтобы индексы шли по порядку [0, 1, 2...]
+  stats.neverSeen.sort((a, b) => a - b);
 
   // 5. Сохраняем обновленный объект в LocalStorage
   localStorage.setItem(nameTest, JSON.stringify(stats));
