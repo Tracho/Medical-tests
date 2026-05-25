@@ -27,6 +27,7 @@ function PlayTest(questions, nameStorage) {
   let correctCount = 0;
   let wrongCount = 0;
   let stats_incorrect = false;
+  let stats_saveList = false;
   // Флаги активных режимов фильтрации
   let isMistakesMode = false;
   let isNeverSeenMode = false;
@@ -47,7 +48,7 @@ function PlayTest(questions, nameStorage) {
     const stats = getStorage(mainQuestions.length, nameStorage);
 
     stats_incorrect = stats.incorrect.length > 0 ? true : false;
-
+    stats_saveList = stats.saveList.length > 0 ? true : false;
     if (isMistakesMode) {
       // Оставляем только те вопросы, индексы которых есть в stats.incorrect
       activeQuestions = mainQuestions.filter((_, idx) => stats.incorrect.includes(idx));
@@ -101,7 +102,7 @@ function PlayTest(questions, nameStorage) {
         ${UIBtnSaveQuestion()}
           ${(stats_incorrect === false ? `<div class="d-none">${UIcheckBox('Работа над ошибками', "idWorkOnMistakes")}</div>` : UIcheckBox('Работа над ошибками', "idWorkOnMistakes"))}
           ${UIcheckBox('Непройденные вопросы', "idNeverSeenQuestions")}
-          ${UIcheckBox('Сохраненные вопросы', "idSavedQuestions")}
+           ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSprintSaved")}</div>` : UIcheckBox('Сохраненные вопросы', "idSprintSaved"))} 
         </div>
         ${UITestQuestion(currentQuestion)}
         
