@@ -15,7 +15,7 @@ import renderStats from "./modules/renderStats.js";
 
 // 1. Массив ваших тестов: связываем человеческое название и импортированный JSON-объект напрямую
 const myTests = [
-  { storage: "Testing", name: "Testing", data: TESTING },
+  // { storage: "Testing", name: "Testing", data: TESTING },
   { storage: "Test #1", name: "Вопросы по общепрофессиональным дисциплинам (дополнительные): медико-диагностический профиль", data: JSONTEST1 },
   { storage: "Test #2", name: "Врач клинической лабораторной диагностики, иные работники клинических лабораторий (цитологическое, генетическое, химико-токсикологическое и прочие направления)", data: JSONTEST2 },
   { storage: "EngTest1", name: "Eng.Уровень №1. С Английского", data: JSONENGTORUTEST1 },

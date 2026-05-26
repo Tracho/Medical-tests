@@ -18,28 +18,30 @@ function saveStorage(isCorrect, mainquestions, currentQuestion, nameStorage) {
     };
   }
 
-  // 3. Сначала удаляем вопрос из neverSeen, так как с ним совершили действие
+  // 3. Если вопрос попался в первый раз — навсегда удаляем его из "не пройденных"
   const neverSeenIndex = stats.neverSeen.indexOf(questionIndex);
   if (neverSeenIndex !== -1) {
     stats.neverSeen.splice(neverSeenIndex, 1);
   }
 
-  // 4. Логика накопления дубликатов и взаимного уничтожения
+  // 4. Логика накопления дубликатов ошибок и перемещения в правильные
   if (isCorrect) {
     // Ищем, был ли этот индекс в ошибках ранее
     const errorIndex = stats.incorrect.indexOf(questionIndex);
 
     if (errorIndex !== -1) {
-      // ИСПРАВЛЕНО: Убираем только ОДНУ прошлую ошибку из массива (минусуем 1 повтор)
+      // Убираем только ОДНУ прошлую ошибку из массива (минусуем 1 повтор)
       stats.incorrect.splice(errorIndex, 1);
       
-      // ИСПРАВЛЕНО: Если после удаления этой ошибки вопросов с таким индексом в incorrect БОЛЬШЕ НЕ ОСТАЛОСЬ,
-      // и его нет в правильных, возвращаем его в neverSeen
-      if (!stats.incorrect.includes(questionIndex) && !stats.correct.includes(questionIndex) && !stats.neverSeen.includes(questionIndex)) {
-        stats.neverSeen.push(questionIndex);
+      // ИСПРАВЛЕНО: Если после этого ответа ошибок с таким индексом БОЛЬШЕ НЕ ОСТАЛОСЬ,
+      // мы переносим вопрос в категорию "правильные" (в neverSeen он больше не возвращается!)
+      if (!stats.incorrect.includes(questionIndex)) {
+        if (!stats.correct.includes(questionIndex)) {
+          stats.correct.push(questionIndex);
+        }
       }
     } else {
-      // Если ошибок не было, добавляем в правильные (без дубликатов для прогресса)
+      // Если ошибок и так не было, просто подтверждаем нахождение в правильных
       if (!stats.correct.includes(questionIndex)) {
         stats.correct.push(questionIndex);
       }
@@ -49,20 +51,18 @@ function saveStorage(isCorrect, mainquestions, currentQuestion, nameStorage) {
     const successIndex = stats.correct.indexOf(questionIndex);
 
     if (successIndex !== -1) {
-      // Аннулируем чистый успех, если он был
+      // ИСПРАВЛЕНО: Аннулируем чистый успех, убирая его из правильных
       stats.correct.splice(successIndex, 1);
       
-      // Возвращаем в neverSeen, так как теперь он не "чистый"
-      if (!stats.neverSeen.includes(questionIndex)) {
-        stats.neverSeen.push(questionIndex);
-      }
+      // ИСПРАВЛЕНО: Так как вопрос мы уже видели, он сразу падает в ошибки (incorrect), а не в neverSeen
+      stats.incorrect.push(questionIndex);
     } else {
-      // ИСПРАВЛЕНО: Убрана проверка .includes()! Теперь индекс ошибки свободно дублируется [2, 2, 2...]
+      // Если в правильных его не было — просто добавляем еще один дубликат ошибки
       stats.incorrect.push(questionIndex);
     }
   }
 
-  // Сортируем массив непрочитанных по порядку
+  // Сортируем массив непрочитанных по порядку (для оставшихся новых вопросов)
   stats.neverSeen.sort((a, b) => a - b);
 
   // 5. Сохраняем обновленный объект в LocalStorage
