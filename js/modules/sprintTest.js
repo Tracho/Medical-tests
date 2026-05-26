@@ -170,7 +170,7 @@ function sprintTest(originalQuestions, nameStorage) {
     // Синхронизируем и оживляем переключатели режимов
     const chkMistakes = divResults.querySelector("#idSprintMistakes");
     const chkNeverSeen = divResults.querySelector("#idSprintNeverSeen");
-    const chkSaved = divResults.querySelector("#idSprintSaved");
+    const chkSaved = divResults.querySelector("#idSavedQuestions");
 
     chkMistakes.checked = isMistakesMode;
     chkNeverSeen.checked = isNeverSeenMode;
