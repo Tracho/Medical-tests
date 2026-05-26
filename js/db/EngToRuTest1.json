@@ -734,30 +734,7 @@
       }
     ],
     "timestamp": "2026-05-24T04:50:00.000Z"
-  },
-  {
-    "title": "Переведите слово: live (v) — глагол",
-    "correctAnswer": "live — жить — [лив]",
-    "options": [
-      {
-        "text": "уходить",
-        "isCorrect": false
-      },
-      {
-        "text": "жить",
-        "isCorrect": true
-      },
-      {
-        "text": "любить",
-        "isCorrect": false
-      },
-      {
-        "text": "работать",
-        "isCorrect": false
-      }
-    ],
-    "timestamp": "2026-05-24T04:50:00.000Z"
-  },
+  }, 
   {
     "title": "Переведите слово: leave (v) — глагол",
     "correctAnswer": "leave — покинуть — [лив]",
