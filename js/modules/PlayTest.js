@@ -102,7 +102,7 @@ function PlayTest(questions, nameStorage) {
         ${UIBtnSaveQuestion()}
           ${(stats_incorrect === false ? `<div class="d-none">${UIcheckBox('Работа над ошибками', "idWorkOnMistakes")}</div>` : UIcheckBox('Работа над ошибками', "idWorkOnMistakes"))}
           ${UIcheckBox('Непройденные вопросы', "idNeverSeenQuestions")}
-           ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSprintSaved")}</div>` : UIcheckBox('Сохраненные вопросы', "idSprintSaved"))} 
+           ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSavedQuestions")}</div>` : UIcheckBox('Сохраненные вопросы', "idSavedQuestions"))} 
         </div>
         ${UITestQuestion(currentQuestion)}
         

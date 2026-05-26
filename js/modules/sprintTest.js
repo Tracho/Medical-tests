@@ -157,7 +157,7 @@ function sprintTest(originalQuestions, nameStorage) {
           ${UIBtnSaveQuestion()}
           ${(stats_incorrect === false ? `<div class="d-none">${UIcheckBox('Работа над ошибками', "idSprintMistakes")}</div>` : UIcheckBox('Работа над ошибками', "idSprintMistakes"))} 
           ${UIcheckBox('Непройденные вопросы', "idSprintNeverSeen")} 
-           ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSprintSaved")}</div>` : UIcheckBox('Сохраненные вопросы', "idSprintSaved"))} 
+           ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSavedQuestions")}</div>` : UIcheckBox('Сохраненные вопросы', "idSavedQuestions"))} 
         </div>
         
         <div id="divQuestion" class="position-relative w-100 ${startGame === false ? 'blur' : ''}">
