@@ -1,5 +1,5 @@
 import saveStorage from "../components/saveStorage.js"; 
-function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTest, onNextQuestion) {
+function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameStorage, onNextQuestion) {
   const btnConfirm = containerElement.querySelector("#btnConfirmAnswer");
   const btnNext = containerElement.querySelector("#btnNextQuestion");
   const confirmBlock = containerElement.querySelector("#confirmBlock");
@@ -75,7 +75,7 @@ function UXTestQuestion(containerElement, currentQuestion, mainquestions, nameTe
     answerBlock.classList.remove("d-none");
     nextBlock.classList.remove("d-none");
     
-    saveStorage(isCurrentQuestionCorrect, mainquestions, currentQuestion, nameTest);
+    saveStorage(isCurrentQuestionCorrect, mainquestions, currentQuestion, nameStorage);
   });
 
   btnNext.addEventListener("click", () => {

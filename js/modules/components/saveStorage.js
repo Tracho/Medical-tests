@@ -1,74 +1,72 @@
-function saveStorage(isCorrect, mainquestions, currentQuestion, nameTest) {
+function saveStorage(isCorrect, mainquestions, currentQuestion, nameStorage) {
   // 1. Находим точный индекс вопроса (от 0 до mainquestions.length - 1)
   const questionIndex = mainquestions.findIndex(q => q.title === currentQuestion.title);
  
-  // Если вопрос не найден, метод findIndex вернет -1. Прерываем выполнение.
+  // Если вопрос не найден, прерываем выполнение.
   if (questionIndex === -1) return;
 
   // 2. Достаем старую статистику или создаем новую структуру
-  let stats = JSON.parse(localStorage.getItem(nameTest));
+  let stats = JSON.parse(localStorage.getItem(nameStorage));
 
   if (!stats) {
-    // При первом запуске заполняем массив индексами от 0 до длины массива (не включая её)
     const allIndexes = Array.from({ length: mainquestions.length }, (_, i) => i);
     stats = {
-      correct: [],      // Список правильных индексов
-      incorrect: [],    // Список ошибочных индексов
-      neverSeen: allIndexes, // Изначально здесь лежат все индексы [0, 1, 2...]
+      correct: [],      
+      incorrect: [],    
+      neverSeen: allIndexes, 
       saveList: [],
     };
   }
 
-  // 3. Если вопрос попался — удаляем его индекс из списка тех, которые "ни разу не попадались"
+  // 3. Сначала удаляем вопрос из neverSeen, так как с ним совершили действие
   const neverSeenIndex = stats.neverSeen.indexOf(questionIndex);
   if (neverSeenIndex !== -1) {
     stats.neverSeen.splice(neverSeenIndex, 1);
   }
 
-  // 4. Логика взаимного уничтожения правильных и неправильных ответов
+  // 4. Логика накопления дубликатов и взаимного уничтожения
   if (isCorrect) {
     // Ищем, был ли этот индекс в ошибках ранее
     const errorIndex = stats.incorrect.indexOf(questionIndex);
 
     if (errorIndex !== -1) {
-      // Убираем одну прошлую ошибку
+      // ИСПРАВЛЕНО: Убираем только ОДНУ прошлую ошибку из массива (минусуем 1 повтор)
       stats.incorrect.splice(errorIndex, 1);
       
-      // ИСПРАВЛЕНО: возвращаем вопрос в neverSeen, если его там еще нет
-      if (!stats.neverSeen.includes(questionIndex)) {
+      // ИСПРАВЛЕНО: Если после удаления этой ошибки вопросов с таким индексом в incorrect БОЛЬШЕ НЕ ОСТАЛОСЬ,
+      // и его нет в правильных, возвращаем его в neverSeen
+      if (!stats.incorrect.includes(questionIndex) && !stats.correct.includes(questionIndex) && !stats.neverSeen.includes(questionIndex)) {
         stats.neverSeen.push(questionIndex);
       }
     } else {
-      // Если в ошибках не было — просто добавляем в правильные
+      // Если ошибок не было, добавляем в правильные (без дубликатов для прогресса)
       if (!stats.correct.includes(questionIndex)) {
         stats.correct.push(questionIndex);
       }
     }
   } else {
-    // Ищем, был ли этот индекс в правильных ответах ранее
+    // Если ответил НЕПРАВИЛЬНО, ищем его в правильных
     const successIndex = stats.correct.indexOf(questionIndex);
 
     if (successIndex !== -1) {
-      // Аннулируем один прошлый успех
+      // Аннулируем чистый успех, если он был
       stats.correct.splice(successIndex, 1);
       
-      // ИСПРАВЛЕНО: возвращаем вопрос в neverSeen, если его там еще нет
+      // Возвращаем в neverSeen, так как теперь он не "чистый"
       if (!stats.neverSeen.includes(questionIndex)) {
         stats.neverSeen.push(questionIndex);
       }
     } else {
-      // Если в правильных не было — записываем новую ошибку
-      if (!stats.incorrect.includes(questionIndex)) {
-        stats.incorrect.push(questionIndex);
-      }
+      // ИСПРАВЛЕНО: Убрана проверка .includes()! Теперь индекс ошибки свободно дублируется [2, 2, 2...]
+      stats.incorrect.push(questionIndex);
     }
   }
 
-  // Опционально: сортируем массив neverSeen по возрастанию, чтобы индексы шли по порядку [0, 1, 2...]
+  // Сортируем массив непрочитанных по порядку
   stats.neverSeen.sort((a, b) => a - b);
 
   // 5. Сохраняем обновленный объект в LocalStorage
-  localStorage.setItem(nameTest, JSON.stringify(stats));
+  localStorage.setItem(nameStorage, JSON.stringify(stats));
 }
 
 export default saveStorage;

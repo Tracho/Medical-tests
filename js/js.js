@@ -1,4 +1,5 @@
 // Предположим, это ваш массив с вопросами, импортированный из JSON
+import TESTING from "./db/Testing.json" with { type: "json" };
 import JSONTEST1 from "./db/Test1.json" with { type: "json" };
 import JSONTEST2 from "./db/Test2.json" with { type: "json" };
 import JSONENGTORUTEST1 from "./db/EngToRuTest1.json" with { type: "json" };
@@ -14,6 +15,7 @@ import renderStats from "./modules/renderStats.js";
 
 // 1. Массив ваших тестов: связываем человеческое название и импортированный JSON-объект напрямую
 const myTests = [
+  { storage: "Testing", name: "Testing", data: TESTING },
   { storage: "Test #1", name: "Вопросы по общепрофессиональным дисциплинам (дополнительные): медико-диагностический профиль", data: JSONTEST1 },
   { storage: "Test #2", name: "Врач клинической лабораторной диагностики, иные работники клинических лабораторий (цитологическое, генетическое, химико-токсикологическое и прочие направления)", data: JSONTEST2 },
   { storage: "EngTest1", name: "Eng.Уровень №1. С Английского", data: JSONENGTORUTEST1 },

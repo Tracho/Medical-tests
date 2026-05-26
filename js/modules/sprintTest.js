@@ -19,6 +19,7 @@ function sprintTest(originalQuestions, nameStorage) {
   let correctCount = 0;
   let wrongCount = 0;
   let stats_incorrect = false;
+  let stats_NeverSeen = false;
   let stats_saveList = false;
   let startGame = false;
 
@@ -47,6 +48,7 @@ function sprintTest(originalQuestions, nameStorage) {
     // Получаем свежий сторадж через вашу функцию getStorage
     const stats = getStorage(mainQuestions.length, nameStorage);
     stats_incorrect = stats.incorrect.length > 0 ? true : false;
+    stats_NeverSeen = stats.neverSeen.length > 0 ? true : false;
     stats_saveList = stats.saveList.length > 0 ? true : false;
     let filtered = [...mainQuestions];
 
@@ -156,7 +158,7 @@ function sprintTest(originalQuestions, nameStorage) {
         <div class="d-flex gap-3 w-100 my-2 flex-wrap">
           ${UIBtnSaveQuestion()}
           ${(stats_incorrect === false ? `<div class="d-none">${UIcheckBox('Работа над ошибками', "idSprintMistakes")}</div>` : UIcheckBox('Работа над ошибками', "idSprintMistakes"))} 
-          ${UIcheckBox('Непройденные вопросы', "idSprintNeverSeen")} 
+           ${(stats_NeverSeen === false ? `<div class="d-none">${UIcheckBox('Непройденные вопросы', "idSprintNeverSeen")}</div>` : UIcheckBox('Непройденные вопросы', "idSprintNeverSeen"))} 
            ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSavedQuestions")}</div>` : UIcheckBox('Сохраненные вопросы', "idSavedQuestions"))} 
         </div>
         

@@ -27,6 +27,7 @@ function PlayTest(questions, nameStorage) {
   let correctCount = 0;
   let wrongCount = 0;
   let stats_incorrect = false;
+  let stats_NeverSeen = false;
   let stats_saveList = false;
   // Флаги активных режимов фильтрации
   let isMistakesMode = false;
@@ -48,7 +49,9 @@ function PlayTest(questions, nameStorage) {
     const stats = getStorage(mainQuestions.length, nameStorage);
 
     stats_incorrect = stats.incorrect.length > 0 ? true : false;
+    stats_NeverSeen = stats.neverSeen.length > 0 ? true : false;
     stats_saveList = stats.saveList.length > 0 ? true : false;
+
     if (isMistakesMode) {
       // Оставляем только те вопросы, индексы которых есть в stats.incorrect
       activeQuestions = mainQuestions.filter((_, idx) => stats.incorrect.includes(idx));
@@ -101,7 +104,7 @@ function PlayTest(questions, nameStorage) {
         <div class="d-flex flex-wrap gap-3 w-100 my-2">
         ${UIBtnSaveQuestion()}
           ${(stats_incorrect === false ? `<div class="d-none">${UIcheckBox('Работа над ошибками', "idWorkOnMistakes")}</div>` : UIcheckBox('Работа над ошибками', "idWorkOnMistakes"))}
-          ${UIcheckBox('Непройденные вопросы', "idNeverSeenQuestions")}
+           ${(stats_NeverSeen === false ? `<div class="d-none">${UIcheckBox('Непройденные вопросы', "idSprintNeverSeen")}</div>` : UIcheckBox('Непройденные вопросы', "idSprintNeverSeen"))} 
            ${(stats_saveList === false ? `<div class="d-none">${UIcheckBox('Сохраненные вопросы', "idSavedQuestions")}</div>` : UIcheckBox('Сохраненные вопросы', "idSavedQuestions"))} 
         </div>
         ${UITestQuestion(currentQuestion)}
@@ -117,7 +120,7 @@ function PlayTest(questions, nameStorage) {
 
     // Синхронизируем визуальное состояние чекбоксов (чтобы галочки не слетали при перерисовке)
     const chkMistakes = divResults.querySelector("#idWorkOnMistakes");
-    const chkNeverSeen = divResults.querySelector("#idNeverSeenQuestions");
+    const chkNeverSeen = divResults.querySelector("#idSprintNeverSeen");
     const chkSaved = divResults.querySelector("#idSavedQuestions");
 
     chkMistakes.checked = isMistakesMode;
