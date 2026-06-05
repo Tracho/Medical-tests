@@ -1,38 +1,46 @@
-import getStorage from "./components/getSorage.js";
+import getStorage from './components/getSorage.js'
+import UICopyQuestion from './UI/UICopyQuestion.js'
+import UXCopyQuestion from './UX/UXCopyQuestion.js'
 // import saveStorage from "./components/saveStorage.js";
 
-function renderStats(mainquestions, nameStorage, testName) {
-  const resultsContainer = document.getElementById('results');
+function renderStats (mainquestions, nameStorage, testName) {
+  const resultsContainer = document.getElementById('results')
 
   // 1. Загружаем данные из localStorage
   const stats = JSON.parse(localStorage.getItem(nameStorage)) || {
     correct: [],
     incorrect: [],
     neverSeen: Array.from({ length: mainquestions.length }, (_, i) => i),
-    saveList: [],
-  };
+    saveList: []
+  }
 
-  const total = mainquestions.length;
+  const total = mainquestions.length
 
   // Получаем уникальные массивы индексов
-  const uniqueCorrect = [...new Set(stats.correct)];
-  const uniqueIncorrect = [...new Set(stats.incorrect)];
-  const uniqueSaveList = [...new Set(stats.saveList)];
-  const uniqueNeverSeen = [...new Set(stats.neverSeen)];
-
+  const uniqueCorrect = [...new Set(stats.correct)]
+  const uniqueIncorrect = [...new Set(stats.incorrect)]
+  const uniqueSaveList = [...new Set(stats.saveList)]
+  const uniqueNeverSeen = [...new Set(stats.neverSeen)]
 
   // Расчет процентов
-  const correctPercent = Math.round((uniqueCorrect.length / total) * 100) || 0;
-  const incorrectPercent = Math.round((uniqueIncorrect.length / total) * 100) || 0;
-  const neverSeenPercent = Math.round((uniqueNeverSeen.length / total) * 100) || 0;
+  const correctPercent = Math.round((uniqueCorrect.length / total) * 100) || 0
+  const incorrectPercent =
+    Math.round((uniqueIncorrect.length / total) * 100) || 0
+  const neverSeenPercent =
+    Math.round((uniqueNeverSeen.length / total) * 100) || 0
 
   // Вспомогательная функция для генерации кликабельных бейджей
   const generateBadgesHTML = (indexesArray, bgClass, dataTypeKeyStorage) => {
-    if (indexesArray.length === 0) return '<p class="text-width small mb-0 ps-2">Список пуст</p>';
-    return indexesArray.map(index => {
-      return `<span class="badge ${bgClass} me-2 mb-2 stats-question-badge" data-keystorage="${dataTypeKeyStorage}" data-index="${index}">№${index + 1}</span>`;
-    }).join('');
-  };
+    if (indexesArray.length === 0)
+      return '<p class="text-width small mb-0 ps-2">Список пуст</p>'
+    return indexesArray
+      .map(index => {
+        return `<span class="badge ${bgClass} me-2 mb-2 stats-question-badge" data-keystorage="${dataTypeKeyStorage}" data-index="${index}">№${
+          index + 1
+        }</span>`
+      })
+      .join('')
+  }
 
   // 2. Рендерим основную карточку (Добавлена кнопка очистки во флекс-контейнер заголовка)
   resultsContainer.innerHTML = `
@@ -89,7 +97,11 @@ function renderStats(mainquestions, nameStorage, testName) {
             </h2>
             <div id="collapseIncorrect" class="accordion-collapse collapse" data-bs-parent="#statsAccordion">
               <div class="accordion-body bg-dark border-top border-secondary">
-                <div class="d-flex flex-wrap">${generateBadgesHTML(uniqueIncorrect, 'bg-danger', 'incorrect')}</div>
+                <div class="d-flex flex-wrap">${generateBadgesHTML(
+                  uniqueIncorrect,
+                  'bg-danger',
+                  'incorrect'
+                )}</div>
               </div>
             </div>
           </div>
@@ -102,7 +114,11 @@ function renderStats(mainquestions, nameStorage, testName) {
             </h2>
             <div id="collapseCorrect" class="accordion-collapse collapse" data-bs-parent="#statsAccordion">
               <div class="accordion-body bg-dark border-top border-secondary">
-                <div class="d-flex flex-wrap">${generateBadgesHTML(uniqueCorrect, 'bg-success', 'correct')}</div>
+                <div class="d-flex flex-wrap">${generateBadgesHTML(
+                  uniqueCorrect,
+                  'bg-success',
+                  'correct'
+                )}</div>
               </div>
             </div>
           </div>
@@ -115,7 +131,11 @@ function renderStats(mainquestions, nameStorage, testName) {
             </h2>
             <div id="collapseSaveList" class="accordion-collapse collapse" data-bs-parent="#statsAccordion">
               <div class="accordion-body bg-dark border-top border-secondary">
-                <div class="d-flex flex-wrap">${generateBadgesHTML(uniqueSaveList, 'bg-secondary', 'saveList')}</div>
+                <div class="d-flex flex-wrap">${generateBadgesHTML(
+                  uniqueSaveList,
+                  'bg-secondary',
+                  'saveList'
+                )}</div>
               </div>
             </div>
           </div>
@@ -128,7 +148,11 @@ function renderStats(mainquestions, nameStorage, testName) {
             </h2>
             <div id="collapseNeverSeen" class="accordion-collapse collapse" data-bs-parent="#statsAccordion">
               <div class="accordion-body bg-dark border-top border-secondary">
-                <div class="d-flex flex-wrap">${generateBadgesHTML(uniqueNeverSeen, 'bg-secondary', 'neverSeen')}</div>
+                <div class="d-flex flex-wrap">${generateBadgesHTML(
+                  uniqueNeverSeen,
+                  'bg-secondary',
+                  'neverSeen'
+                )}</div>
               </div>
             </div>
           </div> 
@@ -146,11 +170,13 @@ function renderStats(mainquestions, nameStorage, testName) {
             <h5 class="modal-title text-center" id="modalQuestionTitle">Просмотр вопроса</h5>
 
             <div class="d-flex justify-content-between gap-3">
+                    ${UICopyQuestion()}
               <button class="btn btn-outline-danger btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnDelateStorage" title="Удалить сохранение">
                 <svg xmlns="http://w3.org" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
                 </svg> 
               </button>
+      
               <button type="button" class="btn-close btn-close-white shadow-none m-0" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
           </div>
@@ -158,101 +184,124 @@ function renderStats(mainquestions, nameStorage, testName) {
         </div>
       </div>
     </div>
-  `;
+  `
 
   // 3. Обработчик клика по кнопке "Сбросить"
-  const btnClearStats = resultsContainer.querySelector('#btnClearStats');
+  const btnClearStats = resultsContainer.querySelector('#btnClearStats')
   btnClearStats.addEventListener('click', () => {
-    const isConfirmed = confirm(`Вы уверены, что хотите полностью сбросить статистику для теста "${nameStorage}"? Изменения нельзя будет отменить.`);
+    const isConfirmed = confirm(
+      `Вы уверены, что хотите полностью сбросить статистику для теста "${nameStorage}"? Изменения нельзя будет отменить.`
+    )
 
     if (isConfirmed) {
-      localStorage.removeItem(nameStorage); // Удаляем ключ из памяти браузера
-      renderStats(mainquestions, nameStorage); // Перерисовываем интерфейс с чистыми значениями
+      localStorage.removeItem(nameStorage) // Удаляем ключ из памяти браузера
+      renderStats(mainquestions, nameStorage) // Перерисовываем интерфейс с чистыми значениями
     }
-  });
+  })
 
   // 4. Логика открытия модального окна при клике на номер вопроса
-  const accordionBody = resultsContainer.querySelector('#statsAccordion');
+  const accordionBody = resultsContainer.querySelector('#statsAccordion')
 
   if (accordionBody) {
-    accordionBody.addEventListener('click', (event) => {
+    accordionBody.addEventListener('click', event => {
       // Ищем клик именно по бейджу вопроса
-      const badge = event.target.closest('.stats-question-badge');
-      if (!badge) return;
+      const badge = event.target.closest('.stats-question-badge')
+      if (!badge) return
 
-      const keystorage = badge.dataset.keystorage; // "correct", "incorrect" или "neverSeen"
-      const currentTargetIndex = parseInt(badge.dataset.index, 10); // Реальный ID вопроса в JSON (0, 1, 2...)
+      const keystorage = badge.dataset.keystorage // "correct", "incorrect" или "neverSeen"
+      const currentTargetIndex = parseInt(badge.dataset.index, 10) // Реальный ID вопроса в JSON (0, 1, 2...)
 
       // ОЧИСТКА СОБЫТИЙ КНОПКИ УДАЛЕНИЯ (Клонируем кнопку, чтобы убрать старые addEventListener)
-      let oldBtn = document.querySelector("#btnDelateStorage");
-      if (!oldBtn) return;
+      let oldBtn = document.querySelector('#btnDelateStorage')
+      if (!oldBtn) return
 
-      let btnDelateStorage = oldBtn.cloneNode(true);
-      oldBtn.parentNode.replaceChild(btnDelateStorage, oldBtn);
+      let btnDelateStorage = oldBtn.cloneNode(true)
+      oldBtn.parentNode.replaceChild(btnDelateStorage, oldBtn)
 
       // Настройка видимости кнопки удаления
-      if (keystorage === "neverSeen") {
-        btnDelateStorage.disabled = true;
-        btnDelateStorage.classList.remove("d-inline-flex");
-        btnDelateStorage.classList.add("d-none");
+      if (keystorage === 'neverSeen') {
+        btnDelateStorage.disabled = true
+        btnDelateStorage.classList.remove('d-inline-flex')
+        btnDelateStorage.classList.add('d-none')
       } else {
-        btnDelateStorage.disabled = false;
-        btnDelateStorage.classList.remove("d-none");
-        btnDelateStorage.classList.add("d-inline-flex");
+        btnDelateStorage.disabled = false
+        btnDelateStorage.classList.remove('d-none')
+        btnDelateStorage.classList.add('d-inline-flex')
       }
 
       // ЛОГИКА УДАЛЕНИЯ ПРИ КЛИКЕ (Сработает строго 1 раз)
-      btnDelateStorage.addEventListener("click", () => {
+      btnDelateStorage.addEventListener('click', () => {
         // 1. Получаем самый свежий объект из localStorage через вашу функцию getStorage
-        let statsStorage = getStorage(total, nameStorage);
+        let statsStorage = getStorage(total, nameStorage)
 
         // 2. Ищем, на каком месте находится этот вопрос в конкретном массиве localStorage
-        const indexInStorageArray = statsStorage[keystorage].indexOf(currentTargetIndex);
+        const indexInStorageArray =
+          statsStorage[keystorage].indexOf(currentTargetIndex)
 
         if (indexInStorageArray !== -1) {
           // 3. Вырезаем элемент из массива
-          statsStorage[keystorage].splice(indexInStorageArray, 1);
+          statsStorage[keystorage].splice(indexInStorageArray, 1)
 
           // 4. Если мы удалили вопрос из ошибок/правильных, его нужно вернуть в "не пройденные"
-          if (keystorage !== "neverSeen" && !statsStorage.neverSeen.includes(currentTargetIndex)) {
-            statsStorage.neverSeen.push(currentTargetIndex);
-            statsStorage.neverSeen.sort((a, b) => a - b); // Сортируем для порядка
+          if (
+            keystorage !== 'neverSeen' &&
+            !statsStorage.neverSeen.includes(currentTargetIndex)
+          ) {
+            statsStorage.neverSeen.push(currentTargetIndex)
+            statsStorage.neverSeen.sort((a, b) => a - b) // Сортируем для порядка
           }
 
           // 5. Сохраняем обновленный объект в память
-          localStorage.setItem(nameStorage, JSON.stringify(statsStorage));
-          console.log(`🗑️ Вопрос №${currentTargetIndex + 1} успешно удален из категории "${keystorage}"`);
+          localStorage.setItem(nameStorage, JSON.stringify(statsStorage))
+          console.log(
+            `🗑️ Вопрос №${
+              currentTargetIndex + 1
+            } успешно удален из категории "${keystorage}"`
+          )
 
           // 6. Закрываем модалку и полностью перерисовываем статистику, чтобы обновить циферки на экране
-          const currentModal = bootstrap.Modal.getInstance(document.getElementById('statsQuestionModal'));
-          if (currentModal) currentModal.hide();
+          const currentModal = bootstrap.Modal.getInstance(
+            document.getElementById('statsQuestionModal')
+          )
+          if (currentModal) currentModal.hide()
 
-          renderStats(mainquestions, nameStorage);
+          renderStats(mainquestions, nameStorage)
         }
-      });
+      })
 
       // --- НАВИГАЦИЯ ВНУТРИ МОДАЛКИ (ОСТАЕТСЯ БЕЗ ИЗМЕНЕНИЙ) ---
-      const parentCollapse = badge.closest('.accordion-collapse');
-      if (!parentCollapse) return;
+      const parentCollapse = badge.closest('.accordion-collapse')
+      if (!parentCollapse) return
 
-      const groupBadges = Array.from(parentCollapse.querySelectorAll('.stats-question-badge'));
-      const activeGroupIndexes = groupBadges.map(b => parseInt(b.dataset.index, 10));
-      let currentPositionInGroup = activeGroupIndexes.indexOf(currentTargetIndex);
+      const groupBadges = Array.from(
+        parentCollapse.querySelectorAll('.stats-question-badge')
+      )
+      const activeGroupIndexes = groupBadges.map(b =>
+        parseInt(b.dataset.index, 10)
+      )
+      let currentPositionInGroup =
+        activeGroupIndexes.indexOf(currentTargetIndex)
 
-      const modalElement = document.getElementById('statsQuestionModal');
-      const myModal = new bootstrap.Modal(modalElement);
-      const modalBody = document.getElementById('modalQuestionBody');
+      const modalElement = document.getElementById('statsQuestionModal')
+      const myModal = new bootstrap.Modal(modalElement)
+      const modalBody = document.getElementById('modalQuestionBody')
 
-      function updateModalContent() {
-        const itemIndex = activeGroupIndexes[currentPositionInGroup];
-        const item = mainquestions[itemIndex];
+      function updateModalContent () {
+        const itemIndex = activeGroupIndexes[currentPositionInGroup]
+        const item = mainquestions[itemIndex]
 
-        if (!item) return;
+        if (!item) return
 
-        const optionsHtml = item.options.map((option, index) => {
-          const isCorrectStyle = option.isCorrect ? 'text-success fw-bold' : 'text-white opacity-75';
-          return `<p class="mb-1 ${isCorrectStyle}"><b class="me-2">${index + 1}:</b>${option.text}</p>`;
-        }).join('');
+        const optionsHtml = item.options
+          .map((option, index) => {
+            const isCorrectStyle = option.isCorrect
+              ? 'text-success fw-bold'
+              : 'text-white opacity-75'
+            return `<p class="mb-1 ${isCorrectStyle}"><b class="me-2">${
+              index + 1
+            }:</b>${option.text}</p>`
+          })
+          .join('')
 
         modalBody.innerHTML = `
           <h5 class="text-light mb-3 lh-base">
@@ -275,83 +324,103 @@ function renderStats(mainquestions, nameStorage, testName) {
           </div>
 
           <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-3">
-            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalPrev" ${currentPositionInGroup === 0 ? 'disabled' : ''}>
+            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalPrev" ${
+              currentPositionInGroup === 0 ? 'disabled' : ''
+            }>
               ← Назад
             </button>
-            <span class="text-white small">Вопрос ${currentPositionInGroup + 1} из ${activeGroupIndexes.length}</span>
-            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalNext" ${currentPositionInGroup === activeGroupIndexes.length - 1 ? 'disabled' : ''}>
+            <span class="text-white small">Вопрос ${
+              currentPositionInGroup + 1
+            } из ${activeGroupIndexes.length}</span>
+            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalNext" ${
+              currentPositionInGroup === activeGroupIndexes.length - 1
+                ? 'disabled'
+                : ''
+            }>
               Вперед →
             </button>
           </div>
-        `;
+        `
 
-        document.getElementById('btnModalPrev').addEventListener('click', () => {
-          if (currentPositionInGroup > 0) {
-            currentPositionInGroup--;
-            updateModalContent();
-          }
-        });
+        document
+          .getElementById('btnModalPrev')
+          .addEventListener('click', () => {
+            if (currentPositionInGroup > 0) {
+              currentPositionInGroup--
+              updateModalContent()
+            }
+          })
 
-        document.getElementById('btnModalNext').addEventListener('click', () => {
-          if (currentPositionInGroup < activeGroupIndexes.length - 1) {
-            currentPositionInGroup++;
-            updateModalContent();
-          }
-        });
+        document
+          .getElementById('btnModalNext')
+          .addEventListener('click', () => {
+            if (currentPositionInGroup < activeGroupIndexes.length - 1) {
+              currentPositionInGroup++
+              updateModalContent()
+            }
+          })
+
+        UXCopyQuestion({
+          title: item.title,
+          correctAnswer: item.correctAnswer
+        })
       }
 
-      updateModalContent();
-      myModal.show();
-    });
+      updateModalContent()
+      myModal.show()
+    })
   }
 
   // ВРЕМЕННАЯ ФУНКЦИЯ: Восстановление потерянных индексов в neverSeen
-  const btnRepairStats = resultsContainer.querySelector('#btnRepairStats');
+  const btnRepairStats = resultsContainer.querySelector('#btnRepairStats')
   if (btnRepairStats) {
     btnRepairStats.addEventListener('click', () => {
       // Загружаем текущие данные из localStorage
-      let statsStorage = getStorage(total, nameStorage);
+      let statsStorage = getStorage(total, nameStorage)
 
       // Защита от отсутствия структуры
-      if (!statsStorage.correct) statsStorage.correct = [];
-      if (!statsStorage.incorrect) statsStorage.incorrect = [];
-      if (!statsStorage.neverSeen) statsStorage.neverSeen = [];
+      if (!statsStorage.correct) statsStorage.correct = []
+      if (!statsStorage.incorrect) statsStorage.incorrect = []
+      if (!statsStorage.neverSeen) statsStorage.neverSeen = []
 
-      let repairedCount = 0;
+      let repairedCount = 0
 
       // Проверяем абсолютно все индексы вопросов от 0 до конца JSON
       for (let i = 0; i < total; i++) {
-        const inCorrect = statsStorage.correct.includes(i);
-        const inIncorrect = statsStorage.incorrect.includes(i);
-        const inNeverSeen = statsStorage.neverSeen.includes(i);
+        const inCorrect = statsStorage.correct.includes(i)
+        const inIncorrect = statsStorage.incorrect.includes(i)
+        const inNeverSeen = statsStorage.neverSeen.includes(i)
 
         // Если индекса нет ни в одной из рабочих категорий
         if (!inCorrect && !inIncorrect) {
           // И его забыли добавить в neverSeen
           if (!inNeverSeen) {
-            statsStorage.neverSeen.push(i);
-            repairedCount++;
+            statsStorage.neverSeen.push(i)
+            repairedCount++
           }
         }
       }
 
       if (repairedCount > 0) {
         // Сортируем массив непрочитанных по порядку [0, 1, 2...]
-        statsStorage.neverSeen.sort((a, b) => a - b);
+        statsStorage.neverSeen.sort((a, b) => a - b)
 
         // Сохраняем починенный объект в localStorage
-        localStorage.setItem(nameStorage, JSON.stringify(statsStorage));
+        localStorage.setItem(nameStorage, JSON.stringify(statsStorage))
 
-        alert(`🔧 База данных успешно восстановлена! Найдено и возвращено в "Не пройденные" вопросов: ${repairedCount}.`);
+        alert(
+          `🔧 База данных успешно восстановлена! Найдено и возвращено в "Не пройденные" вопросов: ${repairedCount}.`
+        )
 
         // Перерисовываем экран статистики с новыми правильными данными
-        renderStats(mainquestions, nameStorage);
+        renderStats(mainquestions, nameStorage)
       } else {
-        alert("✅ Ваша база данных в полном порядке! Потерянных вопросов не обнаружено.");
+        alert(
+          '✅ Ваша база данных в полном порядке! Потерянных вопросов не обнаружено.'
+        )
       }
-    });
+    })
   }
-
 }
 
-export default renderStats;
+export default renderStats

@@ -1,4 +1,6 @@
 import renderStats from "./renderStats.js";
+import UICopyQuestion from "./UI/UICopyQuestion.js";
+import UXCopyQuestionSearch from "./UX/UXCopyQuestionSearch.js";
 
 function performSearch(questions,nameTest) {
   // Находим элементы на странице
@@ -49,6 +51,7 @@ function performSearch(questions,nameTest) {
       // ИЗМЕНЕНО: Добавили номер вопроса в заголовок <h4>
       questionElement.innerHTML = `
       <h5 class="text-light">
+        ${UICopyQuestion(realQuestionNumber)}
         <span class="badge bg-primary me-2">Вопрос №${realQuestionNumber}</span> 
         ${item.title}
       </h5>
@@ -70,8 +73,11 @@ function performSearch(questions,nameTest) {
     `;
       resultsContainer.appendChild(questionElement);
     });
+    UXCopyQuestionSearch(questions, resultsContainer)
   }
 
+
+  
   // Слушаем клик по кнопке
   searchButton.addEventListener('click', performSearch);
 
