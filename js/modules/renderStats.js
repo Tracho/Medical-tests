@@ -72,7 +72,7 @@ function renderStats (mainquestions, nameStorage, testName) {
 
         <!-- Многослойный Прогресс-бар -->
         <div class="mb-4">
-          <label class="form-label small text-secondary fw-semibold mb-2">Прогресс изучения базы вопросов:</label>
+          <label onclick="navigator.vibrate?.(30)" class="form-label small text-secondary fw-semibold mb-2">Прогресс изучения базы вопросов:</label>
           <div class="progress" style="height: 25px;">
             <div class="progress-bar bg-success fw-bold" role="progressbar" style="width: ${correctPercent}%;">
               ${correctPercent > 7 ? correctPercent + '%' : ''}

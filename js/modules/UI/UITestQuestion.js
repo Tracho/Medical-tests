@@ -13,7 +13,7 @@ function UITestQuestion(currentQuestion) {
         <input type="checkbox" class="btn-check" id="${optionId}" value="${option.text}" autocomplete="off">
         
         <!-- Большая кликабельная карточка варианта ответа -->
-        <label class="btn btn-outline-secondary w-100 text-start p-3 d-flex align-items-center justify-content-between option-label bgprim" for="${optionId}">
+        <label onclick="navigator.vibrate?.(30)" class="btn btn-outline-secondary w-100 text-start p-3 d-flex align-items-center justify-content-between option-label bgprim" for="${optionId}">
           <div class="d-flex align-items-center gap-3">
             <!-- Квадрат чекбокса (рисуется через CSS) -->
             <div class="custom-checkbox-box flex-shrink-0"></div>

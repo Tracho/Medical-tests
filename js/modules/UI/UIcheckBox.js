@@ -4,7 +4,7 @@ function UIcheckBox(title="title",idInput) {
     `
         <div> 
           <input type="checkbox" class="btn-check-style" id="${idInput}" value="${title}" autocomplete="off"> 
-          <label class="btn btn-outline-secondary w-100 text-start d-flex align-items-center justify-content-between option-label bgprim" for="${idInput}">
+          <label onclick="navigator.vibrate?.(30)" class="btn btn-outline-secondary w-100 text-start d-flex align-items-center justify-content-between option-label bgprim" for="${idInput}">
             <div class="d-flex align-items-center gap-3"> 
               <div class="custom-checkbox-box flex-shrink-0"></div>
               <span>${title}</span>
