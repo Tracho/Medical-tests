@@ -35,7 +35,7 @@ function renderStats (mainquestions, nameStorage, testName) {
       return '<p class="text-width small mb-0 ps-2">Список пуст</p>'
     return indexesArray
       .map(index => {
-        return `<span class="badge ${bgClass} me-2 mb-2 stats-question-badge" data-keystorage="${dataTypeKeyStorage}" data-index="${index}">№${
+        return `<span class="badge ${bgClass} me-2 mb-2 stats-question-badge" onclick="navigator.vibrate?.(30)" data-keystorage="${dataTypeKeyStorage}" data-index="${index}">№${
           index + 1
         }</span>`
       })
