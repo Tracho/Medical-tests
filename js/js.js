@@ -52,7 +52,7 @@ function initStatsDropdown() {
 
   // Генерируем элементы списка динамически
 listContainer.innerHTML = myTests.map((test, index) => `
-    <li class="longTest">
+    <li class="longTest" onclick="navigator.vibrate?.(30)">
       <!-- Добавлен атрибут title="${test.name}" для всплывающей подсказки браузера -->
       <a class="dropdown-item stats-dropdown-item" href="#" data-index="${index}" title="${test.name}">
         ${test.name}

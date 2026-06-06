@@ -146,9 +146,9 @@ function sprintTest(originalQuestions, nameStorage) {
               Изменить время
             </button> 
             <ul class="dropdown-menu dropdown-menu-dark border-secondary shadow" aria-labelledby="DropdownMenuButtonTime" id="timeList">
-              <li class="longTest"><a class="dropdown-item stats-dropdown-item" href="#" data-time="1200">20 минут.</a></li>
-              <li class="longTest"><a class="dropdown-item stats-dropdown-item" href="#" data-time="600">10 минут.</a></li>
-              <li class="longTest"><a class="dropdown-item stats-dropdown-item" href="#" data-time="300">5 минут.</a></li>
+              <li class="longTest" onclick="navigator.vibrate?.(30)"><a class="dropdown-item stats-dropdown-item" href="#" data-time="1200">20 минут.</a></li>
+              <li class="longTest" onclick="navigator.vibrate?.(30)"><a class="dropdown-item stats-dropdown-item" href="#" data-time="600">10 минут.</a></li>
+              <li class="longTest" onclick="navigator.vibrate?.(30)"><a class="dropdown-item stats-dropdown-item" href="#" data-time="300">5 минут.</a></li>
             </ul>  
             <div id="timerDisplay" class="badge bg-secondary fs-5 p-2">${formatTime(totalTime)}</div>
           </div>
