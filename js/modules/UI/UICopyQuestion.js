@@ -1,7 +1,7 @@
 function UICopyQuestion(id = "") {
   let thisId = (id === ""? "btnCopyStorage" : `btnCopyStorage-${id}`);
   return `
-    <button
+    <button onclick="navigator.vibrate?.(30)"
       class="btn btn-outline-success btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1 btn-copy-question"
       id="${thisId}"
       title="Скопировать вопрос и ответ"

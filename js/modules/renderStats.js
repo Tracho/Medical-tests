@@ -52,7 +52,7 @@ function renderStats (mainquestions, nameStorage, testName) {
           <span>📊 Статистика: ${testName}</span>
           <div class="d-flex flex-wrap align-items-center gap-2">
 
-            <button class="btn btn-outline-warning btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnRepairStats" title="Починить базу данных">
+            <button onclick="navigator.vibrate?.(30)" class="btn btn-outline-warning btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnRepairStats" title="Починить базу данных">
               <svg xmlns="http://w3.org" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="me-1">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
               </svg>
@@ -60,7 +60,7 @@ function renderStats (mainquestions, nameStorage, testName) {
             </button>
 
 
-            <button class="btn btn-outline-danger btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnClearStats" title="Сбросить всю статистику">
+            <button onclick="navigator.vibrate?.(30)" class="btn btn-outline-danger btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnClearStats" title="Сбросить всю статистику">
               <svg xmlns="http://w3.org" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" class="me-1">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
               </svg>
@@ -91,7 +91,7 @@ function renderStats (mainquestions, nameStorage, testName) {
           
           <div class="accordion-item bg-dark text-light border-0 border-b border-secondary">
             <h2 class="accordion-header">
-              <button class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIncorrect">
+              <button onclick="navigator.vibrate?.(30)" class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIncorrect">
                 🚨 Вопросы с ошибками (${uniqueIncorrect.length})
               </button>
             </h2>
@@ -108,7 +108,7 @@ function renderStats (mainquestions, nameStorage, testName) {
 
           <div class="accordion-item bg-dark text-light border-0 border-b border-secondary">
             <h2 class="accordion-header">
-              <button class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCorrect">
+              <button onclick="navigator.vibrate?.(30)" class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCorrect">
                 ✅ Изученные вопросы (${uniqueCorrect.length})
               </button>
             </h2>
@@ -125,7 +125,7 @@ function renderStats (mainquestions, nameStorage, testName) {
 
           <div class="accordion-item bg-dark text-light border-0">
             <h2 class="accordion-header">
-              <button class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSaveList">
+              <button onclick="navigator.vibrate?.(30)" class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSaveList">
                 💾 Сохраненные вопросы (${uniqueSaveList.length})
               </button>
             </h2>
@@ -142,7 +142,7 @@ function renderStats (mainquestions, nameStorage, testName) {
 
           <div class="accordion-item bg-dark text-light border-0">
             <h2 class="accordion-header">
-              <button class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNeverSeen">
+              <button onclick="navigator.vibrate?.(30)" class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNeverSeen">
                 ❔ Не пройденные вопросы (${uniqueNeverSeen.length})
               </button>
             </h2>
@@ -171,13 +171,13 @@ function renderStats (mainquestions, nameStorage, testName) {
 
             <div class="d-flex justify-content-between gap-3">
                     ${UICopyQuestion()}
-              <button class="btn btn-outline-danger btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnDelateStorage" title="Удалить сохранение">
+              <button onclick="navigator.vibrate?.(30)" class="btn btn-outline-danger btn-sm d-inline-flex align-items-center fw-semibold px-2 py-1" id="btnDelateStorage" title="Удалить сохранение">
                 <svg xmlns="http://w3.org" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path>
                 </svg> 
               </button>
       
-              <button type="button" class="btn-close btn-close-white shadow-none m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button onclick="navigator.vibrate?.(30)" type="button" class="btn-close btn-close-white shadow-none m-0" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
           </div>
           <div class="modal-body" id="modalQuestionBody"></div>
@@ -324,7 +324,7 @@ function renderStats (mainquestions, nameStorage, testName) {
           </div>
 
           <div class="d-flex justify-content-between align-items-center border-top border-secondary pt-3 mt-3">
-            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalPrev" ${
+            <button onclick="navigator.vibrate?.(30)" class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalPrev" ${
               currentPositionInGroup === 0 ? 'disabled' : ''
             }>
               ← Назад
@@ -332,7 +332,7 @@ function renderStats (mainquestions, nameStorage, testName) {
             <span class="text-white small">Вопрос ${
               currentPositionInGroup + 1
             } из ${activeGroupIndexes.length}</span>
-            <button class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalNext" ${
+            <button onclick="navigator.vibrate?.(30)" class="btn btn-outline-light btn-sm px-3 fw-semibold" id="btnModalNext" ${
               currentPositionInGroup === activeGroupIndexes.length - 1
                 ? 'disabled'
                 : ''

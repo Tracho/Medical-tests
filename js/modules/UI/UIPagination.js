@@ -24,7 +24,7 @@ function UIPagination(totalQuestions, currentIndex, answersHistory) {
     <div class="accordion my-3 w-100 border border-secondary rounded" id="paginationAccordion">
       <div class="accordion-item bg-dark text-light border-0">
         <h2 class="accordion-header">
-          <button class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePagination">
+          <button onclick="navigator.vibrate?.(30)" class="accordion-button bg-dark text-light collapsed shadow-none fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePagination">
             Карта вопросов (Нажмите, чтобы открыть/закрыть)
           </button>
         </h2>

@@ -111,7 +111,7 @@ function sprintTest(originalQuestions, nameStorage) {
           <h2 class="fw-bold mb-0">${isTimeOut ? '⏰ Время вышло!' : '🎉 Спринт завершен!'}</h2>
           <p class="mb-0">Правильных ответов: <strong class="text-success">${correctCount}</strong></p>
           <p class="mb-0">Неправильных ответов: <strong class="text-danger">${wrongCount}</strong></p>
-          <button id="btnRestartSprint" class="btn btn-primary px-4 fw-semibold">Повторить этот спринт</button>
+          <button onclick="navigator.vibrate?.(30)" id="btnRestartSprint" class="btn btn-primary px-4 fw-semibold">Повторить этот спринт</button>
         </div>
       </div>
     `;
@@ -142,7 +142,7 @@ function sprintTest(originalQuestions, nameStorage) {
           ${UIresultСounter(correctCount, wrongCount)}
 
           <div class="d-flex dropdown gap-3"> 
-            <button class="btn dropdown-toggle useBtn btn-outline-light" type="button" id="DropdownMenuButtonTime" data-bs-toggle="dropdown" aria-expanded="false">
+            <button onclick="navigator.vibrate?.(30)" class="btn dropdown-toggle useBtn btn-outline-light" type="button" id="DropdownMenuButtonTime" data-bs-toggle="dropdown" aria-expanded="false">
               Изменить время
             </button> 
             <ul class="dropdown-menu dropdown-menu-dark border-secondary shadow" aria-labelledby="DropdownMenuButtonTime" id="timeList">
