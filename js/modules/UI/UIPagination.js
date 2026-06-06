@@ -14,7 +14,7 @@ function UIPagination(totalQuestions, currentIndex, answersHistory) {
     }
 
     buttonsHTML += `
-      <div class="pagination-item ${bgClass} ${activeClass}" data-index="${i}">
+      <div onclick="navigator.vibrate?.(30)" class="pagination-item ${bgClass} ${activeClass}" data-index="${i}">
         ${questionNumber}
       </div>
     `;
